@@ -1,0 +1,16 @@
+#home .box img{
+    width: 100%;
+    border-radius: 5px;
+}
+#home .box p{
+    font-size: 12px;
+    font-family: "宋体";
+    color: #666;
+}
+#home .box h4
+{
+    font-family: "微软雅黑";
+}
+#home .box .designer p{
+    font-size: 10px;
+}

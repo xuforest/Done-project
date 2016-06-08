@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style id="Gstyle">
+			*{margin: 0;padding: 0;}
+			li{list-style: none;}
+			.clock{width: 200px;height: 200px;border: 2px aquamarine solid;border-radius:50% ;
+			position: absolute;left: 0;right: 0;top: 0;bottom:0;margin: auto;}
+			.clock div{position: absolute;transform-origin:bottom;}
+			#center{width: 2px;height: 2px;border: 1px solid #000;border-radius:50% ;
+			left: 0;right: 0;top: 0;bottom:0;margin: auto;}
+			
+			#hour{width: 4px;height:50px ;background-color: yellow;left: 98px;top:50px;}
+			#min{width: 2px;height:70px ;background-color: greenyellow;left: 99px;top:30px;}
+			#sec{width: 2px;height:90px ;background-color: blueviolet;left: 99px;top:10px;}
+			
+			.clock ul li{width: 2px;height: 8px;background-color: cornflowerblue;opacity: 0.6;
+			position: absolute;left: 98px;top: 0;transform-origin: center 100px;}
+			
+			/*.clock ul li:nth-child(1){transform: rotate(0deg);}
+			.clock ul li:nth-child(2){transform: rotate(6deg);}
+			.clock ul li:nth-child(3){transform: rotate(12deg);}
+			.clock ul li:nth-child(4){transform: rotate(18deg);}
+			.clock ul li:nth-child(5){transform: rotate(24deg);}
+			.clock ul li:nth-child(6){transform: rotate(30deg);}*/
+			
+			.clock ul li:nth-child(5n+1){height: 12px;width: 3px;}
+		</style>
+		<script>
+			window.onload =function(){
+				var oHour = document.getElementById("hour");
+				var oMin = document.getElementById("min");
+				var oSec = document.getElementById("sec");
+				var oMynum = document.getElementById("mynum");
+				
+				var Gsylemy = document.getElementById("Gstyle");
+				
+				var myList = "";
+				var myStyle = "";
+				
+				for(var i=0;i<60;i++){
+					myList += '<li><li>'
+					myStyle +='.clock ul li:nth-child('+(i+1)+'){transform: rotate('+i*6+'deg);}'
+				}
+				oMynum.innerHTML = myList;
+				Gsylemy.innerHTML +=myStyle;
+				
+				function toTime(){
+					var Dtime = new Date();
+//					console.log(Dtime);
+
+					var iSec = Dtime.getSeconds();
+					var iMin = Dtime.getMinutes()+iSec/60;
+					var iHour = Dtime.getHours()+iMin/60;
+					
+					
+					console.log(iHour+iMin+iSec)
+					
+					oSec.style.transform = 'rotate('+iSec*6+'deg)';
+					oMin.style.transform = 'rotate('+iMin*6+'deg)';
+					oHour.style.transform = 'rotate('+iHour*30+'deg)';
+				}
+				toTime();
+				setInterval(toTime,1000);
+			}
+		</script>
+	</head>
+	<body>
+		<div class="clock">
+			<div id="hour"></div>
+			<div id="min"></div>
+			<div id="sec"></div>
+			<div id="center"></div>
+			<ul id="mynum">
+				<!--<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>-->
+			</ul>
+		</div>
+	</body>
+</html>

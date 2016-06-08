@@ -1,0 +1,13 @@
+.sub a{
+    font-size:1em;
+    color: #72aeff;
+    font-family: "微软雅黑";
+    text-decoration: none;
+}
+.imgBox{
+    margin-left: 15%;
+    margin-top: 1%;
+}
+.imgBox span{
+    font-size: 1em;
+}

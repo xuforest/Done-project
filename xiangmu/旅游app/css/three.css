@@ -1,0 +1,20 @@
+.searchIcon{
+    border: 1px solid transparent;
+    border-radius: 8px;
+    background: white;
+}
+.hot a{
+    margin:0 2%;
+}
+.redai{
+    text-align: center;
+}
+.redai h2,.redai h5{
+    font-family: "微软雅黑";
+    font-weight: bold;
+}
+.redai p{
+    font-size: 12px;
+    font-family: "微软雅黑";
+    color:#ccc;
+}

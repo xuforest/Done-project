@@ -1,0 +1,115 @@
+<ion-view>
+    <ion-pane>
+        <ion-content>
+            <ion-refresher on-refresh="load()" pulling-text="下拉刷新"></ion-refresher>
+            <ion-slide-box class="yyy" on-slide-changed="slideHasChanged($index)"
+                           auto-play="true" does-continue="true" slide-interval=3000
+                           show-pager="true" pager-click="pageClick(index)"
+                           active-slide="model.activeIndex" delegate-handle="delegateHandler">
+                <ion-slide>
+                    <div class="box blue">
+                        <img src="images/slide-15.jpg">
+                    </div>
+                </ion-slide>
+                <ion-slide>
+                    <div class="box yellow">
+                        <img src="images/slide-2.jpg">
+                    </div>
+                </ion-slide>
+                <ion-slide>
+                    <div class="box pink">
+                        <img src="images/slide-13.jpg">
+                    </div>
+                </ion-slide>
+
+            </ion-slide-box>
+            <div id="positionBox"><a href="#" ui-sref="tabs.three"><p  class="icon ion-search ion-contrast">想去哪里？输入国家/目的地</p></a></div>
+            <div id="positionBox2"><a href="#"><p class="icon ion-ios-cloudy">37℃</p></a></div>
+
+            <ion-slide-box id="tour-view" show-pager="true" on-slide-changed="onSlideChanged($index)">
+                <ion-slide>
+                    <div id="tour-viewtop" class="row">
+                        <div class="col" ><span><a class="write icon icon-slide ion-camera" href="#" ui-sref="tabs.gonglue"></a><p>景点</p></span></div>
+                        <div class="col"><span class="green"><a class="write icon icon-slide ion-images" href="#" ng-click="myAlert()"></a><p>岛屿</p></span></div>
+                        <div class="col"><span class="blue"><a class="write icon icon-slide ion-happy" href="#" ui-sref="tabs.jiaotong"></a><p>体验</p></span></div>
+                        <div class="col"><span class="green"><a class="write icon icon-slide ion-ios-home" href="#" ng-click="myAlerto()"></a><p>住宿</p></span></div>
+                    </div><br/>
+
+                    <div id="tour-viewbotton" class="row">
+                        <div class="col"><span><a class="icon icon-slide ion-map" href="#" ng-click="myAlertt()"></a><p>地图</p></span></div>
+                        <div class="col"><span><a class="icon icon-slide ion-clock" href="#" ng-click="myAlerttt()"></a><p>时间</p></span></div>
+                        <div class="col"><span><a class="icon icon-slide ion-log-out" href="#"></a><p>汇率</p></span></div>
+                        <div class="col"><span><a class="icon icon-slide ion-ios-cloud-outline" href="#"></a><p>天气</p></span></div>
+                    </div>
+                </ion-slide>
+
+                <ion-slide>
+                    <div id="tour-viewbo" class="row">
+                        <div class="col"><span><a class="icon icon-slide ion-ios-paw" href="#"></a><p>足迹</p></span></div>
+                        <div class="col"><span><a class="icon icon-slide ion-model-s" href="#"></a><p>路线</p></span></div>
+                        <div class="col"><span><a class="icon icon-slide ion-earth" href="#"></a><p>全球</p></span></div>
+                        <div class="col"><span><a class="icon icon-slide ion-ios-camera-outline" href="#"></a><p>美照</p></span></div>
+                    </div>
+                </ion-slide>
+            </ion-slide-box>
+
+            <div class="list card">
+                <div class="item item-avatar">
+                    <h2 class="knowMore">特惠推荐</h2>
+                    <a href="#" class="button button-clear inMore">查看更多</a>
+                </div>
+                <div class="row">
+                    <div class="tOne col-50 ">
+                        <img class="" src="images/slide-8.jpg">
+                        <p>普及皇帝岛+珊瑚岛快艇一日游</p>
+                        <p class="money">￥ 130起</p>
+                        <p>
+                            <a href="#" class="subdued">1 Like</a>
+                            <a href="#" class="subdued">5 Comments</a>
+                        </p>
+                    </div>
+
+                    <div class="tTwo col-50">
+                        <img class="" src="images/slide-9.jpg">
+                        <p>普吉岛绿洲The Oasis Spa绿洲</p>
+                        <p class="money">￥ 285起</p>
+                        <p>
+                            <a href="#" class="subdued">1 Like</a>
+                            <a href="#" class="subdued">5 Comments</a>
+                        </p>
+                    </div><br/>
+                </div>
+            </div>
+
+            <div class="list card">
+                <div class="item item-avatar">
+                    <h2 class="knowMore">当地专题</h2>
+                    <a href="#" class="button button-clear inMore">查看更多</a>
+                </div>
+                <div class="row">
+                    <div class="tOne col-50 ">
+                        <img class="" src="images/slide-3.jpg">
+                        <p>湄公河夏日泛舟+海景套房游</p>
+                        <p class="money">￥ 98起</p>
+                        <p>
+                            <a href="#" class="subdued">1 Like</a>
+                            <a href="#" class="subdued">5 Comments</a>
+                        </p>
+                    </div>
+
+                    <div class="tTwo col-50">
+                        <img class="" src="images/slide-4.jpg">
+                        <p>罗浮大街，小清新的欧美风</p>
+                        <p class="money">￥ 455起</p>
+                        <p>
+                            <a href="#" class="subdued">1 Like</a>
+                            <a href="#" class="subdued">5 Comments</a>
+                        </p>
+                    </div><br/>
+                </div>
+            </div>
+
+
+        </ion-content>
+    </ion-pane>
+</ion-view>

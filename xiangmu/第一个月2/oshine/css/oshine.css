@@ -1,0 +1,770 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	}
+li{
+	list-style:none;
+	}
+a{
+	text-decoration:none;
+	}
+img{
+	border:0;
+	}
+input{
+	border:0;
+	}
+.clear{
+	clear:both;
+	}
+/*header开始*/
+header{
+	
+	}
+.inner{
+	width:1220px;
+	margin:0 auto;
+	}
+.logo{
+	display:block;
+	width:118px;
+	height:75px;
+	float:left;
+	background:url(../images/oshin-black-logo.png) no-repeat left 25px;
+	transition:1s;
+	}
+.logo:hover{
+	transform:scale(1.5);
+	background:url(../images/oshine-logo-white.png) no-repeat left 25px;
+	}
+.inner .suoxiao{
+	display:none;
+	}
+header ul{
+	margin-right:60px;
+	margin-left:54px;
+	float:left;
+	}
+header li{
+	float:left;
+	line-height:98px;
+	font-size:14px;
+	font-family:arial;
+	}
+header li a{
+	color:#000;
+	margin:0 21px;
+	transition:1s;
+	}
+header li a:hover{
+	color:#e4bc78;
+	font-weight:bold;
+	text-shadow:0 3px 1px rgba(0,0,0,0.5);
+	}
+.icons{
+	font-size:18px;
+	line-height:98px;
+	}
+.icons a{
+	color:#000;
+	float:right;
+	display:block;
+	margin-right:20px;
+	transition:1s;
+	}
+.icons a:hover{
+	color:#fff;
+	transform:scale(2);
+	}
+/*header结束*/
+/*section开始*/
+.banner{
+	overflow:hidden;
+	background:url(../images/oshin-slide-1.jpg) no-repeat left 0;
+	background-size:100% 100%;
+	padding:0 0 226px 0;
+	}
+html, .banner{
+	height:100%;
+	}
+.banner-h3{
+	padding-top:200px;
+	line-height:80px;
+	text-align:center;
+	font-size:22px;
+	font-family:arial;
+	letter-spacing:6px;
+	word-spacing:12px;
+	font-weight:normal;
+	}
+	
+.banner-a{
+	display:block;
+	width:370px;
+	height:102px;
+	line-height:102px;
+	margin:0 auto;
+	text-align:center;
+	font-size:48px;
+	font-family:arial;
+	color:#000;
+	border:7px solid #000;
+	transition:1s;
+	}
+.banner-a:hover{
+	color:#e4bc78;
+	width:400px;
+	border:7px #fff solid;
+	border-radius:10px;
+	background:rgba(225,225,225,0.7);
+	}	
+.banner-h4{
+	font-weight:normal;
+	font-style:italic;
+	line-height:114px;
+	text-align:center;
+	font-size:30px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	}
+/*section结束*/
+.banner2{
+	padding-top:60px;
+	}
+.banner2-inner{
+	width:1220px;
+	margin:0 auto;
+	}
+.banner2 h3{
+	font-size:26px;
+	font-family:arial;
+	line-height:103px;
+	text-align:center;
+	}
+.banner2 h4{
+	font-size:26px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-style:italic;
+	font-weight:normal;
+	line-height:32px;
+	text-align:center;
+	margin-bottom:40px;
+	color:#5f686f;
+	}
+.banner2-icon{
+	width:96px;
+	height:15px;
+	margin:0 auto;
+	margin-bottom:34px;
+	}
+.banner2 a{
+	display:block;
+	width:32px;
+	height:15px;
+	float:left;
+	margin:0 auto;
+	}
+.icon2{
+	background:url(../images/icons_05.jpg);
+	margin:0 4px;
+	}
+.icon2:hover{
+	background:url(../images/icons_03.jpg);
+	}
+.icon1{
+	background: url(../images/icons_03.jpg);
+	}
+.icon1:hover{
+	background:url(../images/icons_05.jpg);
+	}
+.icon3{
+	background:url(../images/icons_07.jpg);
+	}
+.icon3:hover{
+	background:url(../images/icons_05.jpg);
+	}
+.banner2 p{
+	font-size:18px;
+	line-height:32px;
+	text-align:center;
+	color:#5f686f;
+	margin-bottom:100px;
+	}
+.banner2 img{
+	vertical-align: text-top;
+	margin-left:100px;
+	}
+/*section开始*/
+.font-icon{
+	transition:1s;
+	float:left;
+	width:50%;
+	background:#f2f5f8;
+	}
+.frist{
+	width:50%;
+	float:left;
+	}
+.last{
+	width:50%;
+	float:left;
+	}
+.font-icon:hover a{
+	transform:scale(1.5);
+	color:#fff;
+	}
+.font-icon:hover.font-icon{
+	transform:scale(1.2);
+	border-radius:60px;
+	background:#ccc;
+	}
+.font-icon:hover p{
+	color:#fff;
+	}
+.font-icons div:nth-child(2n){
+	background:#edf0f2;
+	}
+.font-icons a{
+	transition:1s;
+	margin-top:66px;
+	display:block;
+	color:#000;
+	font-size:46px;
+	line-height:60px;
+	text-align:center;
+	}
+.font-icons p{
+	transition:1s;
+	padding-bottom:66px;
+	font-size:16px;
+	line-height:52px;
+	text-align:center;
+	}
+/*section结束*/
+/*section开始*/
+.banner3-inner{
+	width:1220px;
+	margin:0 auto;
+	}
+.banner3-inner ul{
+	width:400px;
+	float:left;
+	padding-top:100px;
+	}
+.banner3-inner a{
+	float:left;
+	display:block;
+	font-size:28px;
+	line-height:52px;
+	margin-right:32px;
+	color:#e3ab80;
+	transition:1s;
+	}
+.donghu li:nth-child(1) a:hover{
+	transform:scale(2);
+	}
+.donghu li:nth-child(2) a:hover{
+	transform:scale(0.5);
+	}
+.donghu li:nth-child(3) a:hover{
+	transform:scale(2);
+	}
+.donghua2 li:nth-child(1) a:hover{
+	transform: rotate(360deg);
+	}
+.donghua2 li:nth-child(2) a:hover{
+	transform:scale(2);
+	}
+.donghua2 li:nth-child(3) a:hover{
+	transform:translateX(30px);
+	}
+
+
+.banner3-inner h3{
+	float:left;
+	display:block;
+	font-size:16px;
+	line-height:52px;
+	}
+.banner3-inner p{
+	
+	padding-left:58px;
+	float:left;
+	display:block;
+	font-size:14px;
+	line-height:26px;
+	margin-bottom:36px;
+	}
+.ipone{
+	float:left;
+	margin:90px 40px 90px 10px;
+	}
+/*section结束*/
+.bg{
+	height:400px;
+	background: url(../images/oshin-slide-1.jpg) no-repeat right center fixed;
+	}
+/*section开始*/
+/*section结束*/
+/*section开始*/
+.title-inner{
+	width:1220px;
+	padding:80px 0 90px 0;
+	margin:0 auto;
+	}
+.title h3{
+	font-size:26px;
+	font-family:arial;
+	line-height:103px;
+	text-align:center;
+	}
+.title h4{
+	font-size:26px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-style:italic;
+	font-weight:normal;
+	line-height:32px;
+	text-align:center;
+	margin-bottom:40px;
+	color:#5f686f;
+	}
+.title-icon{
+	width:104px;
+	height:15px;
+	margin:0 auto;
+	margin-bottom:84px;
+	}
+.title-icon a{
+	display:block;
+	width:32px;
+	height:15px;
+	float:left;
+	margin:0 auto;
+	}
+.title .icon2{
+	background:url(../images/icons_05.jpg);
+	margin:0 4px;
+	}
+.title .icon2:hover{
+	background:url(../images/icons_03.jpg);
+	}
+.title .icon1{
+	background: url(../images/icons_03.jpg);
+	}
+.title .icon1:hover{
+	background:url(../images/icons_05.jpg);
+	}
+.title .icon3{
+	background:url(../images/icons_07.jpg);
+	}
+.title .icon3:hover{
+	background:url(../images/icons_05.jpg);
+	}
+.title-inner ul{
+	width:610px;
+	margin:0 auto;
+	}
+.title-inner li{
+	text-transform:uppercase;
+	margin-right:4px;
+	height:43px;
+	float:left;
+	line-height:43px;
+	}
+.title-inner ul a{
+	padding:0 18px;
+	display:block;
+	color:#222;
+	font-size:16px;
+	transition:1s;
+	}
+.title-inner ul a:hover{
+	color:#e0a240;
+	border:1px solid #e0a240;
+	font-size:20px;
+	}
+.title-inner .photo{
+	padding:40px 10px;
+	background:#fff;
+	}
+.title-inner .photo2{
+	padding: 0 10px;
+	background:#fff;
+	}
+.photo1{
+	margin-right:34px;
+	position:relative;
+	float:left;
+	}
+.photo1 img{
+	width:374px;
+	height:222px;
+	}
+.photo3 img{
+	float:left;
+	width:375px;
+	height:222px;
+	margin:0 34px;
+	}
+.title-inner .mask{
+	width:375px;
+	height:222px;
+	background:rgba(0,0,0,0.7);
+	position:absolute;
+	left:0px;
+	top:0;
+	display:none;
+	margin-right:0;
+	font-size:18px;
+	text-transform:uppercase;
+	text-align:center;
+	line-height:222px;
+	color:#fff;
+	}
+.title-inner .mask3{
+	width:375px;
+	height:222px;
+	background:rgba(0,0,0,0.7);
+	position:absolute;
+	left:0px;
+	top:0;
+	display:none;
+	margin-right:0;
+	font-size:18px;
+	text-transform:uppercase;
+	text-align:center;
+	line-height:222px;
+	color:#fff;
+	}
+.photo1:hover .mask{
+	display:block;
+	}
+.photo div:nth-child(3){
+	margin-right:0;
+	}
+.photo2 div:nth-child(3){
+	margin-right:0;
+	}
+.photo2{
+	margin-bottom:41px;
+	}
+.anniu{
+	display:block;
+	width:158px;
+	height:46px;
+	margin:0 auto;
+	line-height:46px;
+	border:2px solid #000;
+	text-align:center;
+	color:#000;
+	transition:1s;
+	}
+.anniu:hover{
+	color:#e4bc78;
+	width:180px;
+	border-radius:5px;
+	background:rgba(225,225,225,0.7);
+	}
+/*section结束*/
+/*section开始*/
+.main{
+	text-align:center;
+	background:#f2f3f8;
+	padding:90px 0;
+	}
+.niao{
+	width:200px;
+	display: inline-block;
+	font-size:100px;
+	transition:1s;
+	color:#dfdfdf;
+	}
+.niao:hover{
+	transform:scale(2);
+	color:#fff;
+	}
+.main p{
+	color:#5f626c;
+	font-size:14px;
+	line-height:44px;
+	}
+.main span a{
+	transition:1s;
+	color:#e3a24b;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size:14px;
+	}
+.main span a:hover{
+	color:#000;
+	}
+/*section结束*/
+/*section开始*/
+.main2-inner{
+	width:1220px;
+	padding:80px 0 90px 0;
+	margin:0 auto;
+	}
+.main2 h3{
+	font-size:26px;
+	font-family:arial;
+	line-height:103px;
+	text-align:center;
+	}
+.main2 h4{
+	font-size:26px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-style:italic;
+	font-weight:normal;
+	line-height:32px;
+	text-align:center;
+	margin-bottom:40px;
+	color:#5f686f;
+	}
+.main2-icon{
+	width:104px;
+	height:15px;
+	margin:0 auto;
+	margin-bottom:80px;
+	}
+.main2-icon a{
+	display:block;
+	width:32px;
+	height:15px;
+	float:left;
+	margin:0 auto;
+	}
+.main2 .icon2{
+	background:url(../images/icons_05.jpg);
+	margin:0 4px;
+	}
+.main2 .icon2:hover{
+	background:url(../images/icons_03.jpg);
+	}
+.main2 .icon1{
+	background: url(../images/icons_03.jpg);
+	}
+.main2 .icon1:hover{
+	background:url(../images/icons_05.jpg);
+	}
+.main2 .icon3{
+	background:url(../images/icons_07.jpg);
+	}
+.main2 .icon3:hover{
+	background:url(../images/icons_05.jpg);
+	}
+/*section结束*/
+/*section开始*/
+.main3-pic{
+	width:44%;
+	float:left;
+	}
+.main3-pic img{
+	width:100%;
+	}
+.main3-pic1{
+	width:44%;
+	float:right;
+	}
+.main3-pic1 img{
+	width:100%;
+	}
+.main3{
+	margin-bottom:90px;
+	}
+/*section结束*/
+/*section开始*/
+.main4{
+	background: url(../images/01_03.jpg);
+	padding:90px 0;
+	}
+.main4 h3{
+	line-height:44px;
+	text-align:center;
+	color:#fff;
+	font-size:26px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+.main4 p{
+	font-size:14px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height:72px;
+	text-align:center;
+	color:#fff;
+	}
+.main4 a{
+	color:#fff;
+	background:#f0b452;
+	width:110px;
+	height:44px;
+	display:block;
+	margin:0 auto;
+	line-height:44px;
+	text-align:center;
+	transition:0.5s;
+	}
+.main4 a:hover{
+	width:130px;
+	border-radius:8px;
+	}
+/*section结束*/
+footer{
+	padding:68px 60px 84px 68px;
+	background:#f2f3f8;
+	}
+.footer-inner{
+	margin:0 auto;
+	width:1220px;
+	}
+.left{padding:10px;
+	float:left;
+	width:306px;
+	}
+.footer-logo{
+	display:block;
+	width:120px;
+	height:50px;
+	background:url(../images/oshin-black-logo.png) no-repeat;
+	}
+.left p{
+	color:#817e84;
+	font-size:14px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height:24px;
+	margin:40px 0;
+	}
+.footer-icons a{
+	float:left;
+	display:block;
+	width:31px;
+	height:31px;
+	text-align:center;
+	line-height:31px;
+	border:2px solid #e2ab54;
+	color:#e2ab54;
+	margin-right:12px;
+	border-radius:31px;
+	}
+.footer-icons a:hover{
+	color:#000;
+	border:2px solid #000;
+	}
+.left1{
+	width:305px;
+	margin-right:66px;
+	float:left;
+	}
+.left1 h3{
+	margin-bottom:20px;
+	font-size:18px;
+	line-height:40px;
+	}
+.left1 p{
+	color:#817e84;
+	font-size:14px;
+	line-height:30px;
+	}
+.left1 li:nth-child(2) img{
+	float:left;
+	padding-top:8px;
+	margin-right:10px;
+	}
+.left1 li:nth-child(2) p{
+	float:left;
+	}
+.left1 li:nth-child(4) img{
+	width:75px;
+	height:50px;
+	float:left;
+	padding-top:8px;
+	margin-right:10px;
+	
+	}
+.left1 li:nth-child(4) p{
+	float:left;
+	}
+.left1 li:nth-child(3){
+	padding:20px 0;
+	}
+.left1 li:nth-child(5){
+	padding:20px 0;
+	}
+.mid{
+	width:100px;
+	float:left;
+	}
+.mid h3{
+	margin-bottom:20px;
+	font-size:18px;
+	line-height:40px;
+	}
+.mid  li{
+	font-size:14px;
+	line-height:42px;
+	}
+.mid  li a{
+	color:#919192;
+	padding-left:20px;
+	background: url(../images/arrow_06.jpg) no-repeat left center;
+	}
+.mid  li a:hover{
+	color:#ebba4b;
+	background: url(../images/arrow_03.jpg) no-repeat left center;
+	}
+.mid  li:nth-child(1) a{
+	color:#919192;
+	padding-left:20px;
+	background: url(../images/arrow_03.jpg) no-repeat left center;
+	}
+.mid  li:nth-child(1) a:hover{
+	background: url(../images/arrow_06.jpg) no-repeat left center;
+	}
+.right{
+	float:right;
+	width:288px;
+	}
+.right h3{
+	margin-bottom:20px;
+	font-size:18px;
+	line-height:40px;
+	}
+.right img{
+	width:70px;
+	height:70px;
+	}
+.mask2{
+	width:70px;
+	height:70px;
+	line-height:70px;
+	text-align:center;
+	color:#fff;
+	font-size:14px;
+	background:rgba(0,0,0,0.5 );
+	display:none;
+	position:absolute;
+	left:0;
+	top:0;
+	}
+.right li{
+	float:left;
+	margin:8px 8px;
+	position:relative;
+	}
+.right li:hover .mask2{
+	display:block;
+	}
+#copy p{
+	line-height:70px;
+	text-align:center;
+	font-size:16px;
+	color:#959595;
+	}
+.gotop{
+	width:40px;
+	height:40px;
+	display:block;
+	background:url(../images/gotop_03.jpg);
+	position:fixed;
+	right:50px;
+	bottom:100px;
+	}

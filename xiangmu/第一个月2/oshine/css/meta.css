@@ -1,0 +1,73 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width:1220px){
+.inner{width:100%;}
+header ul{margin-right:0;margin-left:0;}
+.footer-inner{width:100%;	}
+.left{width:25%;}
+.left1{width:25%;}
+.mid{width:8.19%;float:left;}
+footer{padding:0;}
+.title-inner{width:100%;}
+.banner2-inner{width:100%;margin:0 auto;}
+.main2-inner{width:100%;}
+.photo div:nth-child(3){display:none;}
+.title-inner .photo{padding-left:16%;}
+.title-inner .photo2{padding-left:16%;}
+.photo2 div:nth-child(2){margin-right:0;}
+.photo div:nth-child(2){margin-right:0;}
+.photo2 div:nth-child(3){display:none;}
+.banner2 img{width:85.7%;margin-left:8.19%;}
+.ipone{display:none;}
+.banner3{width:100%;}
+.banner3 ul li{width:30%;float:left;}
+.banner3 ul{width:100%;float:none;}
+	}
+@media screen and (max-width:1080px){
+.inner li:nth-child(4){display:none;}
+.left1{display:none;}
+.mid{width:14%;margin-left:18%;}
+}
+@media screen and (max-width:1100px){
+.banner3 ul li:nth-child(3){display:none;}
+.banner3 .donghua2{padding-top:0;}
+.banner3 ul{margin-left:10%;float:left;}
+}
+@media screen and (max-width:960px){
+.title-inner .photo{padding-left:30%;}
+.title-inner .photo2{padding-left:30%;}
+}
+@media screen and (max-width:890px){
+.banner3 ul li:nth-child(3){display:none;}
+.banner3 .donghua2{padding-top:0;}
+.banner3 ul{margin-left:5%;float:left;}
+.inner .suoxiao{display:block;float:left;font-size:50px;color:#ccc;margin:10px 0 0 30px;}
+header ul{display:none;}
+.banner-h3{font-size:18px;letter-spacing:2px;word-spacing:6px;}	
+.banner-a{width:300px;height:92px;line-height:92px;font-size:40px;border:4px solid #000;transition:1s;}
+.banner-a:hover{color:#e4bc78;width:350px;border:4px #fff solid;border-radius:8px;background:rgba(225,225,225,0.7);}	
+.banner-h4{font-size:26px;}
+.logo:hover{transform:scale(1);}
+.mid{margin-left:10%;}
+}
+@media screen and (max-width:800px){
+.banner3 ul{margin-left:1%;float:left;}
+.title-inner .photo{padding-left:20%;}
+.title-inner .photo2{padding-left:20%;}
+}
+@media screen and (max-width:740px){
+.frist{width:100%;float:none;}
+.last{width:100%;float:none;}
+.banner3 ul li{float:none;}
+.banner3 ul {margin-left:15%;}
+.mid{margin-left:8%;}
+}
+@media screen and (max-width:620px){
+.banner3 ul {margin-left:10%;}
+.title-inner .photo{padding-left:10%;}
+.title-inner .photo2{padding-left:10%;}
+.mid{display:none;}
+}
+@media screen and (max-width:500px){
+.banner3 ul {margin-left:5%;}
+}

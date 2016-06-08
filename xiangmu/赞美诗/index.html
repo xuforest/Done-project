@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>语义化处理低版本兼容</title>
+		<link href="css/style.css" rel="stylesheet" type="text/css">
+		<script>
+			document.createElement('header')
+		</script>
+		<!--<script src="js/html5shiv.js"></script>-->
+		<!--[if ie 7]><style>.box1{border: 1px solid red;}</style><![endif]-->
+		<script>
+			window.onload=function(){
+				var myInpu = document.getElementById("myInput")
+				myInpu.onchange=function(){
+					document.body.style.backgroundColor = myInpu.value;
+				}
+				
+			}
+		</script>
+	</head>
+	<body>
+		<header></header>
+		<nav></nav>
+		<section>
+			<article>
+				<details>
+					<summary>静夜思</summary>
+					<p>床前明月光</p>
+					<p>疑是地上霜</p>
+					<p>举头望明月</p>
+					<p>低头思故乡</p>
+				</details>
+				<progress max="80">
+					<span>浏览器不支持此功能</span>
+				</progress>
+				<div class="box1"></div>
+				<input id="myInput" type="color"> <!--其实是获取到input的value值来改变-->
+			</article>
+			<aside></aside>
+		</section>
+	</body>
+</html>

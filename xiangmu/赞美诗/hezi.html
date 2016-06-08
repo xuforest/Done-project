@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+		body{padding-left: 400px;}
+		
+			.box{width: 300px;height: 300px;}
+			.one{width: 200px;height: 200px; position: relative;transform-style: preserve-3d;perspective: 2000px; animation: dh 6s infinite;}
+			.one div{width: 50px;height: 50px;}
+			.box1{background-color: red;position: absolute;left: 50px;top: 50px;transform-origin: left bottom;transform: rotateX(-90deg);}
+			.box2{background-color: green;position: absolute;left: 0;top: 50px;transform-origin: right top;transform: rotateY(90deg);}
+			.box3{background-color: yellow;position: absolute;left: 50px;top: 50px;}
+			.box4{background-color: blueviolet;position: absolute;left: 100px;top: 50px;transform-origin: left top; transform: rotateY(-90deg);}
+			.box5{background-color: pink;position: absolute;left: 50px;top: 100px;transform-origin: left top;transform: rotateX(90deg);}
+			.box6{background-color: paleturquoise;position: absolute;left: 50px;top: 50px;transform: translateZ(50PX);}
+			@keyframes dh{
+				0%{transform: rotateY(90deg);}
+				25%{transform: rotateY(180deg);}
+				50%{transform: rotateX(40deg);}
+				75%{transform: rotateX(80deg);}
+				100%{transform: rotateZ(140deg);}
+							
+			}
+			
+		</style>
+	</head>
+	<body>
+		
+		<div class="box">
+			<div class="one">
+				<div class="box1">1</div>
+				<div class="box2">2</div>
+				<div class="box3">3</div>
+				<div class="box4">4</div>
+				<div class="box5">5</div>
+				<div class="box6">6</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</body>
+</html>

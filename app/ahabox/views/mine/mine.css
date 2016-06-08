@@ -1,0 +1,36 @@
+#mine {
+    font-family: "微软雅黑";
+}
+#mine .box{
+    padding: 0;
+    position: relative;
+}
+#mine .box .mine_head{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+#mine .box .mine_head span{
+    font-size: 18px;
+
+}
+#mine .box .mine_head img{
+    border-radius: 50%;
+    width: 100px;
+}
+#mine .box .col{
+    padding: 0;
+}
+#mine .box .col img{
+    width: 100%;
+    border-radius: 5px;
+}
+#mine .list i{
+    font-size: 24px;
+    padding: 0 10px 0 ;
+}
+#mine  .login a{
+    color: #444;
+    text-decoration: none;
+}

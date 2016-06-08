@@ -1,0 +1,557 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	}
+li{
+	list-style:none;
+	}
+a{
+	text-decoration:none;
+	}
+img{
+	border:0;
+	}
+input{
+	border:0;
+	}
+/*nav开始*/
+#nav{
+	height:108px;
+	background:#000;
+	}
+.nav-inner{
+	height:84px;
+	width:1296px;
+	margin:0 auto;
+	padding-top:24px;
+	}
+.nav-inner li{
+	float:left;
+	text-transform:uppercase;
+	border-right:1px solid #343434;
+	padding:0 30px ;
+	line-height:60px;
+	}
+.nav-inner img{
+	float:left;
+	padding:15px 36px 0 38px;
+	}	
+.nav-inner li a{
+	color:#fff;	
+	font-size:18px;
+	font-family:arial;
+	}
+.nav-inner li a:hover{
+	color:orange;	
+	}
+.nav-right li{
+	padding:0 30px ;
+	border-left:1px solid #343434;
+	border-right:none;
+	}
+/*nav结束*/
+/*line开始*/
+#line{
+	height:29px;
+	width:871px;
+	margin:0 auto;
+	border-bottom:1px solid #ccc;
+	position:relative;
+	}
+#line a{
+	display:block;
+	}
+.icons{
+	width:64px;
+	height:26px;
+	position:absolute;
+	left:400px;
+	bottom:-13px;
+	background:#fff;
+	padding:0 18px;
+	}
+.pic1{
+	width:27px;
+	height:26px;
+	background:url(../images/btn_twitter_facebook.png);
+	float:left;
+	}
+.pic1:hover{
+	background:url(../images/btn_twitter_facebook.png) left -26px;
+	}
+.pic2{
+	width:27px;
+	height:26px;
+	background:url(../images/btn_twitter_facebook.png) right top;
+	float:right;
+	}
+.pic2:hover{
+	background:url(../images/btn_twitter_facebook.png) -27px -26px;
+	}
+/*liner结束*/
+/*heaader开始*/
+#header{
+	background:#fff;
+	}
+.header-inner{
+	width:1296px;
+	height:214px;
+	margin:0 auto;
+	}
+.header-line{
+	width:871px;
+	height:72px;
+	margin:0 auto;
+	border-bottom:1px solid #ccc;
+	}
+.header-inner h2{
+	font-family:"Arial Black";
+	font-size:56px;
+	text-align:center;
+	line-height:69px;
+	margin-top:74px;
+	}
+/*header结束*/
+/*banner开始*/
+#banner{
+	width:1296px;
+	height:1768px;
+	margin:0 auto;
+	}
+.banner-top{
+	width:1296px;
+	height:566px;
+	}
+.banner-top h3{
+	text-align:center;
+	line-height:140px;
+	font-size:24px;
+	font-family:"Arial Black";
+	letter-spacing:10px;
+	word-spacing:24px;
+	}	
+.banner-top-left{
+	width:662px;
+	height:426px;
+	float:left;
+	padding-left:49px;
+	}
+.banner-top-left h4{
+	padding-top:60px;
+	line-height:69px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:40px;
+	}
+.banner-top-left p{
+	line-height:24px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size:16px;
+	color:#ccc;
+	}
+.banner-top-left a{
+	float:left;
+	margin-top:19px;
+	line-height:45px;
+	width:144px;
+	height:45px;
+	background:url(../images/bg-pro_03.jpg) repeat-x;
+	border:1px solid #cfb715;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+	text-transform:uppercase;
+	color:#000;
+	margin-right:10px;
+	}
+.banner-top-left a.banner-anniu{
+	background:url(../images/projects-bg_06.jpg);
+	border:1px solid #ccc;
+	}
+.banner-top-left a.banner-anniu:hover{
+	background: url(../images/bg-pro_03.jpg) repeat-x;
+	border:1px solid #cfb715;
+	}
+.banner-top-left a:hover{
+	background:url(../images/projects-bg_06.jpg);
+	border:1px solid #ccc;
+	}
+.banner-top-right{
+	width:585px;
+	height:426px;
+	float:left;
+	background: url(../images/banner-se_03.jpg) no-repeat;
+	}		
+.banner-mid{
+	width:1296px;
+	height:596px;
+	}
+.banner-mid-left{
+	width:583px;
+	height:597px;
+	float:left;
+	padding-left:49px;
+	background:url(../images/services_branding.jpg) no-repeat;
+	}
+.banner-mid-right{
+	width:662px;
+	height:597px;
+	float:left;
+	}
+.banner-mid-right h4{
+	padding-top:158px;
+	line-height:69px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:40px;
+	}
+.banner-mid-right p{
+	line-height:24px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size:16px;
+	color:#ccc;
+	}
+.banner-mid-right a{
+	float:left;
+	margin-top:19px;
+	line-height:45px;
+	width:144px;
+	height:45px;
+	background:url(../images/bg-pro_03.jpg) repeat-x;
+	border:1px solid #cfb715;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+	text-transform:uppercase;
+	color:#000;
+	margin-right:10px;
+	}
+.banner-mid-right a.banner-anniu{
+	background:url(../images/projects-bg_06.jpg);
+	border:1px solid #ccc;
+	}
+.banner-mid-right a.banner-anniu:hover{
+	background: url(../images/bg-pro_03.jpg) repeat-x;
+	border:1px solid #cfb715;
+	}
+.banner-mid-right a:hover{
+	background:url(../images/projects-bg_06.jpg);
+	border:1px solid #ccc;
+	}
+
+	*/
+.banner-bot{
+	width:1296px;
+	height:606px;
+	}
+
+.banner-bot-left{
+	width:635px;
+	height:500px;
+	float:left;
+	padding-left:49px;
+	}
+.banner-bot-left h4{
+	padding-top:118px;
+	line-height:69px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:40px;
+	}
+.banner-bot-left p{
+	line-height:24px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size:16px;
+	color:#ccc;
+	}
+.banner-bot-left a{
+	float:left;
+	margin-top:19px;
+	line-height:45px;
+	width:144px;
+	height:45px;
+	background:url(../images/bg-pro_03.jpg) repeat-x;
+	border:1px solid #cfb715;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+	text-align:center;
+	text-transform:uppercase;
+	color:#000;
+	margin-right:10px;
+	}
+.banner-bot-left a.banner-anniu{
+	background:url(../images/projects-bg_06.jpg);
+	border:1px solid #ccc;
+	}
+.banner-bot-left a.banner-anniu:hover{
+	background: url(../images/bg-pro_03.jpg) repeat-x;
+	border:1px solid #cfb715;
+	}
+.banner-bot-left a:hover{
+	background:url(../images/projects-bg_06.jpg);
+	border:1px solid #ccc;
+	}
+.banner-bot-right{
+	width:610px;
+	height:500px;
+	float:left;
+	background: url(../images/services_support.jpg) no-repeat;
+	}		
+.bannrt-bot-bot{
+	float:left;
+	width:871px;
+	height:104px;
+    margin-left:213px;
+	border-bottom:1px #ccc solid;
+	}
+/*bnner结束*/
+/*main开始*/
+#main{
+	width:1247px;
+	height:960px;
+	margin:0 auto;
+	padding-left:49px;
+	}
+#main h2{
+	line-height:79px;
+	padding-top:24px;
+	font-family:"Arial Black";
+	font-size:24px;
+	text-align:center;
+	text-transform:uppercase;
+	letter-spacing:8px;
+	word-spacing:20px;
+	}
+#main h3{
+	line-height:54px;
+	font-family:"Arial Bold";
+	font-size:26px;
+	}
+#main li{
+	width:376px;
+	font-size:14px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	line-height:18px;
+	margin-top:8px;
+	color:#ccc;
+	float:left;
+	background:url(../images/icon_check.png) no-repeat left center;
+	padding-left:24px;
+	}
+#main li.main-liebiao{
+	width:1200px;
+	}
+#main li.main-liebiao2{
+	width:800px;
+	}
+/*main结束*/
+/*footer开始*/
+.footer-shang{
+	width:1200px;
+	height:104px;
+	margin:0 auto;
+	background:#f8e338 no-repeat;
+	margin-top:70px;
+	margin-bottom:66px;
+	}
+.footer-shang h5{
+	padding:24px 0 0 32px;
+	font-family:Arial;
+	font-size:30px;
+	}
+.footer-shang p{
+	font-family:"Cambria Math Regular";
+	font-size:14px;
+	padding:0 0 28px 32px;
+	}
+.footer-shang-left{
+	float:left;
+	}
+.footer-shang-right{
+	float:right;
+	width:140px;
+	height:52px;
+	line-height:52px;
+	text-transform:uppercase;
+	padding:26px 21px 0 0;
+	}
+.footer-shang-right a{
+	float:right;
+	width:130px;
+	line-height:40px;
+	text-align:center;
+	border-radius:10px;
+	height:40px;
+	background:#000;
+	font-family:"Arial Bold";
+	font-size:14px;
+	color:#fff;
+	}
+.footer-shang-right a:hover{
+	color:orange;
+	background:#fff;
+	}
+#footer{
+	height:611px;
+	width:1237px;
+	margin:0 auto;
+	}
+.footer-top{
+	width:871px;
+	height:38px;
+	margin:0 auto;
+	border-top: 10px solid #000;
+	}
+.footer-left{
+	width:250px;
+	float:left;
+	margin-left:20px;
+	}
+.footer-left h3{
+	line-height:71px;
+	font-family:"Arial Bold";
+	font-size:22px;
+	font-weight:bold;
+	}
+.footer-left p{
+	color:#646756;
+	line-height:25px;
+	font-size:14px;
+	font-family:"Cambria Math Regular";
+	}
+.footer-left a{
+	display:block;
+	width:180px;
+	height:45px;
+	line-height:45px;
+	text-align:center;
+	border:1px solid #ccc;
+	background:#f9f9f9;
+	margin-top:15px;
+	color:#000;
+	}
+.footer-left a:hover{
+	color:#fff;
+	background:orange;
+	}
+.footer-left2{
+	width:221px;
+	float:left;
+	margin-left:66px;
+	}
+.footer-left2 h3{
+	line-height:71px;
+	font-family:"Arial Bold";
+	font-size:22px;
+	font-weight:bold;
+	}
+.title{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:14px;
+	line-height:38px;
+	color:#000;
+	text-transform:uppercase;
+	}
+.title1{
+	font-family:"Cambria Math Regular";
+	font-size:14px;
+	line-height:22px;
+	color:#5f6863;
+	}
+.title2{
+	font-family:"Cambria Math Regular";
+	font-size:14px;
+	line-height:22px;
+	margin-top:18px;
+	color:#5f6863;
+	}
+.footer-left2 ul li a{
+	font-size:14px;
+	color:#000;
+	font-weight:bold;
+	}
+.footer-mid{
+	float:left;
+	width:306px;
+	margin-left:84px;
+	}
+.footer-mid h3{
+	line-height:74px;
+	font-family:"Arial Bold";
+	font-size:22px;
+	font-weight:bold;
+	}
+.footer-mid li{
+	font-size:16px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	lineheight:24px;
+	}
+.footer-mid a{
+	color:#000;
+	}
+.footer-mid a:hover{
+	color:orange;
+	}
+.footer-right{
+	width:282px;
+	float:left;
+	}
+.footer-right p{
+	color:#646756;
+	line-height:25px;
+	font-size:14px;
+	font-family:"Cambria Math Regular";
+	}
+.footer-right h3{
+	line-height:71px;
+	font-family:"Arial Bold";
+	font-size:22px;
+	font-weight:bold;
+	}
+.footer-right-mid{
+	width:282px;
+	height:80px;
+	border-bottom:1px solid #ccc;
+	padding-top:22px;
+	margin-bottom:31px;
+	}
+.search{
+	vertical-align:bottom;
+	width:206px;
+	height:41px;
+	border-top:3px solid #ccc;
+	border-left:3px solid #ccc;
+	border-bottom:3px solid #ccc;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:16px;
+	color:#ccc;
+	padding-left:25px;
+	}
+.search1{
+	height:47px;
+	width:47px;
+	background: url(../images/btn_go.png);
+	}
+.footer-right li{
+	float:left;
+	margin-right:12px;
+	font-size:14px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+.footer-right a{
+	color:#000;
+	font-size:14px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+.footer-right a:hover{
+	color:orange;
+	}
+.shuxian{
+		color:#ccc;
+		}
+.zuihou{
+	margin-right:0;
+	}
+/*footer结束*/

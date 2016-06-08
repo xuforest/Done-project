@@ -1,0 +1,263 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    border: none;
+}
+input{
+    border: none;
+}
+body{
+    font-family: "微软雅黑";
+}
+/*-------------------------------------header-----------开始----------------------------------*/
+
+#header{
+    background: #f8f8f8 ;
+    height: 564px;
+    border-bottom: 1px solid #e9e9e9
+}
+.box{
+    margin: auto;
+    padding-top: 40px;
+    width: 958px;
+    height: 456px;
+    border: 1px solid #e9e9e9;
+    background: #fff;
+}
+.box1{
+    width: 900px;
+    margin: 0 auto;
+    height: 35px;
+}
+.box1 li{
+    float: left;
+    width: 290px;
+    height: 29px;
+    padding-top: 6px;
+    padding-left: 10px;
+    font-size: 16px;
+    background: #ff9966;
+    color: #fff;
+}
+.box1 li:nth-child(1){
+    padding-left: 0;
+    width: 300px;
+    background: #ff9966;
+    position: relative;
+}
+.box1 li:nth-child(1):before{
+    content: " ";
+    width: 40px;
+    height:8px;
+    background: #fff;
+    transform: rotate(65deg);
+    position: absolute;
+    left: 276px;
+    top:-3px;
+    z-index: 1;
+}
+.box1 li:nth-child(1):after{
+    content: " ";
+    width: 40px;
+    height:8px;
+    background: #fff;
+    transform: rotate(-65deg);
+    position: absolute;
+    left:276px;
+    top: 30px;
+    z-index: 1;
+}
+.box1 li:nth-child(2){
+    position: relative;
+}
+.box1 li:nth-child(2):before{
+    content: " ";
+    width: 40px;
+    height:8px;
+    background: #fff;
+    transform: rotate(65deg);
+    position: absolute;
+    left: 276px;
+    top:-3px;
+}
+.box1 li:nth-child(2):after{
+    content: " ";
+    width: 40px;
+    height:8px;
+    background: #fff;
+    transform: rotate(-65deg);
+    position: absolute;
+    left:276px;
+    top: 30px;
+}
+.box1 li span:nth-child(2){
+    color: #fff;
+}
+.box1 li span{
+    line-height: 18px;
+}
+.box1 li span:nth-child(1){
+    text-align: center;
+    margin: 0 10px;
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background: #fff;
+    color: #ff9966;
+}
+.box-mid{
+    margin: 100px auto 30px auto;
+    width: 230px;
+    height: 46px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: left;
+    line-height: 46px;
+    font-size:24px;
+    padding-left: 10px;
+    color: #666;
+}
+.resBox{
+    width:200px;
+    height:30px;
+    margin: 0 auto;
+    font-size: 14px;
+    line-height: 30px;
+    text-align: center;
+    color: #666;
+}
+.box-bot li{
+    margin: 0 15px;
+    float: left;
+    text-align: center;
+}
+.box-bot{
+    width:848px;
+    height: 60px;
+    margin: 80px auto 0 auto;
+}
+.box-bot a{
+     color: #666;
+ }
+.box-bot a:hover{
+    color: red;
+}
+/*-------------------------------------header-----------结束----------------------------------*/
+
+
+/*-------------------------------------footer-----------开始----------------------------------*/
+
+#footer{
+    width: 1170px;
+    margin: auto;
+}
+.footer-top{
+    width: 1170px;
+    height: 45px;
+    border-bottom: 1px solid #ccc;
+}
+.footer-top li{
+    float: left;
+}
+.footer-top a{
+    display: inline-block;
+    padding: 0 10px;
+    margin-top: 18px;
+    border-right: 1px solid #ccc;
+    color: #666;
+    font-size: 14px;
+}
+.footer-top li:nth-child(1) a{
+    padding-left: 0;
+}
+.footer-top li:nth-child(10) a{
+    border: 0;
+}
+.footer-top a:hover{
+    color: red;
+}
+.footer-mid{
+    font-size: 12px;
+    padding: 10px 0 14px 0;
+    color: #666;
+}
+.footer-mid a{
+    font-size: 16px;
+    display: inline-block;
+    margin: 0 4px 0 10px;
+    color: #666;
+}
+.footer-mid a:nth-child(1){
+    display: inline-block;
+    margin-left: 0;
+}
+.footer-mid a:hover{
+    color: red;
+}
+.footer-mid strong{
+    display: inline-block;
+    margin: 0 10px 0 10px;
+    font-weight: 100;
+}
+.footer-bot{
+    font-size: 12px;
+    color: #9c9c9c;
+}
+.footer-bot p{
+    display: inline-block;
+    float: left;
+    padding-top: 5px;
+    margin-right: 10px;
+}
+
+.footer-bot span{
+    float: left;
+}
+
+/*-------------------------------------footer-----------结束----------------------------------*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

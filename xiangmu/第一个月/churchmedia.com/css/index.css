@@ -1,0 +1,468 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+	}
+li{
+	list-style:none;
+	}
+a{
+	text-decoration:none;
+	}
+img{
+	border:0;
+	}
+input{
+	border:0;
+	}
+/*header开始*/
+#header{
+	height:108px;
+	background:#000;
+	}
+.header-inner{
+	height:84px;
+	width:1298px;
+	margin:0 auto;
+	padding-top:24px;
+	}
+.header-inner li{
+	float:left;
+	text-transform:uppercase;
+	border-right:1px solid #343434;
+	padding:0 30px ;
+	line-height:60px;
+	}
+.header-inner li a:hover{
+	color:orange;
+	}
+.header-inner img{
+	float:left;
+	padding:15px 36px 0 38px;
+	}	
+.header-inner li a{
+	color:#fff;	
+	font-size:18px;
+	font-family:arial;
+	}
+.header-right li{
+	padding:0 30px ;
+	border-left:1px solid #343434;
+	border-right:none;
+	}
+/*header结束*/
+/*line开始*/
+#line{
+	height:29px;
+	width:900px;
+	margin:0 auto;
+	border-bottom:1px solid #ccc;
+	position:relative;
+	}
+#line a{
+	display:block;
+	}
+.icons{
+	width:64px;
+	height:26px;
+	position:absolute;
+	left:400px;
+	bottom:-13px;
+	background:#fff;
+	padding:0 18px;
+	}
+.pic1{
+	width:27px;
+	height:26px;
+	background:url(../images/btn_twitter_facebook.png);
+	float:left;
+	}
+.pic1:hover{
+	background:url(../images/btn_twitter_facebook.png) left -26px;
+	}
+.pic2{
+	width:27px;
+	height:26px;
+	background:url(../images/btn_twitter_facebook.png) right top;
+	float:right;
+	}
+.pic2:hover{
+	background:url(../images/btn_twitter_facebook.png) -27px -26px;
+	}
+/*line结束*/
+/*mian开始*/
+.main-top{
+	width:1298;
+	height:212px;
+	padding-top:76px;
+	margin:0 auto;
+	}
+.main-top h3{
+	font-family:"Arial Black";
+	font-size:53px;
+	text-align:center;
+	line-height:54px;
+	letter-spacing:2px;
+	word-spacing:2px;
+	}
+.main-top p{
+	font-size:24px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	text-align:center;
+	margin-top:18px;
+	color:#5b696a;
+	}
+.quote{
+	font-weight:bold;
+	color:#000;
+	}
+.quote:hover{
+	color:orange;
+	}
+.main-banner{
+	height:628px;
+	background: url(../images/main-banner_02.jpg);
+	}
+.main-mid{
+	padding-top:60px;
+	height:568px;
+	width:1298px;
+	margin:0 auto;
+	position:relative;
+	background: url(../images/images/top_03.jpg) no-repeat center top;
+	}
+.main-mid-icons{
+	width:733px;
+	height:153px;
+	position:absolute;
+	left:285px;
+	bottom:-78px;
+	}
+.main-mid a{
+	display:block;
+	}
+.main-mid-left{
+	width:459px;
+	height:532px;
+	float:left;
+	padding-left:60px;
+	padding-top:36px;
+	}
+.main-mid-left H3{
+	font-size:34px;
+	line-height:36px;
+	font-family:"Arial Black";
+	}
+.main-mid-left H4{
+	font-size:16px;
+	line-height:27px;
+	font-family:"Arial Black";
+	}
+.main-mid-left p{
+	color:#ccc;
+	margin-bottom:20px;
+	font-size:16px;
+	line-height:28px;
+	font-family:Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	}
+.tubiao1{
+	background: url(../images/icon_type.png) no-repeat left center;
+	}
+.tubiao2{
+	background: url(../images/icon_url.png) no-repeat left center;
+	}
+.tubiao3{
+	background: url(../images/icon_details.png) no-repeat left top;
+	}
+.main-mid-left li{
+	padding-left:34px;
+	line-height:16px;
+	fot-size:14px;
+	color:#ccc;
+	margin-bottom:10px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	}
+.main-mid-left ul{
+	margin-bottom:32px;
+	margin-top:16px;
+	}
+.main-mid-left a{
+	display:block;
+	line-height:24px;
+	color:#000;
+	}
+.main-mid-left a:hover{
+	color:orange;
+	}
+.main-mid-right{
+	padding-left:24px;
+	width:724px;
+	height:568px;
+	float:left;
+	background:url(../images/images/right_03.jpg);
+	}
+.main-pic1{
+	width:153px;
+	height:153px;
+	float:left;
+	margin-right:40px;
+	background:url(../images/hua1.png);
+	}
+.main-pic1:hover{
+	background:url(../images/hua1.png) 153px top;
+	}
+	.main-pic2{
+	width:153px;
+	height:153px;
+	margin-right:40px;
+	float:left;
+	background:url(../images/hua2.png);
+	}
+.main-pic2:hover{
+	background:url(../images/hua2.png) 153px top;
+	}
+	.main-pic3{
+	width:153px;
+	height:153px;
+	margin-right:40px;
+	float:left;
+	background:url(../images/hua3.png);
+	}
+.main-pic3:hover{
+	background:url(../images/hua3.png) 153px top;
+	}
+	.main-pic4{
+	width:153px;
+	height:153px;
+	float:left;
+	background:url(../images/hua4.png);
+	}
+.main-pic4:hover{
+	background:url(../images/hua4.png) 153px top;
+	}
+.main-bot{
+	width:1298px;
+	height:513px;
+	margin:0 auto;
+	}
+.main-bot-top{
+	width:871px;
+	height:135px;
+	border-bottom:1px solid #dcdcdc;
+	margin:0 auto;
+	}
+.main-left{
+	padding-top:60px;
+	width:426px;
+	float:left;
+	margin-left:49px;
+	}
+.main-bot h3{
+	line-height:34PX;
+	font-size:30PX;
+	margin-bottom:9px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+.main-bot p{
+	line-height:24px;
+	font-size:14px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	color:#63665f;
+	}
+.main-left2{
+	padding-top:60px;
+	width:426px;
+	float:left;
+	}
+.main-bot a{
+	display:block;
+	width:180px;
+	height:45px;
+	border:1px #ccc solid;
+	line-height:45px;
+	text-align:center;
+	margin-top:18px;
+	color:#000;	
+	font-size:14px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-weight:bold;
+	text-transform:uppercase;
+	}
+.main-bot a:hover{
+	color:#fff;
+	background:orange;
+	}
+.main-right{
+	padding-top:60px;
+	width:396px;
+	float:left;
+	}
+.main-right a{
+	width:228px;
+	}
+/*mian结束*/
+/*footer开始*/
+#footer{
+	height:439px;
+	width:1237px;
+	margin:0 auto;
+	}
+.footer-top{
+	width:871px;
+	height:38px;
+	margin:0 auto;
+	border-top: 10px solid #000;
+	}
+.footer-left{
+	width:250px;
+	float:left;
+	margin-left:20px;
+	}
+.footer-left h3{
+	line-height:71px;
+	font-family:"Arial Bold";
+	font-size:22px;
+	font-weight:bold;
+	}
+.footer-left p{
+	color:#646756;
+	line-height:25px;
+	font-size:14px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	}
+.footer-left a{
+	display:block;
+	width:180px;
+	height:45px;
+	line-height:45px;
+	text-align:center;
+	border:1px solid #ccc;
+	background:#f9f9f9;
+	margin-top:15px;
+	color:#000;
+	}
+.footer-left a:hover{
+	color:#fff;
+	background:orange;
+	}
+.footer-left2{
+	width:221px;
+	float:left;
+	margin-left:66px;
+	}
+.footer-left2 h3{
+	line-height:71px;
+	font-family:"Arial Bold";
+	font-size:22px;
+	font-weight:bold;
+	}
+.title{
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:14px;
+	line-height:38px;
+	color:#000;
+	text-transform:uppercase;
+	}
+.title1{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size:14px;
+	line-height:22px;
+	color:#5f6863;
+	}
+.title2{
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	font-size:14px;
+	line-height:22px;
+	margin-top:18px;
+	color:#5f6863;
+	}
+.footer-left2 ul li a{
+	font-size:14px;
+	color:#000;
+	font-weight:bold;
+	}
+.footer-mid{
+	float:left;
+	width:306px;
+	margin-left:84px;
+	}
+.footer-mid h3{
+	line-height:74px;
+	font-family:"Arial Bold";
+	font-size:22px;
+	font-weight:bold;
+	}
+.footer-mid li{
+	font-size:16px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	lineheight:24px;
+	}
+.footer-mid li a{
+	color:#000;
+	}
+.footer-mid li a:hover{
+	color:orange;
+	}
+.footer-right{
+	width:282px;
+	float:left;
+	}
+.footer-right p{
+	color:#646756;
+	line-height:25px;
+	font-size:14px;
+	font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+	}
+.footer-right h3{
+	line-height:71px;
+	font-family:"Arial Bold";
+	font-size:22px;
+	font-weight:bold;
+	}
+.footer-right-mid{
+	width:282px;
+	height:80px;
+	border-bottom:1px solid #ccc;
+	padding-top:22px;
+	margin-bottom:31px;
+	}
+.search{
+	vertical-align:bottom;
+	width:206px;
+	height:41px;
+	border-top:3px solid #ccc;
+	border-left:3px solid #ccc;
+	border-bottom:3px solid #ccc;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:16px;
+	color:#ccc;
+	padding-left:25px;
+	}
+.search1{
+	vertical-align:bottom;
+	height:47px;
+	width:47px;
+	background: url(../images/btn_go.png);
+	}
+.footer-right li{
+	float:left;
+	margin-right:12px;
+	font-size:14px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+.footer-right a{
+	color:#000;
+	font-size:14px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+.shuxian{
+		color:#ccc;
+		}
+.zuihou{
+	margin-right:0;
+	}
+.footer-right li a:hover{
+	color:orange;
+	}
+/*footer结束*/

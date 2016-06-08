@@ -1,0 +1,25 @@
+#gift button{
+    color: #333;
+}
+#gift  .row img{
+    width: 100%;
+    border-radius: 5px;
+}
+#gift .row p{
+    font-size: 13px;
+    font-family: "宋体";
+    color: #666;
+}
+#gift .gift_type{
+    display: inline-block;
+    padding-top: 6px;
+}
+#gift .gift_type a{
+    color: #5e5e5e;
+    font-size: 12px;
+    font-family: "微软雅黑";
+    padding: 0 6px;
+}
+#gift .gift_type a:hover{
+    color: red;
+}

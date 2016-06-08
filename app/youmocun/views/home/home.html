@@ -1,0 +1,81 @@
+
+<ion-view view-title="首页" hide-back-button="true">
+    <ion-content class="padding">
+        <ion-slide-box on-slide-changed="slideHasChanged($index)"
+                       auto-play="true" does-continue="true" slide-interval=2000
+                       show-pager="true" pager-click="pageClick(index)"
+                       active-slide="model.activeIndex" delegate-handle="delegateHandler">
+            <ion-slide>
+                <div class="box blue">
+                    <img src="images/slide-1.jpg">
+                </div>
+            </ion-slide>
+            <ion-slide>
+                <div class="box yellow">
+                    <img src="images/slide-2.jpg">
+                </div>
+            </ion-slide>
+            <ion-slide>
+                <div class="box pink">
+                    <img src="images/slide-3.jpg">
+                </div>
+            </ion-slide>
+            <ion-slide>
+                <div class="box">
+                    <img src="images/slide-4.jpg">
+                </div>
+            </ion-slide>
+            <ion-slide>
+                <div class="box">
+                    <img src="images/slide-5.jpg">
+                </div>
+            </ion-slide>
+        </ion-slide-box>
+        <div class="list">
+            <label class="item">
+                <p>公告：版本正在更新中、其它功能敬请期待......</p><br>
+                <p>公告：比特币查询、星座匹配、屌丝福利、正在开发中...</p>
+
+            </label>
+        </div>
+        <div class="row text-center bot">
+            <div  class="col col-33 ">
+                <a href="#/tabs/reservation "><i class="icon ion-document-text "></i><br>查看你的预订</a>
+            </div>
+            <div  class="col col-33">
+                <a href="#/tabs/weather" ><i class="icon ion-ios-partlysunny" ></i><br>查看天气预报</a>
+            </div>
+            <div  class="col col-33">
+                <a href="#/tabs/restaurants"><i class="icon ion-android-restaurant"></i><br>查看附近餐馆</a>
+            </div>
+
+        </div>
+        <div class="row text-center bot">
+            <div  class="col col-33 ">
+                <a href="#/tabs/joke "><i class="icon ion-happy"></i><br>开心一刻</a>
+            </div>
+            <div  class="col col-33">
+                <a href="#/tabs/sth" ><i class="icon ion-chatbox-working" ></i><br>绕口令</a>
+            </div>
+            <div  class="col col-33">
+                <a href="#/tabs/dispark"><i class="icon ion-ios-book"></i><br>名人名言</a>
+            </div>
+
+        </div>
+
+        <div class="row text-center bot">
+            <div  class="col col-33 ">
+                <a href="#/tabs/money "><i class="icon ion-social-bitcoin"></i><br>比特币</a>
+            </div>
+            <div  class="col col-33">
+                <a href="#/tabs/constel" ><i class="icon ion-social-freebsd-devil" ></i><br>星座匹配</a>
+            </div>
+            <div  class="col col-33">
+                <a href="#/tabs/welfare"><i class="icon ion-images"></i><br>屌丝福利</a>
+            </div>
+
+        </div>
+
+
+    </ion-content>
+</ion-view>

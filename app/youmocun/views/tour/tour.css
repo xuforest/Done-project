@@ -1,0 +1,28 @@
+#tour-view .slider{
+    height:100%
+}
+
+#tour-view .slider-slide{
+
+    text-align:center;
+}
+
+#tour-view .icon-slide{
+    font-size:20em;
+    display: inline-block;
+}
+.hy img{
+    width:100%;
+
+}
+.fj{
+    position: relative;
+
+}
+
+.fj a{
+    position: absolute;
+    left:40%;
+    top:40%;
+    z-index: 30;
+}

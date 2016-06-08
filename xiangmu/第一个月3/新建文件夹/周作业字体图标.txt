@@ -1,0 +1,28 @@
+glyphicon glyphicon-time
+
+glyphicon glyphicon-earphone
+
+glyphicon glyphicon-envelope
+
+
+glyphicon glyphicon-search
+
+
+fa fa-facebook
+
+fa fa-twitter
+
+fa fa-linkedin
+
+fa fa-tumblr
+
+fa fa-flickr
+
+
+glyphicon glyphicon-credit-card
+
+glyphicon glyphicon-heart-empty
+
+glyphicon glyphicon-user
+
+<div class="col-sm-2"><span class="glyphicon glyphicon-credit-card"></span></div><div class="col-sm-2"><span class="glyphicon glyphicon-credit-card"></span></div>

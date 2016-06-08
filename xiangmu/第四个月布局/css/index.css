@@ -1,0 +1,90 @@
+/*样式重置开始*/
+*,h1,h2,h3,h4,h5,h6,p{margin:0;padding: 0}
+a{text-decoration: none}
+input,img{border:none;outline: none}
+li{list-style: none}
+body{font-size: 62.5%;}
+.margin{margin-left:-15px;margin-right:-15px;}
+.padding{padding-left:0;padding-right:0;}
+.fl{float: left}
+.fr{float: right}
+.clearfix:after{content: "";display: block;height:0; overflow: hidden;font-size: 0;}
+/*.container {padding-left:0;padding-right:0;}*/
+/*设定根基的字体大小*/
+/*--------------------------样式重置结束*/
+/*header*/
+.logo{padding-top:8px;padding-bottom: 6px; }
+header{background-color: #363636;padding-top: 12px;height: 70px;}
+.hea_title{color: #faffff;font-size: 18px;height:48px;line-height:48px;}
+
+/*-------------------------------header结束*/
+.my_nav{position: absolute;left:0;bottom: 0;width:100%;}
+.my_nav li{width:calc(33.334% - 1px);margin-right:1px;color:#333333;background-color: rgba(255,255,255,0.5);text-align: center;line-height:40px;height: 40px; }
+.my_nav li a{color:#333;}
+.my_nav li:nth-child(3){width:33.333%;margin-right:0 }
+.my_cont img{width:100%;display: block}
+.banner_right img{width:calc(94.5% - 5px); margin-left:5px;display: block;}
+.banner_right .lun_t_t{margin-bottom: 5px}
+/*-------------------------------banner结束*/
+.con_main{padding-top: 31px;padding-bottom: 20px;}
+.dj_left h3{line-height: 40px;color: #333333}
+.dj_left ul li {padding-top: 23px;padding-bottom: 17px;border-bottom: 1px solid #c7c7c7}
+.dj_left ul li a{display: block}
+.dj_left ul li:last-child{border-bottom:none}
+.dj_left ul li img{display: block;}
+ .txt{padding-top: 31px;text-indent: 58px;}
+.txt h5{font-size: 16px;color: #666;line-height: 31px;}
+ .txt h6{font-size: 14px;line-height: 27px;color: #ec5412}
+ .txt h6 span{text-decoration: line-through;color: #b3b3b3}
+.con_main_list{width:32.553333%;}
+.tab2_right a{color: #ccc}
+.layer{padding-top: 9px;}
+.layer img{display: block;width:calc(100% - 18px );margin-right: 15px;;margin-bottom: 10px;}
+.layer p{font-size: 16px;height:76px;color: #666;line-height: 24px;}
+.pic img{width:100%;}
+.picBox{padding-top: 50px;}
+/*.picBox_nav{padding-left: 159px;}*/
+.picBox_nav li{float:left}
+.picBox_nav li:nth-child(2n){width:46px;padding-top: 43px;}
+.picBox_nav li:nth-child(2n){text-align: center}
+.View_details{padding:5px 0 42px 0}
+.View_details p{color:#ec3901; font-size: 14px;line-height: 35px;}
+.View_details span{ font-size: 24px;}
+.btn_a{display: block;width:120px;height: 30px;font-size:14px;text-align:center;line-height:30px;margin-left:15px;color:#fff;background-color: #ec5411}
+.bottBox {border: 1px solid #ccc; }
+.bot_in img{ padding-top:26px;width:98%;}
+.bot_in{border-right: 1px solid #ccc}
+.bot_last_pic{width:423px;padding-top: 0}
+.txt_btn{text-indent: 18px;}
+.txt_btn a{text-indent: 0;margin-top:25px }
+.tab_2{width:73%}
+.tab_list{padding-top: 50px;}
+.sm_li{display: none}
+
+
+
+@media (min-width:320px){
+    .container{width:240px}
+
+}
+@media (min-width:780px){
+    .container{width:690px}
+    .dj_left ul li{float: left;width:calc(33.333333% - 5px);margin-right: 5px}
+    .dj_left ul li .txt{text-indent: 0}
+    .dj_left ul li:last-child{border-bottom:1px solid #c7c7c7;margin-right: 0}
+    .dianzhang{display: none}
+    .tab_2{width:100%}
+    .hidli{display: none}
+    .picBox_nav li img{width:70%}
+    .sm_li{display: block}
+    .picBox_nav{display: none}
+
+}
+@media (min-width:1350px){
+    .container{width:1215px}
+   .hidli{display: none}
+}
+@media (min-width:1800px){
+    .container{width:1600px}
+
+}

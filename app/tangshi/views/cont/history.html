@@ -1,0 +1,19 @@
+<ion-view view-title="每小时平均价格">
+    <ion-content>
+        <!--使用inset list 来包含一个select box-->
+        <div class="list list-inset">
+            <label class="item item-input item-select">
+                <div class="input-label">货币</div>
+                <select ng-change="changeCurrency()" ng-model="history.currency">
+                    <option ng-repeat="currency in currencies | filter:{selected:true}"
+                    value="{{currency.code}}"
+                    ng-selected="history.currency == currency.code">
+                        {{currency.code}}-{{currency.text}}
+                    </option>
+                </select>
+            </label>
+        </div>
+        <!--highchart组件   接收一个config属性 带有一个chart对象-->
+        <highchart config="chart"></highchart>
+    </ion-content>
+</ion-view>

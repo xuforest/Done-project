@@ -1,0 +1,60 @@
+<ion-view view-title="北京攻略">
+    <ion-content class="beijing" style="background-color: #cd6abc">
+        <ion-slide-box show-pager="false" auto-play="true" slide-interval="2000" does-continue="true">
+            <ion-slide>
+                <div class="box">
+                    <img src="images/1.jpg">
+                </div>
+
+            </ion-slide>
+            <ion-slide>
+                <div class="box">
+                    <img src="images/2.jpg">
+                </div>
+
+            </ion-slide>
+            <ion-slide>
+                <div class="box">
+                    <img src="images/3.jpg">
+                </div>
+            </ion-slide>
+        </ion-slide-box>
+
+        <div class="row bar-stable" style="margin-top:10px;">
+            <div class="boxbnt col-40 button" ui-sref="tabs.jianjie" style="background:rgba(252,6,111,0.5);height: 150px;line-height:150px;margin-left: 20px">
+                <a class="ion-home stable" style="font-size:38px;"></a>
+                <h4 style="font-size: 20px;margin-top: -65px;color: #fff3c2">简介</h4>
+               <!-- <p style="color:#fff;font-size: 20px;"></p>-->
+
+            </div>
+            <div class="col-40 button" ui-sref="tabs.meishi" style="background: #ab9357;height: 150px;line-height:150px;margin-left: 40px">
+                <a class="ion-coffee stable" style="font-size:38px;"></a>
+                <h4 style="font-size: 20px;margin-top: -65px;color: #fff3c2">美食</h4>
+                <!--<p style="color:#fff;font-size: 20px;">美食</p>-->
+            </div>
+        </div>
+
+        <div class="row bar-stable" style="margin-top:10px;">
+            <div class="col-40 item button" ui-sref="tabs.jingdian" style="background: #5a8cd3;height: 150px;height: 150px;line-height:150px;margin-left: 20px">
+                <a class="ion-leaf stable" style="font-size:38px;"></a>
+                <h4 style="font-size: 20px;margin-top: -65px;color: #fff3c2">景点</h4>
+                <!--<h4 style="color:#fff;font-size: 20px;">景点</h4>-->
+            </div>
+            <div class="col-40 item button" ui-sref="tabs.wenhua" style="background: #f970b6;height: 150px;line-height:150px;margin-left: 40px">
+                <a class="ion-android-color-palette stable" style="font-size:38px;"></a>
+                <h4 style="font-size: 20px;margin-top: -65px;color: #fff3c2">文化</h4>
+                <!--<h4 style="color:#fff;font-size: 20px;">文化</h4>-->
+            </div>
+
+        </div>
+
+        <div class="button-bar bar-stable" style="margin-top:10px;width: 90%;margin:2% 0 5% 6% ;">
+            <div class="item button" ui-sref="tabs.old" style="background: #da6170;height: 100px;line-height: 100px;">
+                <a class="ion-social-octocat stable" style="font-size:38px;"></a>
+                <h4 style="font-size: 20px;margin-top: -45px;color: #fff3c2">老北京</h4>
+                <!--<h4 style="color:#fff;font-size: 20px;">老北京</h4>-->
+            </div>
+        </div>
+
+    </ion-content>
+</ion-view>

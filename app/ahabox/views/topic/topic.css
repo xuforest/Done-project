@@ -1,0 +1,13 @@
+#topic .row img{
+    width: 100%;
+    border-radius: 5px;
+}
+#topic .row p{
+    font-size: 12px;
+    font-family: "宋体";
+    color: #666;
+}
+#topic .row h4{
+    font-size: 14px;
+    font-family: "微软雅黑";
+}

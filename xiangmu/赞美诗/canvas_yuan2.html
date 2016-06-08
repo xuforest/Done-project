@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			body{background-color: #ccc;}
+			#cans{background-color: #fff;margin:30px 0 0 30px;}
+		</style>
+		<script>
+			window.onload = function(){
+				var oC=document.getElementById("cans");
+				var oGc= oC.getContext("2d");
+				function toDraw(){
+					oGc.beginPath();
+					for(var i=0;i<60;i++){
+						oGc.moveTo(200,200);
+						oGc.arc(200,200,150,i*6*Math.PI/180,(i+1)*6*Math.PI/180)
+					}
+					oGc.stroke();
+					oGc.fillStyle = "#fff"
+					oGc.beginPath();
+					oGc.arc(200,200,140,0,360*Math.PI/180)
+					oGc.closePath();
+					oGc.fill();
+					
+					oGc.beginPath();
+					for(var i=0;i<12;i++){
+						oGc.moveTo(200,200);
+						oGc.arc(200,200,150,i*30*Math.PI/180,(i+1)*30*Math.PI/180)
+					}
+					oGc.stroke();
+					oGc.fillStyle = "#fff"
+					oGc.beginPath();
+					oGc.arc(200,200,130,0,360*Math.PI/180)
+					oGc.closePath();
+					oGc.fill();
+					
+					//时针
+					oGc.lineWidth="4";
+					oGc.beginPath();
+					oGc.moveTo(200,200);
+					oGc.arc(200,200,70,0,0)
+					oGc.closePath();
+					oGc.stroke();
+					
+					oGc.lineWidth="2";
+					oGc.beginPath();
+					oGc.moveTo(200,200);
+					oGc.arc(200,200,90,1,1)
+					oGc.closePath();
+					oGc.stroke();
+					
+					oGc.lineWidth="1";
+					oGc.beginPath();
+					oGc.moveTo(200,200);
+					oGc.arc(200,200,110,2,2)
+					oGc.closePath();
+					oGc.stroke();
+				}
+				toDraw();
+			}
+		</script>
+	</head>
+	<body>
+	<canvas id="cans" width="500px" height="500px">
+			您的浏览器不支持此功能！
+		</canvas>
+	</body>
+</html>

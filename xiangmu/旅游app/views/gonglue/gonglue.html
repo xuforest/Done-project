@@ -1,0 +1,30 @@
+<div class="bar bar-header bar-positive">
+    <h1 class="title">动态</h1>
+    <button class="button icon ion-search"></button>
+    <button class="button button-clear button-light icon ion-camera"></button>
+</div>
+<div class="bar bar-subheader row sub">
+    <a href="#" class="col-20">全部</a>
+    <a href="#" class="col-20">求助</a>
+    <a href="#" class="col-20">结伴</a>
+    <a href="#" class="col-20">拼车</a>
+    <a href="#" class="col-20">晒旅行</a>
+</div>
+<ion-content>
+    <ion-refresher on-refresh="load()" pulling-text="下拉刷新"></ion-refresher>
+    <div class="list has-header has-subheader" ng-repeat="book in datas.books">
+        <div class="item card item-avatar">
+            <img src={{book.userHeadImg}}>
+            <div class="imgBox">
+                <h3>{{book.userName}}</h3>
+                <h6>{{book.title}}</h6>
+                <span>{{book.startTime}}</span>
+                <span class="icon ion-heart">{{book.likeCount}}</span>
+            </div>
+        </div>
+        <div class="item item-image">
+            <img ng-src="{{book.bookUrl}}"/>
+        </div>
+    </div>
+    <ion-infinite-scroll on-infinite="getRestaurants()" ng-if="page<total"immediate-check="false"></ion-infinite-scroll>
+</ion-content>

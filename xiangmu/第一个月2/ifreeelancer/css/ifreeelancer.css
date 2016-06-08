@@ -1,0 +1,603 @@
+@charset "utf-8";
+/* CSS Document */
+*{margin:0;padding:0;}
+li{list-style:none;}
+a{
+	text-decoration:none;}
+img{border:0;}
+input{border:0;}
+.clear{clear:both;}
+.banner,body{
+	width:100%;
+	}
+header{
+	width:1136px;
+	margin:0 auto;
+	}
+.nav-icon{
+	display:none;
+	}
+header ul{
+	padding-left:264px;
+	}
+header img{
+		float:left;
+		}
+header li{
+	float:left;
+	line-height:104px;
+	font-size:16px;
+	font-family:"arial Bold";
+	margin:0 23px;
+	}
+header li a{
+	color:#000;
+	transition:0.5s;
+	}
+header li a:hover{
+	color:orange;
+	text-shadow:0 2px 2px rgba(0,0,0,0.5);
+	}
+header ul li:nth-child(7){
+	margin-top:45px;
+	}
+.banner{
+	background:url(../../../../../第三个月/练习/images/bg.jpg);
+	background-size:cover;
+	padding:130px 0;
+	}
+.banner h3{
+	font-size:40px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	line-height45px;
+	text-align:center;
+	color:red;
+	margin-top:51px;
+	}
+.banner h4{
+	font-size:40px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	line-height:43px;
+	text-align:center;
+	color:#fff;
+	
+	}
+.banner p{
+	font-size:16px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	line-height:57px;
+	text-align:center;
+	color:#fff;
+	margin-bottom:87px;
+	}
+.banner a{
+	display:block;
+	width:182px;
+	height:50px;
+	font-size:20px;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	line-height:57px;
+	margin:0 auto;
+	border:1px solid #fff;
+	padding-left:26px;
+	color:#fff;
+	border-radius:3px;
+	background: url(../../../../../第三个月/练习/images/arrow.png) 155px 22px no-repeat;
+	transition:1s;
+	}
+.banner a:hover{
+	width:200px;
+	border:1px solid orange;
+	color:orange;
+	}
+article{
+	background:#f7f7f7;
+	padding:100px 0 0 110px;
+	}
+ span{
+	color:#e74c3c;
+	 }
+.page{
+	float:left;
+	width:570px;
+	}
+article h3{
+	font-size:34px;
+	font-family:"Arial Bold";
+	color:#6e6e6e;
+	line-height:44px;
+	margin-bottom:34px;
+	}
+article h4{
+	font-size:26px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-bottom:18px;
+	color:#6e6e6e;
+	line-height:30px;
+	}
+article p{
+	font-size:18px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#8d8d8d;
+	line-height:24px;
+	}
+.dier{
+	margin:18px 0 60px 0;
+	}
+article a{
+	width:244px;
+	height:50px;
+	border-radius:6px;
+	display:block;
+	font-size:20px;
+	padding-left:20px;
+	color:#fff;
+	line-height:50px;
+	background:#e74c3c url(../../../../../第三个月/练习/images/arrow.png) no-repeat 218px 20px;
+	transition:1s;
+	}
+article a:hover{
+	color:#e74c3c;
+	background:#fff url(../../../../../第三个月/练习/images/arrowhr.png) no-repeat 218px 20px;
+	}
+.article-img{
+	width:55%;
+	float:right;
+	margin-bottom:98px;
+	}
+.article-img img{
+	width:100%;
+	}
+.main-inner{
+	text-align:center;
+	width:1136px;
+	margin:0 auto;
+	}
+.main ul li{
+	background:#3a5169;
+	color:#fff;
+	width:200px;
+	height:174px;
+	padding-top:26px;
+	float:left;
+	text-align:center;
+	border:1px solid #000;
+	transform:rotate(45deg);
+	position:relative;
+	margin-right:109px;
+	transition:1s;
+	}
+.main ul li:hover{
+	
+	}
+.main ul li:nth-child(2n):hover{
+	transform:scale(1.2) rotate(45deg);
+	}
+.main ul li:nth-child(2n+1):hover{
+	transform:scale(1.2) rotate(135deg);
+	}
+.main ul li:nth-child(4){
+	margin-right:0;
+	}
+.main ul li:nth-child(2n){
+	background:#e74c3c;
+	}
+.main ul li h3{	
+	padding-top:12px;
+	font-size:13px;
+	}
+.main-li{
+	transform:rotate(-45deg);
+	position:absolute;
+	left:0px;
+	top:30px;
+	}
+.main ul li p{
+	font-size:11px;
+	}
+.line{
+	padding-top:14px;
+	margin:0 auto;
+	width:70px;
+	height:1px;
+	border-bottom:1px solid #fff;
+	}
+.main-h3{
+	font-size:34px;
+	font-family:"Arial Bold";
+	color:#6e6e6e;
+	line-height:44px;
+	margin:85px 0 34px 0;
+	}
+
+.main-p{
+	font-size:18px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color:#8d8d8d;
+	line-height:24px;
+	margin-bottom:80px;
+	}
+.banner2{
+	margin-top:100px;
+	text-align:center;
+	padding:49px 0;
+	background:url(../../../../../第三个月/练习/images/sr-bottom.jpg) no-repeat;
+	background-size:cover;
+	}
+.banner2 h3{
+	font-size:32px;
+	line-height:37px;
+	color:#fff;
+	margin:32px 0 30px 0 ;
+	font-family:"Arial Bold";
+	}
+.anniu{
+	font-size:22px;
+	line-height:50px;
+	color:#fff;
+	position:relative;
+	}
+.anniu:before{
+	content:"";
+	display:block;
+	width:56px;
+	height:1px;
+	border-top:1px solid #fff;
+	position:absolute;
+	left:-60px;
+	top:18px;
+	}
+.anniu:after{
+	content:"";
+	display:block;
+	width:56px;
+	height:1px;
+	border-top:1px solid #fff;
+	position:absolute;
+	right:-59px;
+	top:18px;
+	}
+.banner2 li{
+	margin-right:10px;
+	float:left;
+	width:14px;
+	height:14px;
+	}
+.banner2-a1{
+	display:block;
+	float:left;
+	width:20px;
+	height:20px;
+	transform:rotate(45deg);
+	background:#e74c3c;
+	}
+.banner2-a{
+	display:block;
+	float:left;
+	width:20px;
+	height:20px;
+	background:rgba(0,0,0,0);
+	border:1px solid #959ea8;
+	transform:rotate(45deg);
+	position:relative;
+	}
+.banner2-a:after{
+	content:"";
+	display:block;
+	width:19px;
+	height:1px;
+	border-top:1px solid #fff;
+	transform:rotate(-45deg);
+	position:absolute;
+	right:-16px;
+	top:-8px;
+	}
+.banner2-a:hover{
+	background:#e74c3c;
+	border:1px solid rgba(0,0,0,0);
+	}
+.banner2-a1:hover{
+	border:1px solid #959ea8;
+	background:rgba(0,0,0,0);
+	}
+.banner2 ul{
+	padding-top:40px;
+	width:168px;
+	margin:0 auto;
+	}
+.main3{
+	text-align:center;
+	background:#f7f7f7;
+	padding:58px 0;
+	}
+.main3-inner{
+	width:1136px;
+	margin:0 auto;
+	}
+.main3 h3{
+	font-size:32px;
+	font-family:"Arial Bold";
+	line-height:96px;
+	color:#666;
+	border-bottom:1px solid #fff;
+	padding-bottom:28px;
+	}	
+.main3 p{
+	font-size:14px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height:22px;
+	color:#858585;
+	padding-bottom:62px;
+	}
+.main3 a{
+	font-size:;
+	font-family:;
+	line-height:;
+	color:;
+	}
+.main3 ul{
+	width:1130px;
+	margin:0 auto;	
+	}
+.main3 li{
+	float:left;
+	}
+.main3 li img{
+	width:376px;
+	height:262px;
+	}
+.anniu2{
+	padding-right:46px;
+	display:inline-block;
+	width:140px;
+	height:50px;
+	color:#fff;
+	border-radius:6px;
+	line-height:50px;
+	margin:0 auto;
+	margin:64px 0 26px 0;
+	background:#e74c3c url(../../../../../第三个月/练习/images/arrow.png) no-repeat 150px 20px;
+	transition:1s;
+	}
+.anniu2:hover{
+	width:200px;
+	background:#fff url(../../../../../第三个月/练习/images/arrowhr.png) no-repeat 150px 20px;
+	color:#e74c3c;
+	}
+.main4{
+	background:#fff;
+	padding:58px 0;
+	}
+.main4-inner{
+	width:1136px;
+	margin:0 auto;
+	}
+.main4-h3{
+	text-align:center;
+	font-size:32px;
+	font-family:"Arial Bold";
+	line-height:96px;
+	color:#666;
+	border-bottom:1px solid #fff;
+	padding-bottom:28px;
+	}	
+.main4-p{
+	text-align:center;
+	font-size:14px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height:22px;
+	color:#858585;
+	padding-bottom:62px;
+	}
+.main4 ul li p{
+	font-size:14px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	line-height:23px;
+	color:#858585;
+	}
+.ul-li-p1{
+	line-height:18px;
+	margin-top:42px;
+	}
+.main4  li h3{
+	font-size:26px;
+	font-family:Arial ;
+	font-weight:0;
+	line-height:38px;
+	color:#666;
+	margin-bottom:14px;
+	}
+.ul-li-p2{
+	margin-top:46px;
+	margin-bottom:46px;
+	background:url(../../../../../第三个月/练习/images/red-hart.png) no-repeat 90px 2px;
+	}
+.main4 a{
+	font-size:;
+	font-family:;
+	line-height:;
+	}
+.main4 ul{
+	width:1130px;
+	margin:0 auto;
+	margin-bottom:70px;	
+	}
+.main4 li{
+	background:#f6f6f6;
+	width:375px;
+	float:left;
+	}
+.main4 li img{
+	width:376px;
+	height:262px;
+	}
+.anniu4{
+	margin:70px 0;
+	padding-left:16px;
+	display:block;
+	margin:0 auto;
+	width:140px;
+	height:50px;
+	color:#fff;
+	border-radius:6px;
+	line-height:50px;
+	margin:0 auto;
+	background:#e74c3c url(../../../../../第三个月/练习/images/arrow.png) no-repeat 120px 20px;
+	transition:1s;
+	}
+.anniu4:hover{
+	width:200px;
+	background:#fff url(../../../../../第三个月/练习/images/arrowhr.png) no-repeat 120px 20px;
+	color:#e74c3c;
+	}
+.banner4{
+	padding:84px 0;
+	background:url(../../../../../第三个月/练习/images/snow.jpg);
+	}
+.banner4-inner{
+	width:1136px;
+	margin:0 auto;
+	}
+.banner4-inner li{
+	float:left;
+	margin:0 42px;
+	}
+.main5{
+	background:#e74c3c;
+	}
+.main5-inner{
+	width:1136px;
+	margin:0 auto;
+	}
+.main5 li{
+	float:left;
+	font-size:16px;
+	line-height:82px;
+	color:#fff;
+	}
+.main5 li:nth-child(2){
+	margin:0 120px;
+	}
+.footer-inner{
+	width:1136px;
+	margin:0 auto;
+	}
+.footer-left{
+	float:left;
+	padding-top:80px;
+	padding-left:10px;
+	width:558px;
+	}
+.footer-left-img{
+	float:left;
+	}
+.footer-left p{
+	padding-left:10px;
+	float:left;
+	font-size:14px;
+	color:#787878;
+	}
+.footer-right{
+	float:left;
+	padding-top:80px;
+	padding-bottom:90px;
+	padding-left:10px;
+	width:558px;
+	}
+.footer-right h3{
+	font-size:22px;
+	color:#787878;
+	}
+.line2{
+	width:520px;
+	height:1px;
+	border-bottom:1px solid #787878;
+	margin-bottom:10px;
+	}
+.footer-right li{
+	width:238px;
+	float:left;
+	font-size:14px;
+	color:#787878;
+	}
+footer h4{
+	text-align:center;
+	line-height:54px;
+	background:#3a5169;
+	font-family:"arial Bold";
+	color:#fff;
+	}
+.ficons{
+	padding:40px 0 ;
+	background:#1c2230;
+	}
+.ficons ul{
+	width:520px;
+	margin:0 auto;
+	}
+.ficons li{
+	margin:0 25px;
+	float:left;
+	}
+.ficons a{
+	display:block;
+	width:33px;
+	height:37px;
+	}
+.ficons li:nth-child(1) a{
+	display:block;
+	width:33px;
+	height:37px;
+	background:url(../../../../../第三个月/练习/images/social-iconshr.png)  no-repeat 10px top;
+	}
+.ficons li:nth-child(2) a{
+	background: url(../../../../../第三个月/练习/images/social-icons.png)  no-repeat -27px top;
+	}
+.ficons li:nth-child(3) a{
+	background:url(../../../../../第三个月/练习/images/social-icons.png)  no-repeat -71px top;
+	}
+.ficons li:nth-child(4) a{
+	background:url(../../../../../第三个月/练习/images/social-icons.png)  no-repeat -112px top;
+	}
+.ficons li:nth-child(5) a{
+	background:url(../../../../../第三个月/练习/images/social-icons.png)  no-repeat -150px top;
+	}
+.ficons li:nth-child(6) a{
+	background:url(../../../../../第三个月/练习/images/social-icons.png)  no-repeat -194px top;
+	}
+.ficons li:nth-child(1) a:hover{
+	background: url(../../../../../第三个月/练习/images/social-icons.png)  no-repeat 10px top;
+	}
+.ficons li:nth-child(2) a:hover{
+	background:url(../../../../../第三个月/练习/images/social-iconshr.png)  no-repeat -27px top;
+	}
+.ficons li:nth-child(3) a:hover{
+	background:url(../../../../../第三个月/练习/images/social-iconshr.png)  no-repeat -71px top;
+	}
+.ficons li:nth-child(4) a:hover{
+	background:url(../../../../../第三个月/练习/images/social-iconshr.png)  no-repeat -112px top;
+	}
+.ficons li:nth-child(5) a:hover{
+	background:url(../../../../../第三个月/练习/images/social-iconshr.png)  no-repeat -150px top;
+	}
+.ficons li:nth-child(6) a:hover{
+	background:url(../../../../../第三个月/练习/images/social-iconshr.png)  no-repeat -194px top;
+	}
+
+.copy-inner{
+	width:1136px;
+	margin:0 auto;
+	}
+.copy-inner p{
+	float:left;
+	color:#ccc;
+	font-size:14px;
+	line-height:58px;
+	}
+.copy-inner h3{
+	float:right;
+	font-weight:normal;
+	color:#ccc;
+	font-size:14px;
+	line-height:58px;
+	}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			.nav{width:49px;height:49px;position: fixed;right: 80px;bottom: 40px;}
+			#mylist{position: relative;transition: all 1s;}
+			#mylist img{width: 42px;height: 42px;position: absolute;left: 0;top: 0;border-radius:50% ;transition: all 1s;}
+			#btn{position: absolute;left: 0;top: 0;transition: all 1s;width:49px;height:49px;border-radius:50% ;overflow: hidden;}
+		</style>
+		<script>
+			window.onload= function(){
+				var olist = document.getElementById("mylist").getElementsByTagName("img");
+				var obtn = document.getElementById("btn");
+				var flag = true;
+				
+				var iR = -120;
+				obtn.onclick = function(){
+					if(flag){
+						this.style.transform='rotate(720deg)'
+						for(var i=0;i<olist.length;i++){
+							var oLT = toDre(iR,90/4*i);
+							olist[i].style.transition = '1s '+i*100+'ms';    // 样式，1s后有一个空格       
+							olist[i].style.left = oLT.l+'px';
+							olist[i].style.top = oLT.t+'px';
+							olist[i].style.transform = 'rotate(360deg)'
+						}
+					}else{
+						this.style.transform='rotate(0deg)'
+						for(var i=0;i<olist.length;i++){
+							var oLT = toDre(iR,90/4*i);
+							olist[i].style.transition = '1s '+ (olist.length-i-1)*100+'ms';    // 样式，1s后有一个空格       
+							olist[i].style.left = 0+'px';
+							olist[i].style.top = 0+'px';
+							olist[i].style.transform = 'rotate(360deg)'
+						}
+					}
+					flag=!flag;
+				}
+				// 已知斜边，和jiaodu
+				function toDre(iR,iDeg){
+//					var oLeft = Math.round(Math.sin(iDeg/180*Math.PI)*iR);
+//					var oTop = Math.round(Math.cos(iDeg/180*Math.PI)*iR);
+					return{l:Math.round(Math.sin(iDeg/180*Math.PI)*iR),t:Math.round(Math.cos(iDeg/180*Math.PI)*iR)}
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<div class="nav">
+			<div id="mylist">
+				<img src="images/clos.png"/>
+				<img src="images/full.png"/>
+				<img src="images/open.png"/>
+				<img src="images/prev.png"/>
+				<img src="images/refresh.png"/>
+			</div>
+			<div id="btn"><img src="images/home.png"></div>
+		</div>
+	</body>
+</html>

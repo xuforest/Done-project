@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			*{margin: 0;padding: 0;}
+			.box{width:100%;height: 200px;}
+			.box2,.box3{width:20px;height:200px;background-color:red;}
+			/*.box1{clear: both;}*/
+			.fl{float: left;}
+			.fr{float: right}
+			.box1{border: 1px solid red;padding: 0 20px;}
+			
+			.boxone{width:100%;height: 200px;position: relative;margin-top: 300px;}
+			.boxthree,.boxtwo{width:20px;height:200px;background-color:red;position: absolute;}
+			.boxthree{right: 0;top: 0;}
+			.boxtwo{left: 0;top: 0;}
+			.boxfour{padding: 0 20px;}
+		</style>
+	</head>
+	<body>
+		<div class="box">
+			<div class="box2 fl"></div>
+			<div class="box3 fr"></div>
+			
+			<div class="box1">67457567568867679</div>  <!--上面轻浮动的盒子不占位，上去了，第三个盒子就去占位了。-->
+		</div>
+		
+		
+		<div class="boxone">
+			<div class="boxtwo"></div>
+			<div class="boxthree"></div>
+			
+			<div class="boxfour">67457567568867679</div>  <!--用定位来做。-->
+		</div>
+		
+	</body>
+</html>

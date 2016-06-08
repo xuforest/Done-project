@@ -1,0 +1,64 @@
+
+.scroll-ul LI {
+	MARGIN: 0px 5px
+}
+.scroll-mask .sList .txt {
+	BACKGROUND: url(http://css.tv.itc.cn/channel/show-images/scroll.png) no-repeat
+}
+.scroll-mask .tList .time {
+	BACKGROUND: url(http://css.tv.itc.cn/channel/show-images/scroll.png) no-repeat
+}
+.scroll-maskBg {
+	POSITION: absolute; WIDTH: 250px; RIGHT: 0px; TOP: 0px
+}
+.scroll-maskTx {
+	POSITION: absolute; WIDTH: 250px; RIGHT: 0px; TOP: 0px
+}
+.scroll-maskBg {
+	FILTER: alpha(opacity=70); BACKGROUND: #000; HEIGHT: 350px; opacity: 0.7
+}
+.scroll-maskbox {
+	POSITION: relative; MARGIN: 0px auto; WIDTH: 980px
+}
+.scroll-mask {
+	POSITION: absolute; WIDTH: 250px; RIGHT: 0px; TOP: -350px
+}
+.scroll-mask H4 {
+	FILTER: alpha(opacity=90); PADDING-BOTTOM: 0px; PADDING-LEFT: 10px; PADDING-RIGHT: 10px; FONT: 16px/35px "Microsoft Yahei"; BACKGROUND: #2d2e2e; HEIGHT: 35px; COLOR: #fff; PADDING-TOP: 0px; opacity: 0.9
+}
+.scroll-mask A {
+	COLOR: #fff
+}
+.scroll-mask .sList {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 15px; COLOR: #fff; PADDING-TOP: 20px
+}
+.scroll-mask .sList .pic {
+	WIDTH: 105px; FLOAT: left
+}
+.scroll-mask .sList .pic P {
+	TEXT-ALIGN: center; BACKGROUND: #cf0d19
+}
+.scroll-mask .sList .pic IMG {
+	MARGIN-LEFT: 5px
+}
+.scroll-mask .sList .txt {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; WIDTH: 115px; PADDING-RIGHT: 0px; FLOAT: right; PADDING-TOP: 11px
+}
+.scroll-mask .sList .txt P {
+	MARGIN-LEFT: 10px
+}
+.scroll-mask .sList .txt STRONG {
+	TEXT-ALIGN: center; MARGIN: 0px 0px 6px; DISPLAY: block; HEIGHT: 22px; FONT-WEIGHT: normal
+}
+.scroll-mask .tList {
+	Z-INDEX: 11; POSITION: relative; MARGIN: 20px 0px 0px; BACKGROUND: url(http://css.tv.itc.cn/channel/show-images/scroll-line-png24.png) no-repeat; _filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src=¡¯show-images/scroll-line-png24.png¡¯); _background-image: none
+}
+.scroll-mask .tList UL {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: 0px; PADDING-TOP: 12px
+}
+.scroll-mask .tList LI {
+	MARGIN: 0px 0px 8px
+}
+.scroll-mask .tList .time {
+	PADDING-BOTTOM: 0px; MARGIN: 0px 10px 0px 0px; PADDING-LEFT: 4px; WIDTH: 54px; PADDING-RIGHT: 0px; DISPLAY: inline-block; BACKGROUND-POSITION: 0px -144px; PADDING-TOP: 0px
+}

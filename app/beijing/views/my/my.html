@@ -1,0 +1,18 @@
+<ion-view view-title="我的">
+    <ion-content>
+        <div class="list">
+            <label class="item item-input">
+                <span class="input-label col-10">帐号：</span>
+                <input type="text" placeholder="username" ng-model="data.email">
+            </label>
+            <label class="item item-input">
+                <span class="input-label col-10">密码：</span>
+                <input type="password" placeholder="password" ng-model="data.password" ng-minlength="6">
+            </label>
+
+            <button class="button button-block button-assertive" ui-sref="tabs.login({{data.email}})" ng-disabled="!data.email || !data.password">
+                登录
+            </button>
+        </div>
+    </ion-content>
+</ion-view>

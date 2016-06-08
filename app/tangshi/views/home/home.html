@@ -1,0 +1,216 @@
+<ion-view view-title="唐诗宋词三百首" id="top">
+    <ion-content >
+        <!--<ion-refresher on-refresh="load()" pulling-text="下拉刷新"></ion-refresher>-->
+        <div class="row" style="background-color: #898989;">
+
+            <div class="col col-30 text-center padding">
+               <a class="button button-dark button-outline" ng-click="show()">古诗分类</a>
+            </div>
+
+            <!--<div class="col col-30 text-center padding">
+                <a class="button button-dark button-outline ">名句</a>
+            </div>-->
+            <div class="col col-30 text-center padding">
+                <a class="button button-dark button-outline" ng-click="shows()">古文典籍</a>
+            </div>
+
+
+        </div><br>
+        <div  class="feilei1" ng-show="show1">
+            <a href="#">唐诗三百首</a>
+            <a href="#">古诗三百首</a>
+            <a href="#">宋词三百首</a>
+            <a href="#">宋词精选</a>
+            <a href="#">古诗十九首</a>
+            <a href="#">诗经</a>
+            <a href="#">楚辞</a>
+            <a href="#">乐府</a>
+            <a href="#">小学</a>
+            <a href="#">初中</a>
+            <a href="#">高中</a>
+            <a href="#">写景</a>
+            <a href="#">咏物</a>
+            <a href="#">春天</a>
+            <a href="#">夏天</a>
+            <a href="#">秋天</a>
+            <a href="#">冬天</a>
+            <a href="#">写雨</a>
+            <a href="#">写雪</a>
+            <a href="#">写风</a>
+            <a href="#">写花</a>
+            <a href="#">梅花</a>
+            <a href="#">荷花</a>
+            <a href="#">菊花</a>
+            <a href="#">柳树</a>
+            <a href="#">月亮</a>
+            <a href="#">山水</a>
+            <a href="#">写水</a>
+            <a href="#">长江</a>
+            <a href="#">黄河</a>
+            <a href="#">儿童</a>
+            <a href="#">写鸟</a>
+            <a href="#">写马</a>
+            <a href="#">田园</a>
+            <a href="#">地名</a>
+            <a href="#">节日</a>
+            <a href="#">春节</a>
+            <a href="#">元宵</a>
+            <a href="#">写风</a>
+            <a href="#">寒食</a>
+            <a href="#">清明</a>
+            <a href="#">端午</a>
+            <a href="#">七夕</a>
+            <a href="#">中秋</a>
+            <a href="#">重阳</a>
+            <a href="#">怀古</a>
+            <a href="#">抒情</a>
+            <a href="#">爱国</a>
+            <a href="#">离别</a>
+            <a href="#">送别</a>
+            <a href="#">思乡</a>
+            <a href="#">思念</a>
+            <a href="#">爱情</a>
+            <a href="#">励志</a>
+            <a href="#">哲理</a>
+            <a href="#">闺怨</a>
+            <a href="#">悼亡</a>
+            <a href="#">写人</a>
+            <a href="#">母亲</a>
+            <a href="#">友情</a>
+            <a href="#">战争</a>
+            <a href="#">读书</a>
+            <a href="#">惜时</a>
+            <a href="#">忧民</a>
+            <a href="#">婉约</a>
+            <a href="#">豪放</a>
+            <a href="#">民谣</a>
+            <a href="#">全唐诗</a>
+            <a href="#">全宋词</a>
+            <a href="#">全元曲</a>
+            <a href="#">更多>></a>
+        </div>
+        <div ng-hide="true" id="dianji1"  ng-show="show2">
+            <a href="#">论语</a>
+            <a href="#">史记</a>
+            <a href="#">周易</a>
+            <a href="#">易传</a>
+            <a href="#">孟子</a>
+            <a href="#">左传</a>
+            <a href="#">大学</a>
+            <a href="#">中庸</a>
+            <a href="#">尚书</a>
+            <a href="#">礼记</a>
+            <a href="#">周礼</a>
+            <a href="#">仪礼</a>
+            <a href="#">庄子</a>
+            <a href="#">老子</a>
+            <a href="#">孟子</a>
+            <a href="#">墨子</a>
+            <a href="#">素书</a>
+            <a href="#">孝经</a>
+            <a href="#">将苑</a>
+            <a href="#">六韬</a>
+            <a href="#">反经</a>
+            <a href="#">冰鉴</a>
+            <a href="#">论衡</a>
+            <a href="#">智囊</a>
+            <a href="#">汉书</a>
+            <a href="#">后汉书</a>
+            <a href="#">韩非子</a>
+            <a href="#">淮南子</a>
+            <a href="#">尉缭子</a>
+            <a href="#">山海经</a>
+            <a href="#">三字经</a>
+            <a href="#">百家姓</a>
+            <a href="#">鬼谷子</a>
+            <a href="#">伤寒论</a>
+            <a href="#">商君书</a>
+            <a href="#">战国策</a>
+            <a href="#">三国志</a>
+            <a href="#">司马法</a>
+            <a href="#">逸周书</a>
+            <a href="#">地藏经</a>
+            <a href="#">金刚经</a>
+            <a href="#">孙子兵法</a>
+            <a href="#">三十六计</a>
+            <a href="#">资治通鉴</a>
+            <a href="#">续资治通鉴</a>
+            <a href="#">黄帝内经</a>
+            <a href="#">本草纲目</a>
+            <a href="#">了凡四训</a>
+            <a href="#">世说新语</a>
+            <a href="#">天工开物</a>
+            <a href="#">孔子家语</a>
+            <a href="#">吕氏春秋</a>
+            <a href="#">孙膑兵法</a>
+            <a href="#/tabs/home">笑林广记</a>
+            <a href="#">贞观政要</a>
+            <a href="#">容斋随笔</a>
+            <a href="#">围炉夜话</a>
+            <a href="#">农桑辑要</a>
+            <a href="#">徐霞客游记</a>
+            <a href="#">更多>></a>
+        </div>
+        <div class=" row">
+            <h3 class="text-left">最近更新</h3>
+
+        </div>
+        <div class="list" >
+            <a href="#/tabs/reservation" class="item item-icon-left row " >
+                <img src="image/gaoshi1.jpg" class="col col-25">
+                <div class="col col-75" style="display: inline">
+                    <h3>赠别王十七管记</h3>
+                    <h5>作者：高适  8.2(10人评分)</h5><br>
+                    <p>故交吾未测，薄宦空年岁。晚节踪曩贤，雄词冠当世。 堂中皆食客，门外多酒债。<br>产业曾未言，衣裘与人敝。 飘飖戎幕下，出入关山际。转战轻壮心，立谈有边计。<br> 云沙自回合，天海空迢递。星高汉将骄，月盛胡兵锐。 沙深冷陉断，雪暗辽阳闭。<br>亦谓扫欃枪，旋惊陷蜂虿。 归旌告东捷▼</p>
+                </div>
+            </a>
+            <a href="#/tabs/home2" class="item item-icon-left row">
+                <img src="image/shi2.jpg" class="col col-25">
+                <div class="col col-75" style="display: inline">
+                    <h3>淇上酬薛三据兼寄郭少府微</h3>
+                    <h5>作者：高适  7.8(11人评分)</h5><br>
+                    <p>自从别京华，我心乃萧索。十年守章句，<br>万事空寥落。北上登蓟门，茫茫见沙漠。倚剑对风尘，慨然思卫霍。拂衣去燕赵，<br>驱马怅不乐。天长沧洲路，日暮邯郸郭。<br>酒肆或淹留，渔潭屡栖泊。独行备艰险，所见穷善恶。永愿拯刍荛，孰云干鼎镬。<br>皇情念淳古，时俗何浮薄。理道资任贤，安人在求▼</p>
+                </div>
+            </a>
+            <a href="#/tabs/restaurants" class="item item-icon-left row">
+                <img src="image/shi3.jpg" class="col col-25">
+                <div class="col col-75" style="display: inline">
+                    <h3>水调歌头·丙辰中秋</h3>
+                    <h5>作者：苏轼  8.3(29389人评分)</h5><br>
+                    <p>丙辰中秋，欢饮达旦，大醉，作此篇，兼怀子由。<br>明月几时有？把酒问青天。不知天上宫阙，今夕是何年。<br>我欲乘风归去，又恐琼楼玉宇，高处不胜寒。<br>起舞弄清影，何似在人间？(何似 一作：何时；又恐 一作：惟 / 唯恐)转朱阁，低绮户，照无眠。不应有恨，何事长向别时圆？人有悲▼</p>
+                </div>
+            </a>
+            <a href="#/tabs/home4" class="item item-icon-left row">
+                <img src="image/shi4.jpg" class="col col-25">
+                <div class="col col-75" style="display: inline">
+                    <h3>鹊桥仙·扁舟昨泊</h3>
+                    <h5>作者：吴潜  7.6(63人评分)</h5><br>
+                    <p>扁舟昨泊，危亭孤啸，目断闲云千里。前山急雨过溪来，<br>尽洗却、人间暑气。暮鸦木末，落凫天际，都是一团秋意。<br>痴儿騃女贺新凉，也不道、西风又起。▼
+                    </p>
+                </div>
+            </a>
+            <a href="#/tabs/home5" class="item item-icon-left row">
+                <img src="image/shi5.jpg" class="col col-25">
+                <div class="col col-75" style="display: inline">
+                    <h3>采莲曲二首</h3>
+                    <h5>作者：王昌龄  7.6(581人评分)</h5><br>
+                    <p>吴姬越艳楚王妃，争弄莲舟水湿衣。来时浦口花迎入，<br>采罢江头月送归。荷叶罗裙一色裁，芙蓉向脸两边开。<br>乱入池中看不见，闻歌始觉有人来。▼
+                    </p>
+                </div>
+            </a>
+            <a href="#/tabs/home6" class="item item-icon-left row">
+                <img src="image/shi6.jpg" class="col col-25">
+                <div class="col col-75" style="display: inline">
+                    <h3>梅花绝句·其一</h3>
+                    <h5>作者：陆游  8.3(642人评分)</h5><br>
+                    <p>闻道梅花坼晓风，雪堆遍满四山中。<br>何方可化身千亿，一树梅花一放翁。▼</p>
+                </div>
+            </a>
+           <!-- <div style="background-color: #777777" class="row">-->
+               <!-- <i class="text-left icon ion-gear-b col col-20"></i>-->
+               <!-- <input type="text" class="icon ion-search col col-center" placeholder="点击进行搜索">-->
+                <!--<span class="text-right col col-20">筛选</span>-->
+                <!--</div>-->
+        </div>
+    </ion-content>
+</ion-view>

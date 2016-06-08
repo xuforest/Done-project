@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>绘制线</title>
+		<style>
+			body{background-color: #ccc;}
+			#cans{background-color: #fff;margin:30px 0 0 30px;}
+		</style>
+		<script>
+			window.onload = function(){
+				var oC=document.getElementById("cans");
+				var oGc= oC.getContext("2d");
+				oC.onmousedown=function(ev){
+					var ev=ev|| window.event;
+					oGc.beginPath();
+					oGc.moveTo(ev.clientX-oC.offsetLeft,ev.clientY-oC.offsetTop);
+					document.onmousemove=function(ev){
+						var ev=ev|| window.event;
+						oGc.lineTo(ev.clientX-oC.offsetLeft,ev.clientY-oC.offsetTop);
+						oGc.stroke();
+					}
+					document.onmouseup=function(){
+						document.onmousemove=null;
+						document.onmousedown=null;
+					}
+				}
+			}
+		</script>
+	</head>
+	<body>
+		<canvas id="cans" width="500px" height="500px">
+			您的浏览器不支持此功能！
+		</canvas>
+	</body>
+</html>

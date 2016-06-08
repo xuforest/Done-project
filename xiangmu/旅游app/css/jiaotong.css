@@ -1,0 +1,74 @@
+
+#jiaotongBox .jBox i{
+    width: 40px;
+    height:40px;
+    border-radius: 50%;
+    padding-left: 1%;
+    color:#fff;
+}
+#jiaotongBox .icons1{
+    background-color: #ff908d;
+}
+#jiaotongBox .icons2{
+    background-color: #62c3ff;
+}
+#jiaotongBox .icons3{
+    background-color: #ffb933;
+}
+#jiaotongBox .icons4{
+    background-color: #8ada24;
+}
+#jiaotongBox .icons5{
+    background-color: #ff8e33;
+}
+#jiaotongBox a{
+    font-size: 1em;
+    font-family: "微软雅黑";
+    position: relative;
+
+}
+#jiaotongBox img{
+    width:100%;
+    height:50%;
+    position: relative;
+}
+#jiaotongBox .item{
+    padding-left: 90px;
+}
+#jiaotongBox .jBox span{
+    position: absolute;
+    left: 90%;
+    top:-20%;
+    color:#ccc;
+}
+
+#jPosition{
+    position: absolute;
+    left: 30%;
+    top:15%;
+    z-index:99999999999999999;
+}
+#jPosition a{
+    width:104%;
+    display:block;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    padding-left:10px;
+    opacity: 0.7;
+    height:3%;
+    line-height: 3%;
+    text-decoration: none;
+}
+#jPosition span{
+    color:yellow;
+    margin: 0 3px;
+}
+#jPosition p{
+    padding-left: 5px;
+    padding-top: 5px;
+    color:white;
+}
+ .myHeart{
+    color: red;
+     padding-right: 10px;
+}

@@ -1,0 +1,253 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>�ޱ����ĵ�</title>
+	<style type="text/css">
+		* {margin:0;padding:0;}
+		body { font-size:12px;}
+		a {color:#333;}
+		ul {list-style:none;}
+		#marquee1 {
+	position:absolute;
+	top:64px;
+	left:50px;
+	width:186px;
+	height:45px;
+	overflow:hidden;
+	background:#333;
+	border:1px solid #333;
+}
+		#marquee1 ul li {float:left;padding:0 1px;}
+		#marquee1 ul li img {display:block;}
+		
+		#marquee2 {
+	position:absolute;
+	top:64px;
+	left:300px;
+	width:60px;
+	height:141px;
+	overflow:hidden;
+	background:#333;
+	border:1px solid #333;
+}
+		#marquee2 ul li {float:left;padding:1px 0;}
+		#marquee2 ul li img {display:block;}
+		
+		#marquee3 {position:absolute;top:80px;left:530px;width:400px;height:300px;overflow:hidden;background:#333;border:1px solid #333;}
+		#marquee3 ul li {float:left;}
+		#marquee3 ul li img {display:block;}
+		
+		#mar3Nav {position:absolute;left:535px;top:90px;}
+		#mar3Nav li {float:left;margin:0 3px;width:16px;height:16px;background:#333;border:1px solid #FFF;cursor:pointer;
+					line-height:16px;font-family:Arial;font-size:10px;color:#FFF;text-align:center;}
+		#mar3Nav li.navOn {background:#FF6600;}
+		
+		#marquee4 {
+	position:absolute;
+	top:163px;
+	left:50px;
+	width:186px;
+	height:45px;
+	overflow:hidden;
+	background:#333;
+	border:1px solid #333;
+}
+		#marquee4 ul li {float:left;padding:0 1px;}
+		#marquee4 ul li img {display:block;}
+		
+		#marquee5 {
+	position:absolute;
+	top:296px;
+	left:51px;
+	width:200px;
+	height:100px;
+	overflow:hidden;
+	background:#EFEFEF;
+}
+		#marquee5 ul li {float:left; width:180px; height:80px; padding:10px; line-height:20px;}
+		
+		#marquee6 {
+	position:absolute;
+	top:296px;
+	left:301px;
+	width:200px;
+	height:100px;
+	overflow:hidden;
+	background:#EFEFEF;
+}
+		#marquee6 ul li {float:left; width:180px; padding:10px; line-height:20px;}
+		
+		#control {position:absolute;left:20px; top:20px;}
+		
+		#contro2 {position:absolute;left:300px; top:20px;}
+		
+		#contro3 {
+	position:absolute;
+	left:20px;
+	top:213px;
+}
+		
+		#contro4 {
+	position:absolute;
+	left:298px;
+	top:414px;
+}
+		
+		
+	#control5 {
+	position:absolute;
+	width:200px;
+	height:20px;
+	z-index:1;
+	left: 50px;
+	top: 274px;
+}
+    #control6 {
+	position:absolute;
+	width:200px;
+	height:22px;
+	z-index:2;
+	left: 301px;
+	top: 273px;
+}
+    </style>
+<script type="text/javascript" src="images/jquery-1.3.1.min.js"></script>
+	<script type="text/javascript" src="images/kxbdSuperMarquee.js"></script>
+	<script type="text/javascript">
+		
+		$(function(){
+			//һ�κ������һ��
+			$('#marquee1').kxbdSuperMarquee({
+				distance:186,
+				time:3,
+				btnGo:{left:'#goL',right:'#goR'},
+				direction:'left'
+			});
+			
+			//һ���������һ��
+			$('#marquee2').kxbdSuperMarquee({
+				distance:47,
+				time:3,
+				btnGo:{up:'#goU',down:'#goD'},
+				direction:'down'
+			});
+			//һ�ι���һ��
+			$('#marquee3').kxbdSuperMarquee({
+				distance:400,
+				time:4,
+				navId:'#mar3Nav',
+				direction:'left'
+			});
+			
+			//һ�ι���һ�������Զ��������������
+			$('#marquee4').kxbdSuperMarquee({
+				isAuto:false,
+				distance:186,
+				btnGo:{left:'#goL2',right:'#goR2'},
+				direction:'left'
+			});
+			//һ�ι���һ��
+			$('#marquee5').kxbdSuperMarquee({
+				isEqual:false,
+				distance:100,
+				time:4,
+				//btnGo:{up:'#goU',down:'#goD'},
+				direction:'up'
+			});
+			//Marquee
+			$('#marquee6').kxbdSuperMarquee({
+				isMarquee:true,
+				isEqual:false,
+				scrollDelay:20,
+				controlBtn:{up:'#goUM',down:'#goDM'},
+				direction:'up'
+			});
+			
+			
+		});
+
+	</script>
+</head>
+
+<body>
+	<div id="control">һ�κ������һ�� [#marquee1]<br>���������<a href="javascript:void(0);" id="goL">����һ��</a> <a href="javascript:void(0);" id="goR">����һ��</a></div>
+	<div id="contro2">һ���������һ�� [#marquee2]<br>���������<a href="javascript:void(0);" id="goU">����һ��</a> <a href="javascript:void(0);" id="goD">����һ��</a></div>
+	<div id="contro3">Ĭ�ϲ���������ͼƬ���� [#marquee4]<br>���������<a href="javascript:void(0);" id="goL2">����һ��</a> <a href="javascript:void(0);" id="goR2">����һ��</a></div>	
+    <div id="control5"> [#marquee5]</div>
+	<div id="control6">[#marquee6]</div>
+</div>
+	<div id="contro4">Marquee<br>����갴ס��<a href="javascript:void(0);" id="goUM">��������</a> <a href="javascript:void(0);" id="goDM">��������</a></div>
+
+	<div id="marquee1">
+  <ul>
+			<li><img src="images/01s.jpg" height="45" width="60"></li>
+			<li><img src="images/02s.jpg" height="45" width="60"></li>
+			<li><img src="images/03s.jpg" height="45" width="60"></li>
+			<li><img src="images/04s.jpg" height="45" width="60"></li>
+		</ul>
+	</div>
+	
+
+	<div id="marquee2">
+<ul>
+			<li><img src="images/01s.jpg" height="45" width="60"></li>
+			<li><img src="images/02s.jpg" height="45" width="60"></li>
+			<li><img src="images/03s.jpg" height="45" width="60"></li>
+			<li><img src="images/04s.jpg" height="45" width="60"></li>
+		</ul>
+	</div>
+	
+
+	<div id="marquee3">
+<ul>
+			<li><img src="images/01.jpg" height="300" width="400"></li>
+			<li><img src="images/02.jpg" height="300" width="400"></li>
+			<li><img src="images/03.jpg" height="300" width="400"></li>
+			<li><img src="images/04.jpg" height="300" width="400"></li>
+			<li><img src="images/04.jpg" height="300" width="400"></li>
+			<li><img src="images/04.jpg" height="300" width="400"></li>
+			<li><img src="images/04.jpg" height="300" width="400"></li>
+			<li><img src="images/04.jpg" height="300" width="400"></li>
+			<li><img src="images/04.jpg" height="300" width="400"></li>
+		</ul>
+	</div>
+	<div><div id="mar3Nav"></div></div>
+	
+
+	<div id="marquee4">
+		<ul>
+			<li><img src="images/01s.jpg" height="45" width="60"></li>
+			<li><img src="images/02s.jpg" height="45" width="60"></li>
+			<li><img src="images/03s.jpg" height="45" width="60"></li>
+			<li><img src="images/04s.jpg" height="45" width="60"></li>
+			<li><img src="images/05s.jpg" height="45" width="60"></li>
+			<li><img src="images/06s.jpg" height="45" width="60"></li>
+		</ul>
+	</div>
+
+	
+	<div id="marquee5">
+		<ul>
+			<li><a href="#">���Ź���һ���Ź���һ���Ź���һ���Ź���һ���Ź���һ���Ź���һ���Ź���һ���Ź���һ���Ź���һ���Ź���һ���Ź���һ���Ź���һ</a></li>
+			<li><a href="#">���Ź�������Ź�������Ź�������Ź�������Ź�������Ź�������Ź�������Ź�������Ź�������Ź�������Ź�������Ź����</a></li>
+			<li><a href="#">���Ź��������Ź��������Ź��������Ź��������Ź��������Ź��������Ź��������Ź��������Ź��������Ź��������Ź��������Ź�����</a></li>
+			<li><a href="#">���Ź��������Ź��������Ź��������Ź��������Ź��������Ź��������Ź��������Ź��������Ź��������Ź��������Ź��������Ź�����</a></li>
+			<li><a href="#">���Ź��������Ź��������Ź��������Ź��������Ź��������Ź��������Ź��������Ź��������Ź��������Ź��������Ź��������Ź�����</a></li>
+			<li><a href="#">���Ź��������Ź��������Ź��������Ź��������Ź��������Ź��������Ź��������Ź��������Ź��������Ź��������Ź��������Ź�����</a></li>
+		</ul>
+	</div>
+	
+
+	<div id="marquee6">
+  <ul>
+			<li><a href="#">���Ź���һ���Ź���һ</a></li>
+			<li><a href="#">���Ź�������Ź�������Ź�������Ź�������Ź�������Ź�������Ź�������Ź�������Ź�������Ź�������Ź�������Ź�������Ź�������Ź�������Ź�������Ź����</a></li>
+			<li><a href="#">���Ź��������Ź��������Ź��������Ź�����</a></li>
+			<li><a href="#">���Ź��������Ź��������Ź��������Ź��������Ź��������Ź�����</a></li>
+			<li><a href="#">���Ź��������Ź��������Ź��������Ź��������Ź�����</a></li>
+			<li><a href="#">���Ź��������Ź��������Ź��������Ź��������Ź��������Ź�����</a></li>
+		</ul>
+	</div>
+</body>
+</html>

@@ -1,0 +1,44 @@
+<ion-view view-title="旅行分享">
+    <ion-content>
+        <!--下拉刷新组件位于ion-content的第一个子元素-->
+        <ion-refresher on-refresh="doRefresh()" pulling-text="下拉刷新"></ion-refresher>
+       <ion-list>
+           <ion-item style="border: none;">
+               <img src="images/ta.png" style="width: 100%;margin: 10px 10px 10px 0;">
+           </ion-item>
+           <ion-item class="text-center" style="border: none;font-size: 20px;margin-left: 20px;">
+               <div class="ion-person stable text-center" style="width:30px;float:left;height: 30px;background-color:#B6B6B6;border-radius: 50%;line-height: 30px;padding: 0;"></div>
+               <div style="float:left;margin-top: 8px;">&nbsp;熊猫人</div>
+           </ion-item>
+           <ion-item style="border:none">
+               <h2>人真多.........</h2>
+               <img src="images/ren.jpg" style="width: 100%;margin: 10px 10px 10px 0;">
+           </ion-item>
+           <ion-item style="border:none;margin-top:-20px; ">
+               <a class="ion-thumbsup" ng-init="count=0" ng-click="count=count+1" style="font-size: 20px;color: deepskyblue"></a><span>（{{count}}）</span>
+           </ion-item>
+           <ion-item class="text-center" style="border: none;font-size: 20px;margin-left: 20px;">
+               <div class="ion-person stable text-center" style="width:30px;float:left;height: 30px;background-color:#B6B6B6;border-radius: 50%;line-height: 30px;padding: 0;"></div>
+               <div style="float:left;margin-top: 8px;">&nbsp;淘气猫</div>
+           </ion-item>
+           <ion-item style="border:none">
+               <h2>人好多啊.........</h2>
+               <img src="images/ren.jpg" style="width: 100%;margin: 10px 10px 10px 0;">
+           </ion-item>
+           <ion-item style="border:none;margin-top:-20px; ">
+               <a class="ion-thumbsup" ng-init="count=0" ng-click="count=count+1" style="font-size: 20px;color: deepskyblue"></a><span>（{{count}}）</span>
+           </ion-item>
+           <ion-item class="text-center" style="border: none;font-size: 20px;margin-left: 20px;">
+               <div class="ion-person stable text-center" style="width:30px;float:left;height: 30px;background-color:#B6B6B6;border-radius: 50%;line-height: 30px;padding: 0;"></div>
+               <div style="float:left;margin-top: 8px;">&nbsp;顽皮鬼</div>
+           </ion-item>
+           <ion-item style="border:none">
+               <h2>人真多.........</h2>
+               <img src="images/ren.jpg" style="width: 100%;margin: 10px 10px 10px 0;">
+           </ion-item>
+           <ion-item style="border:none;margin-top:-20px; ">
+               <a class="ion-thumbsup" ng-init="count=0" ng-click="count=count+1" style="font-size: 20px;color: deepskyblue"></a><span>（{{count}}）</span>
+           </ion-item>
+       </ion-list>
+    </ion-content>
+</ion-view>

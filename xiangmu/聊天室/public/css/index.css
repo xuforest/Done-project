@@ -1,0 +1,273 @@
+*{padding:0;margin: 0}
+a{text-decoration: none}
+li{list-style: none}
+img{border: none}
+input{border: none}
+body{
+    width: 100%;
+    height: 100%;
+    background:url("../images/mbmu3.jpg") no-repeat top;
+}
+#head{
+    width:800px;
+    height:600px;
+    margin:0 auto;
+    margin-top: 250px;
+}
+.clear{
+    clear: both;
+}
+.welcome-one{
+    text-align: center;
+}
+.welcome-one span{
+    color: red;
+}
+.welcome-one p,.welcome-two p{
+    width: 300px;
+    margin-top: 20px;
+    color: #30b0b1;
+    font-size: 16px;
+    line-height: 40px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    margin-left: 250px;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 8px;
+    transition: 2s;
+
+}
+.welcome-one p:hover{
+    transform:scaleX(1.1);
+    background-color: rgba(255,255,255,1);
+}
+.welcome-two p:hover{
+    transform:scaleX(1.1);
+    background-color: rgba(255,255,255,1);
+}
+.welcome-one input{
+    margin-top: 20px;
+    line-height: 34px;
+    width: 150px;
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    background: rgba(0,0,0,0.1);
+    border-bottom:2px solid #30b0b1;
+    display: none;
+    color:yellow;
+}
+.sexBox input{
+    padding-bottom: 30px;
+}
+.welcome-two{
+    text-align: center;
+}
+.welcome-two img{
+    margin-top: 10px;
+    width:24px;
+    height:40px;
+}
+#sexgirl{
+    margin-left: 50px;
+}
+#sexBox{
+    display: none;
+}
+.welcome-three{
+    color:#30b0b1;
+    text-align: center;
+    font-size: 16px;
+}
+.welcome-three input{
+    margin-right: 6px;
+    margin-left: 15px;
+
+}
+.welcome-three p{
+    display: inline-block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.welcome-three .p1{
+    margin-right: 20px;
+}
+.busyBox{
+    display: none;
+    width: 200px;
+    margin-left: 300px;
+}
+.welcome-four{
+    text-align: center;
+    width: 500px;
+}
+.welcome-four img{
+    height: 50px;
+    width:50px;
+    border-radius: 50%;}
+.welcome-four .topica,.welcome-three a,.welcome-five a{
+    width: 300px;
+    display: block;
+    color: white;
+    font-size: 16px;
+    font-family: "微软雅黑";
+    font-weight: bold;
+    color: #30b0b1;
+    line-height: 40px;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 8px;
+    transition: 2s;
+    margin-left:250px;
+}
+.welcome-four .topica:hover{
+    transform:scaleX(1.1);
+    background-color: rgba(255,255,255,1);
+}
+.welcome-three a:hover{
+    transform:scaleX(1.1);
+    background-color: rgba(255,255,255,1);
+}
+.welcome-five a:hover{
+    transform:scaleX(1.1);
+    background-color: rgba(255,255,255,1);
+}
+.welcome-four img:hover{
+    transform:scale(1.2);
+}
+.welcome-five a{
+    text-align: center;
+    height:40px;
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 8px;
+}
+.topic{
+    width:500px;
+    height: 150px;
+    margin-left: 155px;
+    display: none;
+}
+.topic img{
+    float: left;
+    margin:5px;
+}
+#head .topicBox img{
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: 300px;
+
+}
+#head .topicBox{
+    display: none;
+    padding-bottom: 10px;
+}
+#main{
+    height:600px;
+    width:960px;
+    margin: 0 auto;
+    margin-top: 200px;
+    display: none;
+}
+.main-left{
+    float: left;
+    width:200px;
+    height:592px;
+    background-color: rgba(3,3,3,0.2);
+    border: #333333 2px solid;
+}
+.main-right{
+    width: 750px;
+    height:596px;
+    float: right;
+    background-color: rgba(255,255,255,0.4);
+    opacity: 0.7;
+}
+.main-right-head{
+    width:746px;
+    height:100px;
+    background-color: rgba(3,3,3,0.3);
+    border: white 2px solid;
+}
+#messages{
+    height:450px;
+}
+#message{
+    line-height: 40px;
+    width: 640px;
+    font-size: 16px;
+    color: #006600;
+}
+#send{
+    width: 100px;
+    height:40px;
+    font-size: 16px;
+    line-height: 40px;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    background-color:#30b0b1 ;
+}
+/****************************************/
+.systemMessage{
+    color: red;
+}
+.leaveMessage{
+    color:black;
+}
+.userMessage{
+    color:darkblue;
+    font-size: 16px;
+    background-color:rgba(255,255,255,0.04);
+}
+.myMessage{
+    color:orangered;
+    float: right;
+    font-size: 16px;
+}
+.chatname{
+    color:#30b0b1;
+    font-weight: bold;
+    font-size: 15px;
+    font-family: "微软雅黑";
+}
+
+.main-right-head >div{
+    height:40px;
+    width:200px;
+    background-color:blue ;
+}
+.mainPeopleImg{
+    width:25px;
+    height:25px;
+    border-radius: 5%;
+    opacity: 0.4;
+    padding-bottom: 15%;
+    margin-left: 5px;
+}
+.maintouxiang{
+    width:80px;
+    height:80px;
+    border-radius: 8%;
+    margin-left: 2px;
+    margin-top: 2px;
+    margin-bottom: 8px;
+}
+#main-right-head span{
+    padding-top: 20%;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    display: inline;
+}
+#mainPeop{
+   width:200px;
+ }
+.mainPeoplex{
+    line-height:5px ;
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    opacity: 0.5;
+    padding-bottom: 15%;
+}

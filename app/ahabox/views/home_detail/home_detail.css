@@ -1,0 +1,31 @@
+ .top_arrow{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 42px;
+     z-index: 10;
+}
+ #home_detail{
+     background-color: #ccc;
+ }
+#home_detail .row{
+    color: white;
+    font-family: "微软雅黑";
+    font-size: 14px;
+}
+#home_detail .row img{
+    width: 100%;
+    border-radius: 5px;
+}
+#home_detail .row .box1{
+    background-color: #444;
+}
+ #home_detail .row_bot{
+     margin-bottom: 30px;
+ }
+#home_detail .row .box1 i{
+    padding: 0 10px;
+}
+#home_detail .row .box2{
+    background-color: #ef473a;
+}

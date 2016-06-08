@@ -1,0 +1,170 @@
+/*重置样式*/
+div,h1,h2,h3,h4,h5,p,ul,li,ol,dl,dt,dd,table,tr,td,form,input,textarea,img,b,a,body,span,button{margin:0;padding: 0;}
+a{text-decoration: none;outline: none;}
+img{border:none;}
+input,textarea{border: none;resize: none;}
+li{list-style: none;}
+i,em{font-style: normal;}
+
+
+
+/*公用样式*/
+body{font-family: "微软雅黑";font-size:12px;color: #333;background: url("../images/star_home_body_bg_02.jpg");}
+.fl{float: left;}
+.fr{float: right;}
+.wrap{width:960px ;margin: 0 auto;}
+.wrap{height: 1200px;background: url("../images/star_home_bg_03.jpg") no-repeat #FFFFFF;}
+.clear{clear: both}
+.top{height: 17px;}
+.header{height: 63px;background: #FFFFFF;padding-top: 28px;}
+.logo{margin-right: 40px;}
+.logo1{margin-right: 16px;}
+.nav{padding-top: 12px; }
+.nav ul li {float: left;line-height: 26px;margin-right: 34px;position: relative}
+.nav ul li img{position: absolute;left: 0;bottom: -6px;display: none;}
+.nav ul li:last-child{margin-right: 0;}
+.nav ul li a{font-size: 14px;font-weight: bold;color: #3d052d;}
+.nav ul li a:hover{color: #fb0640}
+.nav ul li a:hover img{display: block}
+.footer{height: 78px;background: url("../images/new-fooot-bg_03.png");line-height: 62px}
+.footer_first{margin-left: 86px}
+.footer_first_s{margin-right: 20px}
+.footer_first_s span{display: inline-block;margin-right: 40px;color: #4c4b4b}
+.footer_first_s a{color: #4d2040}
+.wrap1{width: 1024px;height: 1094px;margin: 0 auto;background: url("../images/new_02.png") no-repeat #FFFFFF;}
+
+
+
+/*star  max 首页css样式开始*/
+.banner{height: 400px;position: relative;background: url("../images/lb-yy-1_03.png") no-repeat 35px 295px}
+.top2{height: 34px;}
+.lb{width: 846px;margin: 0 auto;z-index: 20}
+.lb_img{position: absolute;left:0;bottom: 0;}
+.main{padding-left: 17px;padding-right: 9px}
+.main_right{margin-bottom: 24px;}
+.main_right h3 img{display: inline-block;margin-right: 6px;}
+.main_right h3 span{color: #1cb90c}
+.main_right_t1{border-top: 2px solid #0672b8;}
+.main_right_top{padding-top: 20px;margin-bottom: 5px}
+.main_right_top a{color: #666666}
+.main_right_t h3{line-height: 29px;color: #0c77b9}
+.main_right_mid{margin-bottom: 15px}
+.main_right_mid h3{line-height: 29px;color: #0c77b9}
+.main_right_mid ul li {padding-left: 4px;}
+.main_right_mid ul li a{line-height: 24px;display: inline-block;margin-left: 8px;color: #4d2040}
+.main_right_mid ul li:first-child{margin-right: 33px;}
+.main_right_t1 ul li{float: left;margin-right: 26px;margin-left: 18px;}
+.main_right_t1 ul li span{display: block;text-align: center;line-height: 30px}
+.main_right_m ul li{float: left}
+.main_right_bot{padding-top: 8px;}
+.main_right_bot h3{line-height: 29px;color: #0c77b9}
+.main_right_b_b{margin-bottom: 13px}
+.main_right_b_b h3{color: #4d2040;position: relative}
+.main_right_b_b p{line-height: 24px;color: #666666;margin-left: 14px;}
+.main_right_b_b h3 input{height: 22px;width: 74px;background: url(../images/qq_03.jpg) no-repeat;position: absolute;left: 90px;top: 4px}
+.main_left_top_t{height: 29px;width: 429px;background: url("../images/main_right_bg_03.jpg");margin-bottom: 8px}
+.main_left_top_t h3{height: 29px;width: 172px;background: url(../images/main_right_h3_03.jpg);line-height: 29px;text-align: center}
+.main_left_bot{height:91px;width: 435px;background: url(../images/star_home_ren_bg_05.jpg) }
+.main_left_top_t h3 span{color:#1cb90c}
+.main_left_top ul li{line-height: 30px;padding-left: 4px;font-size: 12px;}
+.main_left_top ul li img{display: inline-block;margin-right: 11px}
+.main_left_top ul li span{display: inline-block;float: right;margin-right: 32px}
+.main_left_top2{margin-bottom: 24px}
+.main_left_bot{margin-bottom:18px }
+
+
+
+/*投资-移民css样式开始*/
+.wrap1-p{line-height: 44px;color: #FFFFFF;text-indent: 22px;}
+.main1{width: 870px;height: 750px;background: #FFFFFF;opacity: 0.8;margin: 0 auto 26px auto;padding-left: 66px;padding-right: 66px;padding-top: 30px;}
+.main1 h3{line-height: 58px;text-align: center}
+.main1-img{margin-bottom: 24px}
+.footer1{width: 1024px;}
+.main1-bot{text-align: justify;line-height: 28px;text-indent: 36px;font-size: 14px;}
+/*新闻列表css样式开始*/
+.main2{width: 1002px;margin: 0 auto;}
+.main2-left{width: 290px;background: #FFFFFF;opacity: 0.8}
+.main2-left-top{padding-left:17px;padding-top: 14px }
+.main2-right{width:700px;background: #FFFFFF;opacity: 0.8}
+.main2-left-bot{margin-bottom: 50px}
+.main2-left-bot img{width: 290px}
+.main2-left-mid{padding-left: 17px;padding-top: 8px;margin-bottom: 300px}
+.main2-left-mid ul li img{display: inline-block;margin-right: 5px;}
+.main2-left-mid ul li a{line-height: 26px;color: #000}
+.main2-left-top h3{height: 29px;width: 172px;background: url(../images/main_right_h3_03.jpg);line-height: 29px;text-align: center}
+.main2-right .main2-img{width: 428px;margin: 0 auto;margin-bottom: 24px}
+.main2-right h3{line-height: 58px;text-align: center;}
+.main2-bot{padding-left: 24px;padding-right: 12px;}
+.main2-bot p{line-height: 22px;margin-bottom: 22px;text-indent: 0;color: #000000}
+
+
+/*新闻列表2css样式开始*/
+.main3 h3 a{display:inline-block;line-height: 29px;width: 198px;background: url(../images/new-list-xx_06.png);
+    margin-bottom: 15px;padding-left: 14px;color: #FFFFFF;position: relative;}
+.main3 h3 a:hover{background: url(../images/new-list-xx_03.png)}
+.main3 h3 a:hover img{display: block}
+.main3 h3 a img{position: absolute;right: 10px;top: 10px;display: none;}
+.main3 p{color: #1093c7;line-height: 24px}
+.main4{padding-left: 45px;width: 655px}
+.main4 h3{float: left;}
+.main4 h3 img{display: inline-block;margin-right: 8px}
+.main4-bot{margin-bottom: 385px}
+.main4-bot ul li {line-height: 28px;color: #0087ae}
+.main4-bot ul li span{display: inline-block;float: right;margin-right: 54px}
+.border{height: 1px ;width: 617px;border: 1px solid #0087ae;background: #00b1e1;margin-bottom: 21px}
+.main4-button a{display:block;width: 120px;height: 33px;background: url(../images/main4-btn_03.png);
+    margin: 0 auto;line-height: 33px;text-align: center;font-size: 14px;color: #666666}
+
+
+/*项目详情css样式开始*/
+.main5-img{width: 590px;margin: 0 auto;margin-bottom: 44px;}
+.main1-bot p{line-height: 28px;color: #333333;padding-left: 58px;padding-right: 44px;}
+
+
+
+/*成功项目css样式开始*/
+.main6{width: 870px;height: 701px;background: #FFFFFF;opacity: 0.8;margin: 0 auto;padding-left: 66px;padding-right: 66px;padding-top: 79px;}
+.main6-button{margin-bottom: 46px}
+.main6-img{width:649px;position: relative;margin-bottom: 2px;height: 399px;}
+.main6-img ul li{display: inline-block;position: absolute;left: 0;top: 0;}
+.big-img{height: 511px;width: 649px;margin: 0 auto;border-top: 15px solid #d2d2d2;border-bottom: 22px solid #d2d2d2;
+    border-left: 26px solid #d2d2d2;border-right: 29px solid #d2d2d2;margin-bottom: 74px}
+.sm-img{height: 107px;width: 649px;background: #4289bc;padding-top: 3px;position: relative}
+.sm-img ul{width:541px;margin: 0 auto;}
+.main6-img ul{position: relative}
+.jieshi{height: 76px;width:623px;position: absolute;left: 0;top:316px;background: #3f4146;color: #FFFFFF;padding: 7px 13px 0}
+.jieshi p{line-height: 22px;font-size: 12px;}
+.jieshi p:first-child{font-size:14px;font-weight: bold }
+.sm-img ul li{display: inline-block;margin-right: 4px;float: left;position: relative }
+.sm-img ul li:hover span{display: block}
+.sm-img ul li span{display:inline-block;height: 10px;width: 19px;position: absolute;left: 45px;top: -10px;background: url("../images/success-sanjiao_03.png");display: none}
+.sm-img ul li:last-child{margin-right: 0}
+.sm-img input{height: 8px;width: 13px;}
+.sm-img-left{background: url("../images/success-arr_03.png");position: absolute;left: 27px;top: 51px;cursor: pointer}
+.sm-img-right{background: url("../images/success-arr_05.png");position: absolute;right: 27px;top: 51px;cursor: pointer}
+
+
+
+/*常见问题css样式开始*/
+.main7{padding-left: 76px;padding-right: 72px}
+.main7 ul li{margin-bottom: 22px}
+.main7 ul li:last-child{margin-bottom: 0}
+.main7 ul li h3{text-align: left;line-height: 22px;}
+.main7 ul li p{line-height: 22px;}
+.main8{margin-bottom: 35px}
+
+
+/*特色专题css样式开始*/
+.wrap2{height: 1083px}
+.main9-left-mid{margin-bottom: 330px}
+.main9-bot p{line-height: 28px;color: #4289bc}
+.main2-right .main9-img{width: 379px}
+.main9-button{margin-bottom: 10px;}
+
+
+/*关于我们css样式开始*/
+#main11-bot p{padding: 0 40px 0;text-indent: 28px;line-height: 24px}
+#main11-bot p:first-child{text-indent: 0;margin-bottom: 24px;}
+#main11-bot p:nth-child(2){text-indent: 0;}
+#main11-bot p:nth-child(4){text-indent: 0;}
+.main11-img{width: 786px}

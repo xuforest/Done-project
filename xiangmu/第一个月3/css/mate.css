@@ -1,0 +1,142 @@
+@charset "utf-8";
+/* CSS Document */
+
+@media screen and (max-width:1393px){
+.banner-l{padding-left:0;}
+.banner-r{padding-left:5%;}
+.banner-r {text-align:center;}
+.banner-r br{display:none;}
+	}
+@media screen and (max-width:1200px){
+.banner-l {text-align:center;}
+.banner-l img{width:40%;}
+.banner{
+	padding-top:30px;
+	}
+.banner h2{
+	padding-top:50px;
+	padding-bottom:10px;
+	font-size:44px;
+	line-height:50px;
+	}
+.banner p{
+	font-size:18px;
+	line-height:24px;
+	color:#fff;
+	padding-bottom:100px;
+	}
+.main4-last{
+	margin-left:200px;
+	}
+.flogo{
+	margin-left:40%;
+	}
+	}
+@media screen and (max-width:992px){
+.banner{
+	padding-top:20px;
+	}
+.banner h2{
+	padding-top:30px;
+	padding-bottom:10px;
+	font-size:34px;
+	line-height:40px;
+	}
+.banner p{
+	font-size:16px;
+	line-height:20px;
+	padding-bottom:50px;
+	}
+.banner2 br{
+	display:none;
+	}
+.main2-icons:hover{
+	transform:translateX(10px);
+	}	
+.main2-l{
+	padding-top:102px;
+	padding-bottom:56px;
+	}
+.main2-l h3{
+	font-size:18px;
+	color:#ef494b;
+	}
+.main2-l p{
+	line-height:20px;
+	font-size:12px;
+	color:#6c6c6c;
+	}
+.main2-l{
+	padding-top:50px;
+	padding-bottom:30px;
+	}
+.main4-photo2{
+	margin-left:30px;
+	}
+.main4-photo1{
+	margin-left:30px;
+	}
+.main4-photo4{
+	margin-left:30px;
+	}
+.main4-photo1{
+	margin-top:40px;
+	}
+.main4-page{
+	padding-top:25px;
+	}
+.main4-last{
+	margin-left:120px;
+	}
+	}
+@media screen and (max-width:768px){
+#main1 .main-bot-r{
+	float:left;
+	}
+.main1-bot1{
+	padding-top:30px;
+	}
+.pic1, .pic2, .pic3, .pic4{
+	width:50%;
+	margin:0 auto;
+	}
+.pic{
+	padding-bottom:10px;
+	}
+.main2-l-r{
+	padding-left:40px;
+	}
+.main2-l-l{
+	padding-left:60px;
+	padding-top:10px;
+	padding-right:0;
+	text-align:center;
+	}
+.main2-l{
+	padding-top:20px;
+	padding-bottom:10px;
+	}
+.main4-photo1{
+	margin-top:20px;
+	}
+.main4-photo2{
+	margin-top:20px;
+	}
+.main4 br{
+	display:none;
+	}
+.main4-last{
+	margin-left:0;
+	}
+.flogo{
+	margin-left:36%;
+	}
+	}
+@media screen and (max-width:600px){
+#main1 .main-ul{
+	margin-left:10%;
+	}
+.flogo{
+	margin-left:30%;
+	}
+	}

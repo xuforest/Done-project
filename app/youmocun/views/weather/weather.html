@@ -1,0 +1,28 @@
+<ion-view view-title="当前天气">
+    <ion-content>
+        <div class="list">
+
+            <div class="item">
+                当前温度：{{weather.data.wendu}}&deg;
+            </div>
+            <div class="item">
+                当前天气：{{weather.data.forecast[0].type}}&deg;
+            </div>
+
+            <div class="item">
+                最高气温：{{weather.data.forecast[0].high}}&deg;
+            </div>
+            <div class="item">
+                最低气温：{{weather.data.forecast[0].low}}&deg;
+            </div>
+            <div class="item">
+                风力：{{weather.data.yesterday.fl}}
+            </div>
+            <div class="item">
+                风向：{{weather.data.yesterday.fx}}
+            </div>
+
+
+        </div>
+    </ion-content>
+</ion-view>

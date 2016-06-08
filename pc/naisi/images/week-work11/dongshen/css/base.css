@@ -1,0 +1,124 @@
+/*重置样式*/
+div,h1,h2,h3,h4,h5,p,ul,li,ol,dl,dt,dd,table,tr,td,form,input,textarea,img,b,a,body,span{margin:0;padding: 0;}
+a{text-decoration: none;outline: none;}
+img{border:none;}
+input,textarea{border: none;resize: none;}
+li{list-style: none;}
+i,em{font-style: normal;}
+
+/*公用样式*/
+body{font-family: "微软雅黑";font-size:12px;color: #333;}
+.clear{clear: both}
+.over-flow{overflow: auto;zoom: 1;}
+.fl{float: left}
+.fr{float: right}
+.wrap{width: 820px;margin: 0 auto;}
+.header{border-top: 8px solid #ef0002;}
+.home-wrap{border-bottom: 1px solid #dbdbdb;}
+.right{padding-left: 26px;padding-top: 54px}
+.right p{line-height: 12px;color: #979696;}
+.footer{border-top: 2px solid #ececec;border-bottom: 8px solid #e60012;background: #ddddde;padding-top: 42px;position: relative;}
+.footer-logo{width: 186px;margin: 0 auto}
+.footer p{width: 420px;margin: 0 auto;line-height: 59px;margin-bottom: 44px;font-size: 10px;color: #656565}
+.footer-top{display: block;height:14px ;width:55px ;margin: 0 auto;background: url("../images/footer-sanjiao_03.png");padding-top: 12px;text-align: center;color: #FFFFFF}
+.main{border-top: 1px solid #e4e4e4;padding-top: 8px}
+
+
+/*欢迎页面css样式开始*/
+.index{width: 160px;margin:460px auto}
+.bfq{height: 60px;margin-bottom: 20px}
+.button a{display: block;line-height: 30px;text-align: center;height: 30px;width: 160px;text-align: center;color: #FFFFFF;background: #da251d}
+
+
+/*主页css样式开始*/
+.nav{margin-bottom: 68px}
+.nav ul li{float: left;padding: 0 9px 0;border-right: 1px solid  #e8e8e8;}
+.nav ul li a{display: block;height: 20px;text-align: center;line-height:20px ;color: #9c9698 }
+.nav ul li:first-child{border-left: 1px solid #e8e8e8}
+.main-top{text-align: center;margin-bottom: 76px}
+.main-top h2{font-size: 28px;}
+.main-top h3{line-height:26px ;color:#868686 ;}
+.main-top p{line-height:18px ;color: #a6a6a6;}
+.main-mid{padding: 0 22px 0 24px;margin-bottom: 48px}
+.main-mid h3{width:198px ;margin: 0 auto;line-height:122px;color: #bfbfbf }
+.main-mid-circle{float: left;margin-right: 28px;text-align: center;margin-bottom: 38px;}
+.circle{width: 169px;height: 169px;border-radius: 50%;background: #ddddde;float: left;margin-bottom: 6px;}
+.main-mid-circle:nth-child(4n+1){margin-right: 0}
+.main-mid-circle p{line-height: 16px;}
+.main-bot span img{position: absolute;left: 88px;top: 76px;}
+.main-bot{padding-top: 17px;}
+.main-bot span{display: block;line-height: 76px;font-weight: bold;font-size: 28px;color: #5b5b5b;margin-bottom: 58px;position: relative}
+.h2{color: #9b9b9b}
+.main-bot-wrap{margin-bottom: 36px;}
+.main-bot .main-bot-b{height: 17px;padding-left: 35px;color: #9a9a9b;background: url("../images/home_07.png") no-repeat;width: 141px;margin: 0 auto;margin-bottom: 14px}
+.main-bot .main-bot-b span{font-weight: bold;display: inline-block;line-height: 17px;font-size: 12px;text-align: left;color: #9e9e9e;}
+.main-bot-t{display: inline-block;width: 230px;margin: 0 auto;}
+#main-bot-t-last{margin-bottom: 18px}
+.main-bot-a{height:30px ;width:124px ;margin: 0 auto;background: #f0f0f0;border-radius: 4px;border: 1px solid #969696;line-height: 30px;text-align: center;margin-bottom: 62px;}
+.main-bot-a a{color: #767676;}
+
+
+/*合作付款退款css样式开始*/
+.nav1{margin-bottom: 34px;}
+.main1{padding-right: 0}
+.cooperation-left{margin-right: 50px;}
+.cooperation-left ul li:first-child{border-top: 1px dotted #e5e3e4}
+.cooperation-left ul li:last-child{border-top: 1px dotted #f6f6f6}
+.cooperation-left ul li a{line-height: 32px;border-top: 1px dotted #f6f6f6;border-bottom: 1px dotted #e5e3e4;
+    display: block;height: 32px;color: #b5b0b2}
+.cooperation-right{width: 722px;}
+.cooperation-right h3{line-height: 40px;border-bottom: 1px dotted #e5e3e4;color: #b5b0b2}
+.cooperation-right-top{padding-top: 29px;border-top: 1px dotted #f6f6f6}
+.cooperation-right-top h3{border-bottom: none}
+.cooperation-right-top p{line-height: 16px;font-weight: bold;margin-bottom: 16px;color: #b5b0b2}
+.cooperation-right-top{margin-bottom: 14px;}
+.cooperation-right-bot{padding-top:11px ;background: #fbfbfb;margin-bottom: 68px;padding-left: 8px;padding-bottom: 20px;}
+.cooperation-right-bot h3{line-height:22px ;border-bottom: none;}
+.cooperation-right-bot p{line-height:20px ;margin-bottom: 18px;color: #bab5b7}
+.cooperation-right-bot .p1{margin-bottom: 10px;}
+.cooperation-right-bot .p2{margin-bottom: 18px;}
+.cooperation-right-bot .p3{margin-bottom: 0px;}
+.cooperation-right-bot .p4{margin-bottom:20px;line-height: 10px;font-size: 8px; }
+.bus{height:18px;width:117px ;margin-bottom: 6px;background: url("../images/bus_03.png")}
+
+/*作品案例css样式开始*/
+#zuopin-right{width: 713px;margin-bottom: 29px;}
+#liucheng{margin-bottom: 28px;}
+#liucheng-h3{padding: 10px 0 18px 0;margin-bottom: 28px;border-top: 2px solid #eeefef;border-bottom: 2px solid #eeefef;}
+#liucheng-h3 h3{line-height: 18px;border: none;}
+
+
+/*问题页面css样式开始*/
+#link-p{margin-bottom: 88px;}
+#link-p h3{margin-bottom: 32px;}
+.link-p-bot{background: #fbfbfb;padding-bottom: 24px;padding-left: 8px;}
+#link-p p{line-height: 16px;margin-bottom:18px;font-size: 12px;color: #b5b0b2;}
+#link-p .pp{padding-top: 16px;}
+#link-p p span{display: block;text-indent: 26px;}
+
+
+/*案例css样式开始*/
+.anli-top{margin-bottom:89px;}
+.anli-top ul li{float: left;height:106px ;width:172px ;background: #b5b0b2;margin-right: 39px;}
+.anli-bot ul li{float: left;height:106px ;width:172px ;background: #b5b0b2;margin-right: 39px;}
+.anli-bot{margin-bottom: 123px;}
+.anli-button{margin-left: 172px;margin-bottom: 62px;}
+.anli-button ul li {float: left;padding: 0 10px;cursor: pointer;color: #868686}
+.anli-button ul li:hover{background: #868686;}
+.anli-button ul li:hover a{color: #FFFFFF;}
+.anli-button ul span{display: inline-block;padding: 0 10px;float: left;line-height: 13px;}
+
+
+/*联系页面css样式开始*/
+.main5{color: #aaaaaa}
+.main5-top{margin-bottom: 46px;}
+.main5-top h3{line-height: 35px;}
+.main5-top p{line-height: 17px;}
+.main5-top p:first-child{margin-bottom: 16px;}
+.main5-mid{margin-bottom: 47px;}
+.main5-mid h3{line-height: 38px;}
+.main5-mid p{line-height: 17px;font-size: 8px;-webkit-transform-origin-x:0 ;-webkit-transform: scale(0.67);color: #c8c8c8;}
+.main5-bot{margin-bottom: 78px;}
+.main5-bot img:first-child{display: inline-block;border-left: solid 2px #b3b3b3;margin-right: 2px;}
+
+

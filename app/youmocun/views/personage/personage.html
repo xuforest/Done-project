@@ -1,0 +1,26 @@
+<ion-view view-title="个人中心">
+    <ion-content>
+        <!--内容-->
+        <div class="item ">
+            <div class="list">
+                <label class="item item-input">
+                    <span class="input-label col-10">邮箱</span>
+                    <input type="email" placeholder="Emil" ng-model="data.email">
+                </label>
+                <label class="item item-input">
+                    <span class="input-label col-10">密码</span>
+                    <input type="password" placeholder="password" ng-model="data.password" ng-minlength="6">
+                </label>
+
+                <button class="button button-block button-assertive" ng-click="doSomething()" ng-disabled="!data.email || !data.password">登陆</button>
+            </div>
+        </div>
+        <div class="buttons padding">
+            <button class="button button-block button-calm">注册</button>
+
+        </div>
+
+    </ion-content>
+</ion-view>
+
+

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<script>
+			var Foo = function(){
+				this.bar = "my property";
+			};
+			Foo.prototype.bar = "prototype property"
+			var foo = new Foo();
+			console.log(foo.bar);
+			delete foo.bar;
+			console.log(foo.bar);
+		</script>
+	</head>
+	<body>
+	</body>
+</html>

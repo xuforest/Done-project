@@ -1,0 +1,239 @@
+@charset "utf-8";
+/* CSS Document */
+@media screen and (max-width:1136px){
+header{
+	width:100%;
+	}
+header ul{
+	padding-left:23.23%;
+	}
+.logo{
+	display:block;
+	margin-left:40px;
+	}
+article img{
+	display:none;
+	}
+article .page{
+	width:80%;
+	}
+article .page h3,article .page h4,article .page p{
+	text-align:center;
+	}
+article .page a{
+	margin:0 auto;
+	}
+.page br{
+	display:none;
+	}
+.main-inner{
+	width:100%;
+	}
+.main ul li{
+	margin-right:9.59%;
+	}
+.main ul li:nth-child(2n+1){
+	margin-left:25%;
+	}
+.main ul li:nth-child(1){
+	margin-bottom:80px;
+	}
+.main3-inner{
+	width:100%;
+	}
+.main3 li:nth-child(2){
+	display:none;
+	}
+.main3 li:nth-child(1){
+	margin-left:16%;
+	}
+.main4-inner{
+	width:100%;
+	}
+.main4 li:nth-child(2){
+	display:none;
+	}
+.main4 li:nth-child(1){
+	margin-left:16%;
+	}
+.banner4-inner{
+	width:100%;
+	}
+.banner4-inner li{
+	margin:0 03.1%;
+	width:10%;
+	}
+.banner4-inner ul{
+	width:100%;
+	}
+.banner4-inner li img{
+	width:100%;
+	}
+
+.main5-inner{
+	width:100%;
+	margin:0 auto;
+	}
+.main5 li{
+	margin:0 5%;
+	width:30%;
+	}
+.main5 li:nth-child(1){
+	display:none;
+	}
+.main5 li:nth-child(2){
+	margin:0 10.56%;
+	}
+.footer-inner{
+	width:100%;
+	}
+.footer-left{
+	padding-top:30px;
+	float:none;
+	width:60%;
+	margin:0 auto;
+	}
+.footer-right{
+	margin:0 auto;
+	padding-top:30px;
+	margin-bottom:30px;
+	float:none;
+	width:49.1%;
+	}
+.ficons ul{
+	width:45.7%;
+	margin:0 auto;
+	}
+.ficons li{
+	margin:0 2.26%;
+	}
+.ficons li:nth-child(6) a{	
+	display:none;
+	}
+.copy-inner{
+	width:100%;
+	}
+}
+@media screen and (max-width:1390px){
+.page{
+	width:33%
+	}
+}
+@media screen and (max-width:1020px){
+header ul{
+	padding-left:18%;
+	}
+.footer-right{
+	display:none;
+	}
+@media screen and (max-width:1060px){
+.main3 li:nth-child(1){
+	margin-left:9%;
+	}
+.main4 li:nth-child(1){
+	margin-left:9%;
+	}
+}
+@media screen and (max-width:950px){
+header ul li{
+	display:none;
+	}
+.main3 li:nth-child(1){
+	margin-left:20%;
+	}
+.main3 li:nth-child(3){
+	display:none;
+	}
+.main4 li:nth-child(1){
+	margin-left:20%;
+	}
+.main4 li:nth-child(3){
+	display:none;
+	}
+.nav-icon{
+	display:block;
+	font-size:40px;
+	color:#000;
+	float:left;
+	line-height:104px;
+	margin-left:80px;
+	}
+header ul li:nth-child(7){
+	display: block;
+	}
+}
+@media screen and (max-width:720px){
+.banner h3{
+	font-size:30px;
+	}
+.banner h4{
+	font-size:30px;
+	}
+.banner p{
+	font-size:14px;
+	}
+.banner a{
+	width:140px;
+	height:30px;
+	font-size:16px;
+	line-height:30px;
+	background: url(../../../../../第三个月/练习/images/arrow.png) 125px 12px no-repeat;
+	}
+.banner a:hover{
+	width:150px;
+	}
+article a{
+	width:200px;
+	height:40px;
+	border-radius:4px;
+	font-size:16px;
+	line-height:40px;
+	background:#e74c3c url(../../../../../第三个月/练习/images/arrow.png) no-repeat 180px 15px;
+	}
+article a:hover{
+	background:#fff url(../../../../../第三个月/练习/images/arrowhr.png) no-repeat 180px 15px;
+	}
+.main3 li:nth-child(1){
+	margin-left:12%;
+	}
+.main4 li:nth-child(1){
+	margin-left:12%;
+	}
+}
+@media screen and (max-width:840px){
+.main ul li:nth-child(2n+1){
+	margin-left:20%;
+	}
+.main ul li:nth-child(3){
+	display:none;
+	}
+.main ul li:nth-child(4){
+	display:none;
+	}
+}
+@media screen and (max-width:670px){
+.main ul li:nth-child(1){
+	margin-left:30%;
+	}
+.main ul li:nth-child(2){
+	display:none;
+	}
+.main3 li:nth-child(1){
+	margin-left:6%;
+	}
+.main4 li:nth-child(1){
+	margin-left:6%;
+	}
+.main5 li{
+	margin:0 20%;
+	float:none;
+	line-height:40px;
+	}
+.main5 li:nth-child(2){
+	margin:0 20%;
+	width:50%
+	}
+.copy-inner h3{
+	display:none;
+	}
+}

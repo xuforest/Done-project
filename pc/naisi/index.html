@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link href="css/base.css" rel="stylesheet" />
+		<script src="js/jquery-1.12.3.min.js"></script>
+		<script src="js/kxbdSuperMarquee.js"></script>
+		<script src="js/jquery.marquee.js"></script>
+		<script type="text/javascript" src="js/bgstretcher.js"></script>
+		<script type="text/javascript" src="js/tab.js"></script>
+		<script>
+			$(document).ready(function(){
+				$(".banner").bgStretcher({
+					images: ['images/01.jpg', 'images/lb_02_02.jpg', 'images/01.jpg', 'images/lb_02_02.jpg'],   //展示图片（必加）
+					links: ['/images',"/images",'/images','/images'],  //图片对应链接（必加）
+					nextSlideDelay:3000,   //图片停顿时间 ms
+					anchoringImg:'center top',  //图片定位
+					imageWidth: 1610,		//图片原始尺寸（必加）
+					imageHeight: 520
+				});
+				$('#marquee35').kxbdSuperMarquee({
+					distance:203,
+					time:2,
+					navId:'#mar3Nav',
+					direction:'left'
+				});
+				$('.main1_bot').kxbdSuperMarquee({
+					distance:200,
+					time:2,
+					direction:'left',
+					btnGo:{left:'#goL',right:'#goR'}
+				});
+				$('#marquee6').kxbdSuperMarquee({
+					isMarquee:true,
+					isEqual:false,
+					scrollDelay:20,
+					controlBtn:{up:'#goUM',down:'#goDM'},
+					direction:'up'
+				});
+			})
+		</script>
+	</head>
+	<body>
+	<div class="wrap box">
+		<div class="fl sml">
+			<img src="images/01_sml-logo_03.jpg">
+		</div>
+		<ul class="fl sm_nav">
+			<li>
+				<a href="#">全身按摩</a>
+				<a href="#">运动按摩</a>
+				<a href="#">保健按摩</a>
+				<a href="#">中医理疗</a>
+				<a href="#">头部按摩</a>
+				<a href="#">刮&nbsp;&nbsp;&nbsp;痧</a>
+				<a href="#">肌肉筋膜调理</a>
+				<br>
+				<a href="#">面部按摩</a>
+				<a href="#">推拿按摩</a>
+				<a href="#">足部按摩</a>
+				<a href="#">前列腺按摩</a>
+				<a href="#">颈肩按摩</a>
+				<a href="#">拔&nbsp;&nbsp;&nbsp;罐</a>
+				<a href="#">经络穴位调理</a>
+			</li>
+		</ul>
+		<div class="fr button about_btn">
+			<a href="#" id="qq">
+				<img src="images/18.jpg">
+				<span>QQ咨询</span>
+			</a>
+			<a href="#" id="wx">
+				<img src="images/19.jpg">
+				<span>在线咨询</span>
+			</a>
+		</div>
+	</div>
+		<div class="top_bar">
+			<div class="wrap">
+				<p class="fl">
+					<span>您好，欢迎来到赖斯按摩官方网站</span>
+				</p>
+				<ul class="fr">
+					<li><a href="#"><img src="images/ph.04.png"></a></li>
+					<li><a href="#">咨询热线：010-57027357</a></li>
+					<li><a href="#"><img src="images/02_1about_03.jpg"></a></li>
+					<li><a href="#">赖斯官方微博</a>|<a href="#">加入收藏</a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="wrap">
+			<div class="fl logo">
+				<img src="images/logo-head.png">
+			</div>
+			<div class="fr search">
+				<form>
+					<input type="text"><input type="button" value="搜索">
+				</form>
+				<p>
+					<span>热门：</span>
+					<a href="#">刮痧</a>
+					<a href="#">拔罐</a>
+					<a href="#">走罐</a>
+					<a href="#">颈肩按摩</a>
+					<a href="#">足部按摩</a>      
+				</p>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="nav_bar">
+			<div class="wrap nav">
+				<ul>
+					<li><a href="#">首页</a></li>
+					<li><img src="images/01_nav_03.jpg"></li>
+					<li><a href="about.html">关于赖斯</a></li>
+					<li><img src="images/01_nav_03.jpg"></li>
+					<li><a href="jiancang.html">颈肩保健</a></li>
+					<li><img src="images/01_nav_03.jpg"></li>
+					<li><a href="jiancang.html">健康知识</a></li>
+					<li><img src="images/01_nav_03.jpg"></li>
+					<li><a href="mendian.html">门店风采</a></li>
+					<li><img src="images/01_nav_03.jpg"></li>
+					<li><a href="news.html">新闻资讯</a></li>
+					<li><img src="images/01_nav_03.jpg"></li>
+					<li><a href="zhuangjia_dayi.html">专家答疑</a></li>
+					<li><img src="images/01_nav_03.jpg"></li>
+					<li><a href="link me.html">联系我们</a></li>
+				</ul>
+			</div>
+			<div class="box_shodow"></div>
+		</div>
+		<div class="banner">
+
+		</div>
+		<div class="wrap main">
+			<div class="fl left">
+				<div class="fl main_top_left">
+					<div class="main_top_left_top1">
+						<div class="fl">
+							<h2>赖斯<span>经典项目</span></h2>
+						</div>
+						<div class="fr main_top_left_top2">
+							<a href="#"><span>更多</span><img src="images/15.jpg"></a>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div class="main_top_left_bot preview">
+						<div class="fl main_top_left_bot_cd">
+							<!--<div class="preview">-->
+								<!--<div class="scrolldoorFrame">-->
+									<!--<ul class="scrollUl">-->
+										<!--<li class="sd01" id="m01">滑动门</li>-->
+										<!--<li class="sd02" id="m02">滑动门</li>-->
+										<!--<li class="sd02" id="m03">滑动门</li>-->
+										<!--<li class="sd02" id="m04">滑动门</li>-->
+										<!--<li class="sd02" id="m05">滑动门</li>-->
+									<!--</ul>-->
+									<!--<div class="bor03 cont">-->
+										<!--<div id="c01">-->
+											<!--第一层内容-->
+										<!--</div>-->
+										<!--<div id="c02" class="hidden">-->
+											<!--第二层内容-->
+										<!--</div>-->
+										<!--<div id="c03" class="hidden">-->
+											<!--第三层内容-->
+										<!--</div>-->
+										<!--<div id="c04" class="hidden">-->
+											<!--第四层内容-->
+										<!--</div>-->
+										<!--<div id="c05" class="hidden">-->
+											<!--第五层内容-->
+										<!--</div>-->
+									<!--</div>-->
+								<!--</div>-->
+							<!--</div>-->
+							<ul class="fl">
+								<!--<li><a href="#">全身按摩</a></li>
+								<li><a href="#">运动按摩</a></li>
+								<li><a href="#">保健按摩</a></li>
+								<li><a href="#">中医理疗</a></li>
+								<li><a href="#">面部按摩</a></li>
+								<li><a href="#">推拿按摩</a></li>
+								<li><a href="#">足部按摩</a></li>
+								<li><a href="#">颈肩按摩</a></li>-->
+								<!--<ul class="scrollUl">-->
+								<!--<li class="sd01" id="m01">滑动门</li>-->
+								<!--<li class="sd02" id="m02">滑动门</li>-->
+								<!--<li class="sd02" id="m03">滑动门</li>-->
+								<!--<li class="sd02" id="m04">滑动门</li>-->
+								<!--<li class="sd02" id="m05">滑动门</li>-->
+								<!--</ul>-->
+								<li class="sd01" id="m01">全身按摩<img src="images/arr-right.jpg"></li>
+								<li class="sd02" id="m02">运动按摩<img src="images/arr-right.jpg"></li>
+								<li class="sd02" id="m03">保健按摩<img src="images/arr-right.jpg"></li>
+								<li class="sd02" id="m04">中医理疗<img src="images/arr-right.jpg"></li>
+								<li class="sd02" id="m05">面部按摩<img src="images/arr-right.jpg"></li>
+								<li class="sd02" id="m06">推拿按摩<img src="images/arr-right.jpg"></li>
+								<li class="sd02" id="m07">足部按摩<img src="images/arr-right.jpg"></li>
+								<li class="sd02" id="m08">颈肩按摩<img src="images/arr-right.jpg"></li>
+							</ul>
+							<!--<div class="bor03 cont">-->
+								<!--<div id="c01">-->
+								<!--第一层内容-->
+								<!--</div>-->
+								<!--<div id="c02" class="hidden">-->
+								<!--第二层内容-->
+								<!--</div>-->
+								<!--<div id="c03" class="hidden">-->
+								<!--第三层内容-->
+								<!--</div>-->
+								<!--<div id="c04" class="hidden">-->
+								<!--第四层内容-->
+								<!--</div>-->
+								<!--<div id="c05" class="hidden">-->
+								<!--第五层内容-->
+								<!--</div>-->
+							<!--</div>-->
+							<div class="fr main_top_left_bot_mn bor03">
+								<div class="fl" id="c01">
+									<div class="squansheng">
+										<span>全身按摩</span>
+									</div>
+									<img src="images/03.jpg">
+									<p class="tquansheng">
+										全身保健按摩是按摩师运用放松的<br>手法，在患者全身进行按摩、能够<br>消除疲劳、缓解紧张、舒筋活、舒</br>身提神。
+									</p>
+								</div>
+								<div class="fl hidden" id="c02">
+									<img src="images/03.jpg">
+									<div class="squansheng">
+										<span>运动按摩</span>
+									</div>
+									<p class="tquansheng">
+										全身保健按摩是按摩师运用放松的<br>手法，在患者全身进行按摩、能够<br>消除疲劳、缓解紧张、舒筋活、舒</br>身提神。
+									</p>
+								</div>
+								<div class="fl hidden" id="c03">
+									<img src="images/03.jpg">
+									<div class="squansheng">
+										<span>保健按摩</span>
+									</div>
+									<p class="tquansheng">
+										全身保健按摩是按摩师运用放松的<br>手法，在患者全身进行按摩、能够<br>消除疲劳、缓解紧张、舒筋活、舒</br>身提神。
+									</p>
+								</div>
+								<div class="fl hidden" id="c04">
+									<img src="images/03.jpg">
+									<div class="squansheng">
+										<span>中医理疗</span>
+									</div>
+									<p class="tquansheng">
+										全身保健按摩是按摩师运用放松的<br>手法，在患者全身进行按摩、能够<br>消除疲劳、缓解紧张、舒筋活、舒</br>身提神。
+									</p>
+								</div>
+								<div class="fl hidden" id="c05">
+									<img src="images/03.jpg">
+									<div class="squansheng">
+										<span>面部按摩</span>
+									</div>
+									<p class="tquansheng">
+										全身保健按摩是按摩师运用放松的<br>手法，在患者全身进行按摩、能够<br>消除疲劳、缓解紧张、舒筋活、舒</br>身提神。
+									</p>
+								</div>
+								<div class="fl hidden" id="c06">
+									<img src="images/03.jpg">
+									<div class="squansheng">
+										<span>推拿按摩</span>
+									</div>
+									<p class="tquansheng">
+										全身保健按摩是按摩师运用放松的<br>手法，在患者全身进行按摩、能够<br>消除疲劳、缓解紧张、舒筋活、舒</br>身提神。
+									</p>
+								</div>
+								<div class="fl hidden" id="c07">
+									<img src="images/03.jpg">
+									<div class="squansheng">
+										<span>足部按摩</span>
+									</div>
+									<p class="tquansheng">
+										全身保健按摩是按摩师运用放松的<br>手法，在患者全身进行按摩、能够<br>消除疲劳、缓解紧张、舒筋活、舒</br>身提神。
+									</p>
+								</div>
+								<div class="fl hidden" id="c08">
+									<img src="images/03.jpg">
+									<div class="squansheng">
+										<span>颈肩按摩</span>
+									</div>
+									<p class="tquansheng">
+										全身保健按摩是按摩师运用放松的<br>手法，在患者全身进行按摩、能够<br>消除疲劳、缓解紧张、舒筋活、舒</br>身提神。
+									</p>
+								</div>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+				</div>
+				<div class="fl main_mid">
+					<div class="main_mid_top">
+						<p><img src="images/main_mid_03.jpg"><span>盲人推拿师走上柏林红毯</span></p>
+						<h3>瘦身精益求精 女性运动减肥的最佳时间</h3>
+						<i>减肥其实就跟结婚一样，需要挑选“最佳时间”。瘦身想要精益求精,不<br>妨来看一下专为减肥女性推荐的减肥最佳时间参考帮你瘦身成功。过去<br>,专家表示认为早上是减肥瘦身的最佳时间...<a href="#">[详细]</a></i>
+					</div>
+					<div class="main_mid_mid">
+						<ul class="fl main_mid_mid_left">
+							<li><a href="#">· 生活中健康减肥小常识</a></li>
+							<li><a href="#">· 减肥误区有哪些 健康合理</a></li>
+							<li><a href="#">· 掌握5个健康减肥小常识</a></li>
+							<li><a href="#">· 健康生活不可不知 瘦身减</a></li>
+						</ul>
+						<ul class="fr main_mid_mid_right">
+							<li><a href="#">· 生活中健康减肥小常识</a></li>
+							<li><a href="#">· 减肥误区有哪些 健康合理</a></li>
+							<li><a href="#">· 掌握5个健康减肥小常识</a></li>
+							<li><a href="#">· 健康生活不可不知 瘦身减</a></li>
+						</ul>
+					</div>
+					<div class="main_mid_bot">
+						<ul class="fl main_mid_bot_left">
+							<li><a href="#">·生活中健康减肥小常识</a></li>
+							<li><a href="#">·减肥误区有哪些 健康合理</a></li>
+							<li><a href="#">·掌握5个健康减肥小常识</a></li>
+							<li><a href="#">·健康生活不可不知 瘦身减</a></li>	
+						</ul>
+						<ul class="fr main_mid_bot_right">
+							<li><a href="#">·生活中健康减肥小常识</a></li>
+							<li><a href="#">·减肥误区有哪些 健康合理</a></li>
+							<li><a href="#">·掌握5个健康减肥小常识</a></li>
+							<li><a href="#">·健康生活不可不知 瘦身减</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="fr main_bot_right">
+				<div class="main_bot_right_top">
+					<h2>关于赖斯</h2>
+					<div class="main_bot_right_pic">
+						<img src="images/04.jpg" align="top"/>
+					</div>
+					<div class="main_bot_right_txt">
+						<span>赖斯盲人按摩是北京市知名的专注于推拿理
+							<br>疗的纯正专业盲人按摩百家连锁机构。可为
+							<br>您切实缓解颈脊劳损、腰酸背痛...
+							<a href="about_xx.html">[详细]</a>
+						</span>
+					</div>
+				</div>
+				<div class="main_bot_right_zx">
+					<img src="images/main_mid_right_bot_pic_03.jpg">
+					<div>
+						<div class="fl main_bot_right_zx_qq">
+							<img src="images/07.jpg" />
+							<a href="#">QQ咨询</a>
+						</div>
+						<div class="fl main_bot_right_zx_tv">
+							<img src="images/08.jpg" align="top"/>
+							<a href="#">在线咨询</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="wrap main01">
+			<div class="main1_top">
+				<h2 class="fl">莱斯专家</h2>
+				<div class="fr main1_top_btn" id="control1">
+					<a href="javascript:void(0);" id="goL"><img src="images/arr-left.jpg"></a>
+					<a href="javascript:void(0);" id="goR"><img src="images/arr-right.jpg"></a>
+				</div>
+				<div class="clear"></div>
+			</div>
+			<!--<div id="marquee1">-->
+			<!--<ul>-->
+			<!--<li><img src="images/01s.jpg" height="45" width="60"></li>-->
+			<!--<li><img src="images/02s.jpg" height="45" width="60"></li>-->
+			<!--<li><img src="images/03s.jpg" height="45" width="60"></li>-->
+			<!--<li><img src="images/04s.jpg" height="45" width="60"></li>-->
+			<!--</ul>-->
+			<!--</div>-->
+			<div id="marquee1" class="main1_bot">
+				<ul>
+					<li>
+						<img src="images/13.jpg" />
+						<h3>赵胜友</h3>
+						<p>擅长项目：颈肩疲劳及疼痛<br>的调理</p>
+						<a href="#">预约专家</a>
+						<a href="#">在线咨询</a>
+					</li>
+					<li>
+						<img src="images/09.jpg" />
+						<h3>赵胜友</h3>
+						<p>擅长项目：颈肩疲劳及疼痛<br>的调理</p>
+						<a href="#">预约专家</a>
+						<a href="#">在线咨询</a>
+					</li>
+					<li>
+						<img src="images/10.jpg" />
+						<h3>赵胜友</h3>
+						<p>擅长项目：颈肩疲劳及疼痛<br>的调理</p>
+						<a href="#">预约专家</a>
+						<a href="#">在线咨询</a>
+					</li>
+					<li>
+						<img src="images/11.jpg"  />
+						<h3>赵胜友</h3>
+						<p>擅长项目：颈肩疲劳及疼痛<br>的调理</p>
+						<a href="#">预约专家</a>
+						<a href="#">在线咨询</a>
+					</li>
+					<li>
+						<img src="images/12.jpg" />
+						<h3>赵胜友</h3>
+						<p>擅长项目：颈肩疲劳及疼痛<br>的调理</p>
+						<a href="#">预约专家</a>
+						<a href="#">在线咨询</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="wrap pic1"><img src="images/14.jpg" align="top"></div>
+		<div class="wrap main2">
+			<div class="fl main2_left preview1">
+				<div class="main2_left_top scrolldoorFrame1">
+					<h2 class="fl main2_left_top_l">健康<span>知识</span></h2>
+					<ul class="fr main2_left_top_r">
+						<li class="sd03" id="mm01"><a href="#">足部按摩</a></li>
+						<li class="sd04" id="mm02"><a href="#">全身按摩</a></li>
+						<li class="sd04" id="mm03"><a href="#">面部按摩</a></li>
+						<li class="sd04" id="mm04"><a href="#">推拿按摩</a></li>
+						<li class="sd04" id="mm05"><a href="#">保健按摩</a></li>
+						<li class="sd04" id="mm06"><a href="#">颈肩按摩</a></li>
+						<div class="clear"></div>
+					</ul>
+				</div>
+				<div class="main2_left_bot">
+					<div class="bor04 cont1 fr">
+						<div class="fr main2_left_bot_r" id="cc01">
+							<div class="main2_left_bot_r_t">
+								<div class="fl main2_left_bot_r_t_pic">
+									<img src="images/17.jpg" align="top">
+								</div>
+								<div class="fr main2_left_bot_r_t_txt">
+									<h3>缓解背痛简易7疗法 膝盖垫枕头也奏效</h3>
+									<p>背部酸痛吗？生活感到非常乏力。这很有可能与你平常错误的姿<br>势有关。
+										这时候可以通过生活中的细节来预防背痛...<a href="#">[详细]</a>
+									</p>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div class="main2_left_bot_r_m">
+								<ul class="fl">
+									<li><a href="#">· 专家介绍：足部按摩的养生保健知识</a></li>
+									<li><a href="#">· 养生警惕：闹钟叫醒成健康杀手</a></li>
+									<li><a href="#">· 缓解背痛简易7疗法 膝盖垫枕头也奏效</a></li>
+								</ul>
+								<ul class="fr">
+									<li><a href="#">· 专家介绍：足部按摩的养生保健知识</a></li>
+									<li><a href="#">· 养生警惕：闹钟叫醒成健康杀手</a></li>
+									<li><a href="#">· 缓解背痛简易7疗法 膝盖垫枕头也奏效</a></li>
+								</ul>
+								<div class="clear"></div>
+							</div>
+							<div class="main2_left_bot_r_b">
+								<ul class="fl">
+									<li><a href="#">· 专家介绍：足部按摩的养生保健知识</a></li>
+									<li><a href="#">· 养生警惕：闹钟叫醒成健康杀手</a></li>
+									<li><a href="#">· 缓解背痛简易7疗法 膝盖垫枕头也奏效</a></li>
+								</ul>
+								<ul class="fr">
+									<li><a href="#">· 专家介绍：足部按摩的养生保健知识</a></li>
+									<li><a href="#">· 养生警惕：闹钟叫醒成健康杀手</a></li>
+									<li><a href="#">· 缓解背痛简易7疗法 膝盖垫枕头也奏效</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="fr main2_left_bot_r hidden" id="cc02">
+							<div class="main2_left_bot_r_t">
+								<div class="fl main2_left_bot_r_t_pic">
+									<img src="images/17.jpg" align="top">
+								</div>
+								<div class="fr main2_left_bot_r_t_txt">
+									<h3>555555555555555555555</h3>
+									<p>背部酸痛吗？生活感到非常乏力。这很有可能与你平常错误的姿<br>势有关。
+										这时候可以通过生活中的细节来预防背痛...<a href="#">[详细]</a>
+									</p>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div class="main2_left_bot_r_m">
+								<ul class="fl">
+									<li><a href="#">· 专家介绍：足部按摩的养生保健知识</a></li>
+									<li><a href="#">· 养生警惕：闹钟叫醒成健康杀手</a></li>
+									<li><a href="#">· 缓解背痛简易7疗法 膝盖垫枕头也奏效</a></li>
+								</ul>
+								<ul class="fr">
+									<li><a href="#">· 专家介绍：足部按摩的养生保健知识</a></li>
+									<li><a href="#">· 养生警惕：闹钟叫醒成健康杀手</a></li>
+									<li><a href="#">· 缓解背痛简易7疗法 膝盖垫枕头也奏效</a></li>
+								</ul>
+								<div class="clear"></div>
+							</div>
+							<div class="main2_left_bot_r_b">
+								<ul class="fl">
+									<li><a href="#">· 专家介绍：足部按摩的养生保健知识</a></li>
+									<li><a href="#">· 养生警惕：闹钟叫醒成健康杀手</a></li>
+									<li><a href="#">· 缓解背痛简易7疗法 膝盖垫枕头也奏效</a></li>
+								</ul>
+								<ul class="fr">
+									<li><a href="#">· 专家介绍：足部按摩的养生保健知识</a></li>
+									<li><a href="#">· 养生警惕：闹钟叫醒成健康杀手</a></li>
+									<li><a href="#">· 缓解背痛简易7疗法 膝盖垫枕头也奏效</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="fr main2_left_bot_r hidden" id="cc03">
+							<div class="main2_left_bot_r_t">
+								<div class="fl main2_left_bot_r_t_pic">
+									<img src="images/17.jpg" align="top">
+								</div>
+								<div class="fr main2_left_bot_r_t_txt">
+									<h3>1111111111111111111111111</h3>
+									<p>背部酸痛吗？生活感到非常乏力。这很有可能与你平常错误的姿<br>势有关。
+										这时候可以通过生活中的细节来预防背痛...<a href="#">[详细]</a>
+									</p>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div class="main2_left_bot_r_m">
+								<ul class="fl">
+									<li><a href="#">· 专家介绍：足部按摩的养生保健知识</a></li>
+									<li><a href="#">· 养生警惕：闹钟叫醒成健康杀手</a></li>
+									<li><a href="#">· 缓解背痛简易7疗法 膝盖垫枕头也奏效</a></li>
+								</ul>
+								<ul class="fr">
+									<li><a href="#">· 专家介绍：足部按摩的养生保健知识</a></li>
+									<li><a href="#">· 养生警惕：闹钟叫醒成健康杀手</a></li>
+									<li><a href="#">· 缓解背痛简易7疗法 膝盖垫枕头也奏效</a></li>
+								</ul>
+								<div class="clear"></div>
+							</div>
+							<div class="main2_left_bot_r_b">
+								<ul class="fl">
+									<li><a href="#">· 专家介绍：足部按摩的养生保健知识</a></li>
+									<li><a href="#">· 养生警惕：闹钟叫醒成健康杀手</a></li>
+									<li><a href="#">· 缓解背痛简易7疗法 膝盖垫枕头也奏效</a></li>
+								</ul>
+								<ul class="fr">
+									<li><a href="#">· 专家介绍：足部按摩的养生保健知识</a></li>
+									<li><a href="#">· 养生警惕：闹钟叫醒成健康杀手</a></li>
+									<li><a href="#">· 缓解背痛简易7疗法 膝盖垫枕头也奏效</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="fr main2_left_bot_r hidden" id="cc04">
+							<div class="main2_left_bot_r_t">
+								<div class="fl main2_left_bot_r_t_pic">
+									<img src="images/17.jpg" align="top">
+								</div>
+								<div class="fr main2_left_bot_r_t_txt">
+									<h3>2222222222222222222222222222</h3>
+									<p>背部酸痛吗？生活感到非常乏力。这很有可能与你平常错误的姿<br>势有关。
+										这时候可以通过生活中的细节来预防背痛...<a href="#">[详细]</a>
+									</p>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div class="main2_left_bot_r_m">
+								<ul class="fl">
+									<li><a href="#">· 专家介绍：足部按摩的养生保健知识</a></li>
+									<li><a href="#">· 养生警惕：闹钟叫醒成健康杀手</a></li>
+									<li><a href="#">· 缓解背痛简易7疗法 膝盖垫枕头也奏效</a></li>
+								</ul>
+								<ul class="fr">
+									<li><a href="#">· 专家介绍：足部按摩的养生保健知识</a></li>
+									<li><a href="#">· 养生警惕：闹钟叫醒成健康杀手</a></li>
+									<li><a href="#">· 缓解背痛简易7疗法 膝盖垫枕头也奏效</a></li>
+								</ul>
+								<div class="clear"></div>
+							</div>
+							<div class="main2_left_bot_r_b">
+								<ul class="fl">
+									<li><a href="#">· 专家介绍：足部按摩的养生保健知识</a></li>
+									<li><a href="#">· 养生警惕：闹钟叫醒成健康杀手</a></li>
+									<li><a href="#">· 缓解背痛简易7疗法 膝盖垫枕头也奏效</a></li>
+								</ul>
+								<ul class="fr">
+									<li><a href="#">· 专家介绍：足部按摩的养生保健知识</a></li>
+									<li><a href="#">· 养生警惕：闹钟叫醒成健康杀手</a></li>
+									<li><a href="#">· 缓解背痛简易7疗法 膝盖垫枕头也奏效</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="fr main2_left_bot_r hidden" id="cc05">
+							<div class="main2_left_bot_r_t">
+								<div class="fl main2_left_bot_r_t_pic">
+									<img src="images/17.jpg" align="top">
+								</div>
+								<div class="fr main2_left_bot_r_t_txt">
+									<h3>33333333333333333333333333333</h3>
+									<p>背部酸痛吗？生活感到非常乏力。这很有可能与你平常错误的姿<br>势有关。
+										这时候可以通过生活中的细节来预防背痛...<a href="#">[详细]</a>
+									</p>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div class="main2_left_bot_r_m">
+								<ul class="fl">
+									<li><a href="#">· 专家介绍：足部按摩的养生保健知识</a></li>
+									<li><a href="#">· 养生警惕：闹钟叫醒成健康杀手</a></li>
+									<li><a href="#">· 缓解背痛简易7疗法 膝盖垫枕头也奏效</a></li>
+								</ul>
+								<ul class="fr">
+									<li><a href="#">· 专家介绍：足部按摩的养生保健知识</a></li>
+									<li><a href="#">· 养生警惕：闹钟叫醒成健康杀手</a></li>
+									<li><a href="#">· 缓解背痛简易7疗法 膝盖垫枕头也奏效</a></li>
+								</ul>
+								<div class="clear"></div>
+							</div>
+							<div class="main2_left_bot_r_b">
+								<ul class="fl">
+									<li><a href="#">· 专家介绍：足部按摩的养生保健知识</a></li>
+									<li><a href="#">· 养生警惕：闹钟叫醒成健康杀手</a></li>
+									<li><a href="#">· 缓解背痛简易7疗法 膝盖垫枕头也奏效</a></li>
+								</ul>
+								<ul class="fr">
+									<li><a href="#">· 专家介绍：足部按摩的养生保健知识</a></li>
+									<li><a href="#">· 养生警惕：闹钟叫醒成健康杀手</a></li>
+									<li><a href="#">· 缓解背痛简易7疗法 膝盖垫枕头也奏效</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="fr main2_left_bot_r hidden" id="cc06">
+							<div class="main2_left_bot_r_t">
+								<div class="fl main2_left_bot_r_t_pic">
+									<img src="images/17.jpg" align="top">
+								</div>
+								<div class="fr main2_left_bot_r_t_txt">
+									<h3>4444444444444444444444444444</h3>
+									<p>背部酸痛吗？生活感到非常乏力。这很有可能与你平常错误的姿<br>势有关。
+										这时候可以通过生活中的细节来预防背痛...<a href="#">[详细]</a>
+									</p>
+								</div>
+								<div class="clear"></div>
+							</div>
+							<div class="main2_left_bot_r_m">
+								<ul class="fl">
+									<li><a href="#">· 专家介绍：足部按摩的养生保健知识</a></li>
+									<li><a href="#">· 养生警惕：闹钟叫醒成健康杀手</a></li>
+									<li><a href="#">· 缓解背痛简易7疗法 膝盖垫枕头也奏效</a></li>
+								</ul>
+								<ul class="fr">
+									<li><a href="#">· 专家介绍：足部按摩的养生保健知识</a></li>
+									<li><a href="#">· 养生警惕：闹钟叫醒成健康杀手</a></li>
+									<li><a href="#">· 缓解背痛简易7疗法 膝盖垫枕头也奏效</a></li>
+								</ul>
+								<div class="clear"></div>
+							</div>
+							<div class="main2_left_bot_r_b">
+								<ul class="fl">
+									<li><a href="#">· 专家介绍：足部按摩的养生保健知识</a></li>
+									<li><a href="#">· 养生警惕：闹钟叫醒成健康杀手</a></li>
+									<li><a href="#">· 缓解背痛简易7疗法 膝盖垫枕头也奏效</a></li>
+								</ul>
+								<ul class="fr">
+									<li><a href="#">· 专家介绍：足部按摩的养生保健知识</a></li>
+									<li><a href="#">· 养生警惕：闹钟叫醒成健康杀手</a></li>
+									<li><a href="#">· 缓解背痛简易7疗法 膝盖垫枕头也奏效</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="clear"></div>
+					</div>
+					<div id="tlb">
+						<div id="marquee35">
+							<ul>
+								<li><img src="images/16.jpg" align="top"></li>
+								<li><img src="images/16.jpg" align="top"></li>
+								<li><img src="images/16.jpg" align="top"></li>
+							</ul>
+						</div>
+						<div id="title"><p>足部按摩的好处</p><div id="mar3Nav"></div></div>
+					</div>
+				</div>
+			</div>
+			<!--<div id="marquee6">-->
+				<!--&lt;!&ndash;<ul>&ndash;&gt;-->
+					<!--&lt;!&ndash;<li><a href="#"></a></li>&ndash;&gt;-->
+					<!--&lt;!&ndash;<li><a href="#"></a></li>&ndash;&gt;-->
+					<!--&lt;!&ndash;<li><a href="#"></a></li>&ndash;&gt;-->
+					<!--&lt;!&ndash;<li><a href="#"></a></li>&ndash;&gt;-->
+					<!--&lt;!&ndash;<li><a href="#"></a></li>&ndash;&gt;-->
+					<!--&lt;!&ndash;<li><a href="#"></a></li>&ndash;&gt;-->
+				<!--&lt;!&ndash;</ul>&ndash;&gt;-->
+			<!--</div>-->
+			<div class="fr main2_right">
+				<div class="main2_top_left_top1">
+					<div class="fl">
+						<h2>专家答疑</h2>
+					</div>
+					<div class="fr main2_top_left_top2">
+						<a href="#"><span>更多</span><img src="images/15.jpg"></a>
+					</div>
+					<div class="clear"></div>
+				</div>
+				<div id="marquee6">
+					<ul>
+						<li class="main2_right_side_t"><h3><span>Q</span>做全身按摩，一般一小时多少钱？</h3><p><span>A</span>您好，现在价格有变动，你可以电话咨<br>询，或者联系在线客服，谢谢！</p></li>
+						<li class="main2_right_side_t"><h3><span>Q</span>做全身按摩，一般一小时多少钱？</h3><p><span>A</span>您好，现在价格有变动，你可以电话咨<br>询，或者联系在线客服，谢谢！</p></li>
+						<li class="main2_right_side_t"><h3><span>Q</span>做全身按摩，一般一小时多少钱？</h3><p><span>A</span>您好，现在价格有变动，你可以电话咨<br>询，或者联系在线客服，谢谢！</p></li>
+						<li class="main2_right_side_t"><h3><span>Q</span>做全身按摩，一般一小时多少钱？</h3><p><span>A</span>您好，现在价格有变动，你可以电话咨<br>询，或者联系在线客服，谢谢！</p></li>
+						<li class="main2_right_side_t"><h3><span>Q</span>做全身按摩，一般一小时多少钱？</h3><p><span>A</span>您好，现在价格有变动，你可以电话咨<br>询，或者联系在线客服，谢谢！</p></li>
+						<li class="main2_right_side_t"><h3><span>Q</span>做全身按摩，一般一小时多少钱？</h3><p><span>A</span>您好，现在价格有变动，你可以电话咨<br>询，或者联系在线客服，谢谢！</p></li>
+						<li class="main2_right_side_t"><h3><span>Q</span>做全身按摩，一般一小时多少钱？</h3><p><span>A</span>您好，现在价格有变动，你可以电话咨<br>询，或者联系在线客服，谢谢！</p></li>
+					</ul>
+				</div>
+				<!--<div class="main2_right_side_t">-->
+						<!--<h3><span>Q</span>做全身按摩，一般一小时多少钱？</h3>-->
+						<!--<p><span>A</span>您好，现在价格有变动，你可以电话咨<br>-->
+							 <!--　　询，或者联系在线客服，谢谢！</p>-->
+				<!--</div>-->
+				<!--<div class="main2_right_side_m">-->
+						<!--<h3><span>Q</span>做全身按摩，一般一小时多少钱？</h3>-->
+						<!--<p><span>A</span>您好，现在价格有变动，你可以电话咨<br>-->
+							 <!--　　询，或者联系在线客服，谢谢！</p>-->
+					<!--<div class="clear"></div>-->
+				<!--</div>-->
+				<!--<div class="main2_right_side_b">-->
+						<!--<h3><span>Q</span>做全身按摩，一般一小时多少钱？</h3>-->
+						<!--<p><span>A</span>您好，现在价格有变动，你可以电话咨<br>-->
+							 <!--　　询，或者联系在线客服，谢谢！</p>-->
+				<!--</div>-->
+				<div class="main2_right_side_button">
+					<a href="#" id="q">
+						<img src="images/18.jpg">
+						<span>QQ咨询</span>
+					</a>
+					<a href="#" id="w">
+						<img src="images/19.jpg">
+						<span>在线咨询</span>
+					</a>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div class="preview3 wrap">
+			<div class="scrolldoorFrame main2_right_side_txt_b">
+				<ul class="scrollUl">
+					<li class="sd05" id="mmm01"><a href="#">门店风采</a></li>
+					<li class="sd06" id="mmm02"><a href="#">友情链接</a></li>
+				</ul>
+				<div class="preview4">
+					<div id="ccc01">
+						<ul class="main2_right_side_txt_ul" >
+							<li><img src="images/20.jpg" alt=""><br><a href="#">奈斯按摩一角</a></li>
+							<li><img src="images/20.jpg" alt=""><br><a href="#">耐斯按摩一角</a></li>
+							<li><img src="images/20.jpg" alt=""><br><a href="#">奈斯按摩一角</a></li>
+							<li id="margin"><img src="images/20.jpg" alt=""><br><a href="#">耐斯按摩一角</a></li>
+							<div class="clear"></div>
+						</ul>
+					</div>
+					<div id="ccc02" class="hidden">
+						<ul class="main2_right_side_txt_ul" >
+							<li><img src="images/20.jpg" alt=""><br><a href="#">奈斯按摩一角</a></li>
+							<li><img src="images/20.jpg" alt=""><br><a href="#">耐斯按摩一角</a></li>
+							<li><img src="images/20.jpg" alt=""><br><a href="#">奈斯按摩一角</a></li>
+							<div class="clear"></div>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer">
+			<div class="wrap footer_min">
+				<div class="fl footer_logo">
+					<img src="images/logo-foot.jpg">
+				</div>
+				<div class="fr footer_right">
+					<ul footer_right_ul>
+						<li><a href="#">关于赖斯</a></li>
+						<li><a href="#">全身按摩</a></li>
+						<li><a href="#">面部按摩</a></li>
+						<li><a href="#">运动按摩</a></li>
+						<li><a href="#">推拿按摩</a></li>
+						<li><a href="#">足部按摩</a></li>
+						<li><a href="#">中医理疗</a></li>
+						<li><a href="#">头部按摩</a></li>
+						<li><a href="#">联系我们</a></li>
+					</ul>
+					<p>全国统一咨询/专家预约电话:400-070-5286 或 010-57027357 邮编：100025</p>
+					<p>Copyright © 2014 www.51laisi.com All rights reserved. 赖斯盲人按摩 版权所有</p>
+					<p>地址：北京市工体北路8号三里屯SOHO3号商铺3-302室</p>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

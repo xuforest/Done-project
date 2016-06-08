@@ -1,0 +1,15 @@
+.beijing{
+    background-image:url("images/bg.png");
+    background-size:cover ;
+}
+.beijing .boxbnt{
+    background: rgba(255,255,255,0);
+}
+
+.beijing h4{
+    color: #fff;
+}
+.box1{
+
+    border: 0px;
+}

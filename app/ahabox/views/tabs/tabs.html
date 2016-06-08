@@ -1,0 +1,58 @@
+<!--侧滑菜单栏-->
+<ion-side-menus>
+    <!--内容区-->
+    <ion-side-menu-content >
+        <!--头部-->
+        <ion-nav-bar class="bar-dark">
+            <!--<ion-nav-back-button side="primary">-->
+                <!--<i class="icon ion-reply"></i>返回-->
+            <!--</ion-nav-back-button>-->
+            <ion-nav-buttons side="right" >
+                <button class="button button-clear" menu-toggle="right">
+                    <span class="icon ion-navicon"></span>
+                </button>
+            </ion-nav-buttons>
+            <ion-tabs class="tabs-icon-top" >
+                <ion-tab title="首页" icon-on="ion-ios-home" icon-off="ion-ios-home-outline" ui-sref="tabs.home">
+                    <ion-nav-view name="home-tab"></ion-nav-view>
+                </ion-tab>
+                <ion-tab title="专题" icon-on="ion-ios-book" icon-off="ion-ios-book-outline" ui-sref="tabs.topic">
+                    <ion-nav-view name="topic-tab"></ion-nav-view>
+                </ion-tab>
+                <ion-tab title="礼物快选" icon-on="ion-ios-box" icon-off="ion-ios-box-outline" ui-sref="tabs.gift">
+                    <ion-nav-view name="gift-tab"></ion-nav-view>
+                </ion-tab>
+                <ion-tab title="我的" icon-on="ion-ios-person" icon-off="ion-ios-person-outline" ui-sref="tabs.mine">
+                    <ion-nav-view name="mine-tab"></ion-nav-view>
+                </ion-tab>
+            </ion-tabs>
+        </ion-nav-bar>
+    </ion-side-menu-content>
+    <ion-side-menu side="right" id="tabs">
+        <ion-header-bar class="bar-assertive box">
+            <div class="title">
+                <!--<i class="icon ion-android-happy"></i>-->
+                <a>有爱boy</a>
+                <!--<i class="icon ion-female"></i>-->
+            </div>
+        </ion-header-bar>
+        <ion-content class="has-header">
+            <ion-list>
+                <ion-item class="item-icon-left" ui-sref="search" menu-close>
+                    <i class="icon ion-android-people"></i>购物车<span></span>
+                </ion-item>
+                <ion-item class="item-icon-left" ui-sref="search" menu-close>
+                    <i class="icon ion-heart"></i>我的收藏<span></span>
+                </ion-item>
+                <ion-item class="item-icon-left" ui-sref="search" menu-close>
+                    <i class="icon ion-headphone"></i>客服
+                </ion-item>
+                <ion-item class="item-icon-left" ui-sref="search" menu-close>
+                    <i class="icon ion-ios-gear"></i>设置
+                </ion-item>
+
+            </ion-list>
+        </ion-content>
+    </ion-side-menu>
+
+</ion-side-menus>

@@ -1,0 +1,40 @@
+{
+  "coord": {"lon": -159.46,"lat": 21.9},
+  "weather": [
+    {
+      "id": 804,
+      "main": "Clouds",
+      "description": "overcast clouds",
+      "icon": "04n"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 67.14,
+    "pressure": 1023,
+    "humidity": 82,
+    "temp_min": 66.2,
+    "temp_max": 68
+  },
+  "visibility": 16093,
+  "wind": {
+    "speed": 25.28,
+    "deg": 50,
+    "gust": 15.4
+  },
+  "clouds": {
+    "all": 90
+  },
+  "dt": 1457708160,
+  "sys": {
+    "type": 1,
+    "id": 833,
+    "message": 0.0279,
+    "country": "US",
+    "sunrise": 1457714932,
+    "sunset": 1457757976
+  },
+  "id": 5849616,
+  "name": "Koloa",
+  "cod": 200
+}

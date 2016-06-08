@@ -1,0 +1,23 @@
+<ion-view view-title="欢迎光临幽默村" id="tour-view">
+    <ion-nav-buttons side="right">
+
+    </ion-nav-buttons>
+
+    <ion-slide-box show-pager="true" on-slide-changed="onSlideChanged($index)">
+        <ion-slide>
+            <!--<span class="icon icon-slide ion-document-text" ></span>
+            <h3>查看您的预订</h3>-->
+            <div class="hy"><img src="images/hy1.jpg"></div>
+        </ion-slide>
+
+        <ion-slide>
+            <div class="hy"><img src="images/hy2.jpg"></div>
+        </ion-slide>
+
+        <ion-slide class="fj">
+            <div class="hy"><img src="images/hy3.jpg"></div>
+            <a class="button button-light  button-outline" href="#/tabs/home" ng-if="isShow">立即体验</a>
+        </ion-slide>
+    </ion-slide-box>
+
+</ion-view>

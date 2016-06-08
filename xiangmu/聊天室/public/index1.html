@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>输入</title>
+    <script src="script/jquery-2.2.0.min.js"></script>
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <script src="js/index.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+
+</head>
+<body>
+<header>
+    <div id="head">
+        <div>
+          <form class="welcome-one" action="dologin">
+              <p id="user">输入昵称</p>
+              <input type="text" id="nickname"><span></span>
+          </form>
+          <div class="welcome-two">
+              <p id="sex">选择性别</p>
+              <div id="sexBox">
+                  <input type="radio" id="sexboy" name="checksex"  class="sex" checked><img id ="img1" src="images/A2_03.jpg">
+                  <input type="radio" id="sexgirl" name="checksex"  class="sex" ><img id="img2" src="images/Aa_03.jpg">
+              </div>
+          </div>
+          <div class="welcome-three">
+              <a href="#" id="busy">选择状态</a>
+              <div id="busyBox" class="busyBox">
+                  <input type="radio" id="busyy" name="checkone"  class="rad" checked><p class="p1">在线</p>
+                  <input type="radio" id="busyyy" name="checkone"  class="rad"><p>忙碌</p>
+              </div>
+          </div>
+          <div class="clear"></div>
+          <div class="welcome-four">
+              <a href="#" class="topica" id="topica"><span>选择头像</span></a><br/>
+              <div id="topicBox" class="topicBox"><a href="#" class="topicBoxa" id="topicBoxa"><img src="images/chuan.jpg"></a></div>
+              <div class="topic" id="topic">
+                  <a href="#"><img src="images/umb1.jpg"></a>
+                  <a href="#"><img src="images/umb2.jpg"></a>
+                  <a href="#"><img src="images/umb3.jpg"></a>
+                  <a href="#"><img src="images/umb4.jpg"></a>
+                  <a href="#"><img src="images/umb5.jpg"></a>
+                  <a href="#"><img src="images/umb6.jpg"></a>
+                  <a href="#"><img src="images/umb7.jpg"></a>
+                  <a href="#"><img src="images/umb8.jpg"></a>
+                  <a href="#"><img src="images/umb9.jpg"></a>
+                  <a href="#"><img src="images/umb10.jpg"></a>
+                  <a href="#"><img src="images/umb11.jpg"></a>
+                  <a href="#"><img src="images/umb12.jpg"></a>
+                  <a href="#"><img src="images/umb13.jpg"></a>
+                  <a href="#"><img src="images/umb14.jpg"></a>
+                  <a href="#"><img src="images/umb15.jpg"></a>
+                  <a href="#"><img src="images/umb16.jpg"></a>
+              </div>
+          </div>
+          <div class="welcome-five">
+              <a href="#" id="startchat" class="btn">进入聊天</a>
+          </div>
+        </div>
+    </div>
+</header>
+<div id="main">
+    <div class="main-left" id="main-left"></div>
+    <div class="main-right" id="main-right">
+        <div class="main-right-head" id="main-right-head">
+            <span></span>
+        </div>
+        <div class="main-right-bottom">
+            <section id="chatroom">
+                <div id="messages">
+
+                </div>
+                <input type="text" id="message" placeholder="在这里输入您的聊天内容">
+                <input type="button" id="send" value="发送">
+            </section>
+            <div class="main-right-bright"></div>
+        </div>
+    </div>
+</div>
+<div id="footer"></div>
+</body>
+</html>

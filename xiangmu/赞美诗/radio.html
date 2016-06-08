@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style>
+			/*form input[type=radio]{width: 20px;height: 20px;margin: -50px 0 0 -50px;}
+			form label{display: block;float: left;width: 20px;height: 20px;overflow: hidden;position: relative;}
+			form span{width: 20px;height: 20px;background: #000;position: absolute;left: 0;top: 0;}
+			form input:checked~span{background:red;}*/
+			
+			form input[type=radio]{width:20px;height: 20px;margin: -25px 0 0 -25px;}
+			form label{display: block;float: left;width: 20px;height: 20px;overflow: hidden;position: relative;}
+			form span{width: 20px;height:20px;background: url(images/cancel.png)no-repeat;position: absolute;left: 0;top: 0;}
+			form input:checked~span{background: url(images/asterisk_orange.png)no-repeat;}
+		</style>
+	</head>
+	<body>
+		<form>
+			<label><input type="radio" name="a1"><span></span></label>
+			<label><input type="radio" name="a1"><span></span></label>
+		</form>
+		
+	</body>
+</html>
+

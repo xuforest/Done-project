@@ -1,0 +1,249 @@
+#tour-view .slider{
+    height:100%;
+    width: 100%;
+}
+/*.box1{
+    position: absolute;
+    left:20%;
+    top:20%;
+
+}*/
+.box1{
+    position: absolute;
+    left:15%;
+    top:20%;
+}
+/*第一个广告页*/
+.box1 h2{
+    position: absolute;
+    left:30px;
+    top:80%;
+    opacity: 1;
+    animation: dh1 2s;
+
+}
+@keyframes dh1 {
+    0%{opacity: 0;transform: rotate(0deg)}
+
+    100%{opacity:1;transform: rotate(360deg)}
+}
+.li1{
+    position: absolute;
+    left: 80px;
+    top:55px;
+    animation: dh2 2s;
+}
+.li2{
+    position: absolute;
+    left: 110px;
+    top:55px;
+    animation: dh3 3s;
+}
+.li3{
+    position: absolute;
+    left: 140px;
+    top:55px;
+    animation: dh4 4s;
+}
+.li4{
+    position: absolute;
+    left: 170px;
+    top:55px;
+    animation: dh5 5s;
+}
+@keyframes dh2 {
+    0%{left:2000px;}
+    100%{left: 80px;}
+}
+@keyframes dh3 {
+    0%{left:2000px;}
+    100%{left: 110px;}
+}
+@keyframes dh4 {
+    0%{left:2000px;}
+    100%{left: 140px;}
+}
+@keyframes dh5 {
+    0%{left:2000px;}
+    100%{left: 170px;}
+}
+.box1 li{
+    text-align: center;
+    font-size: 20px;
+    line-height:26px ;
+}
+/*第二页*/
+.box2{
+
+}
+.box2 li{
+    text-align: center;
+    font-size: 20px;
+    line-height:26px ;
+}
+.box2 h2{
+    position: absolute;
+    left:46%;
+    top:20%;
+    opacity: 1;
+    animation: dh1 2s;
+}
+@keyframes dh1 {
+    0%{opacity: 0;transform: rotate(0deg)}
+
+    100%{opacity:1;transform: rotate(360deg)}
+}
+.box2-li1{
+    position: absolute;
+    left: 25%;
+    top:25%;
+    animation: dh22 2s;
+}
+.box2-li2{
+    position: absolute;
+    left: 25%;
+    top:29%;
+    animation: dh33 3s;
+}
+.box2-li3{
+    position: absolute;
+    left: 25%;
+    top:33%;
+    animation: dh44 4s;
+}
+.box2-li4{
+    position: absolute;
+    left: 25%;
+    top:37%;
+    animation: dh55 5s;
+}
+@keyframes dh22 {
+    0%{left:2000px;}
+    100%{left: 25%;}
+}
+@keyframes dh33 {
+    0%{left:2000px;}
+    100%{left: 25%;}
+}
+@keyframes dh44 {
+    0%{left:2000px;}
+    100%{left: 25%;}
+}
+@keyframes dh55 {
+    0%{left:2000px;}
+    100%{left: 25%;}
+}
+/*第三页面*/
+.box3{
+
+}
+.box3 li{
+    text-align: center;
+    font-size: 20px;
+    line-height:26px ;
+}
+.box3 h2{
+    position: absolute;
+    left:38%;
+    top:20%;
+    animation: box3-h2 1s infinite;
+}
+@keyframes box3-h2 {
+    0%{transform: rotate(0deg)}
+
+    100%{transform: rotate(360deg)}
+}
+.box3-li1{
+    position: absolute;
+    left: 25%;
+    top:25%;
+    animation: dh6 3s;
+}
+.box3-li2{
+    position: absolute;
+    left: 25%;
+    top:29%;
+    animation: dh7 4s;
+}
+.box3-li3{
+    position: absolute;
+    left: 25%;
+    top:33%;
+    animation: dh8 5s;
+}
+.box3-li4{
+    position: absolute;
+    left: 25%;
+    top:37%;
+    animation: dh9 6s;
+}
+@keyframes dh6 {
+    0%{left:2000px;}
+    100%{left: 25%;}
+}
+@keyframes dh7 {
+    0%{left:2000px;}
+    100%{left: 25%;}
+}
+@keyframes dh8 {
+    0%{left:2000px;}
+    100%{left: 25%;}
+}
+@keyframes dh9 {
+    0%{left:2000px;}
+    100%{left: 25%;}
+}
+/*第四页*/
+.img4 h2{
+    text-align: center;
+    padding-top: 110px;
+    padding-bottom: 10px;
+}
+.img4 p{
+    line-height: 25px;
+
+}
+/*a连接*/
+#enter{
+    z-index: 99;
+    position: absolute;
+    left:50%;
+    top:85%;
+    transform: translate(-50%,0);
+    width: 150px;
+    color: #fff;
+    overflow:hidden;
+}
+#enter:hover{
+    color:#12FD00;
+    transition:1s;
+
+}
+#enter:before{
+    z-index:-1;
+    content:"";
+    position:absolute;
+    transition:all 1s;
+    width:100%;
+
+    top:50%;
+    left:50%;
+    background:#6d7174;
+    transform:translateX(-50%) translateY(-50%) rotate(25deg);
+
+    opacity:0;
+}
+#enter:hover:before{
+    height:100%;
+    opacity:1;
+
+}
+#tour-view img{
+    height:100%;
+    width: 100%;
+}
+.img4{
+    background: url("../../image/a4.jpg");
+    background-size: 100% 100%;
+}
+

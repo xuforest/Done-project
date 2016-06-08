@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>绘制线</title>
+		<style>
+			body{background-color: #ccc;}
+			#cans{background-color: #fff;}
+		</style>
+		<script>
+			window.onload = function(){
+				var oC=document.getElementById("cans");
+				var oGc= oC.getContext("2d");
+				oGc.beginPath();//开始绘制路径
+				oGc.moveTo(100,100)//起点
+				oGc.lineTo(200,200)//结束点
+				oGc.stroke();// 直线
+			}
+		</script>
+	</head>
+	<body>
+		<canvas id="cans" width="500px" height="500px">
+			您的浏览器不支持此功能！
+		</canvas>
+	</body>
+</html>
